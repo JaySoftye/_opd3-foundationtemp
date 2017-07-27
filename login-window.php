@@ -3,6 +3,7 @@
     <div class="modal-content">
 
       <section class="modal-body light-gray-bg padding">
+        <p class="text-center"><img src="assets/opd_icon.svg" width="80" height="42" alt="" /> </p>
         <form name="" method="">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Email">
