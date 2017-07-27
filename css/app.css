@@ -189,6 +189,10 @@ div.modal-content .modal-header, div.modal-content .modal-footer {
    opacity: 0.35 !important;
  }
 
+ .hidden {
+   display: none;
+ }
+
  strong {
    font-weight: 700;
  }
