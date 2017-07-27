@@ -43,7 +43,7 @@
             <div class="row">
               <div class="col-md-9">
                 <ul class="nav main-nav">
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown disabled">
                     <a class="nav-link dropdown-toggle" href="" id="profile-nav-option" data-toggle="dropdown" aria-expanded="false">My Profile</a>
                       <div class="sub-menu dropdown-menu" aria-labelledby="profile-nav-option">
                         <section class="container">

@@ -23,6 +23,16 @@
    });
  });
 
+ /** Dropdown border-bottom on hover **/
+ $(".sub-menu.dropdown-menu").hover(
+  function() { // Mouse Over
+   $(this).prev("a").addClass("border-bottom-blue");
+  },
+  function() { // Mouse Out
+    $(this).prev("a").removeClass("border-bottom-blue");
+  }
+);
+
  /** Dropdown menu replace **/
  $(".dropdown-menu li a").click(function(){
    var selText = $(this).text();

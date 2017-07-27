@@ -183,7 +183,7 @@ div.modal-content .modal-header, div.modal-content .modal-footer {
    color: black;
  }
 
- a.disabled {
+ a.disabled, li.disabled {
    cursor: not-allowed !important;
    pointer-events: none !important;
    opacity: 0.35 !important;
@@ -424,7 +424,7 @@ ul.main-nav a.nav-link, ul.sub-nav a.nav-link {
   border-bottom: 3px solid transparent;
 }
 
-ul.main-nav a.nav-link:hover, ul.main-nav li.nav-item a.nav-link:focus, ul.main-nav li.nav-item a.nav-link.active {
+ul.main-nav a.nav-link:hover, ul.main-nav li.nav-item a.nav-link:focus, ul.main-nav li.nav-item a.nav-link.active, ul.main-nav li.nav-item a.border-bottom-blue {
   border-bottom: 3px solid #00b4e4;
 }
 
