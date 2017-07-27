@@ -10,7 +10,7 @@
             <h1><img src="assets/your-edtech-skills-will-skyrocket.svg" alt="Your Ed Tech Skills will Skyrocket" /></h1>
             <h4 class="white">Boost your classroom technology skills to <strong>engage your students and improve instruction</strong> with Teq’s Online Professional Development platform.</h4>
             <div class="padding-top">
-              <h5 class="white"><strong>Start a</strong> <a class="lg-btn white-border" href="#">Free Basic Account</a></h5>
+              <h5 class="white"><strong>Start a </strong> <a class="lg-btn white-border" href="#">Free Basic Account</a></h5>
             </div>
           </div>
         </div>
