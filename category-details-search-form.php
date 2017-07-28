@@ -27,7 +27,10 @@
                 <ul class="dropdown-menu">
                   <?php /* LOOP */ ?>
                   <li><a href="#" class="teq-blue-text">All</a></li>
-                  <li><a href="#">Test Role</a></li>
+                  <li><a href="#">Teacher</a></li>
+                  <li><a href="#">Administrator</a></li>
+                  <li><a href="#">Parent</a></li>
+                  <li><a href="#">Free</a></li>
                 </ul>
               </div>
           </li>
@@ -37,7 +40,8 @@
                 <ul class="dropdown-menu">
                   <?php /* LOOP */ ?>
                   <li><a href="#" class="teq-blue-text">All</a></li>
-                  <li><a href="#">Test Type</a></li>
+                  <li><a href="#">Certifications</a></li>
+                  <li><a href="#">[on Demand]</a></li>
                 </ul>
               </div>
           </li>
@@ -47,7 +51,28 @@
                 <ul class="dropdown-menu">
                   <?php /* LOOP */ ?>
                   <li><a href="#" class="teq-blue-text">All</a></li>
-                  <li><a href="#">Test Category</a></li>
+                  <li><a href="#">Adobe</a></li>
+                  <li><a href="#">Apple</a></li>
+                  <li><a href="#">Assessment</a></li>
+                  <li><a href="#">Blended Learning</a></li>
+                  <li><a href="#">Digital Storytelling</a></li>
+                  <li><a href="#">Early Childhood</a></li>
+                  <li><a href="#">ELA</a></li>
+                  <li><a href="#">ENL/ELL</a></li>
+                  <li><a href="#">Google</a></li>
+                  <li><a href="#">iPad</a></li>
+                  <li><a href="#">Judaic Studies</a></li>
+                  <li><a href="#">Math</a></li>
+                  <li><a href="#">Mircosoft</a></li>
+                  <li><a href="#">Programming</a></li>
+                  <li><a href="#">Project Based Learning</a></li>
+                  <li><a href="#">Robotics</a></li>
+                  <li><a href="#">Safari</a></li>
+                  <li><a href="#">Science</a></li>
+                  <li><a href="#">SMART</a></li>
+                  <li><a href="#">Social Studies</a></li>
+                  <li><a href="#">Special Ed</a></li>
+                  <li><a href="#">STEM</a></li>
                 </ul>
               </div>
           </li>

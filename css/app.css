@@ -708,6 +708,7 @@ div#search-box input[type="text"] {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-bottom: solid thin #3c4852;
+  font-weight: 300;
 }
 
 div#search-box li.nav-item {
@@ -732,26 +733,25 @@ div#search-box div.search-menu-group button {
   width: 100%;
   background-color: transparent;
   padding: .5rem .75rem;
-  text-align: left;
   border-color: transparent;
   outline: none;
+  text-align: left;
+  font-weight: 500;
 }
 
 div#search-box div.search-menu-group ul.dropdown-menu {
   width: 100%;
-  height: 666%;
-  padding: 0 0;
+  padding: .5rem 0;
   border: none;
   border-radius: 0;
   box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-  overflow-y: auto;
 }
 
 div.search-menu-group ul.dropdown-menu li a {
   display: block;
-  padding: .5rem .25rem;
+  padding: 0 .25rem;
 }
 
 div.search-menu-group ul.dropdown-menu li a:hover, div.search-menu-group ul.dropdown-menu li a:focus {
