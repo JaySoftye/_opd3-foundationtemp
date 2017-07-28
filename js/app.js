@@ -39,6 +39,11 @@
       $(this).parents('div.search-menu-group').find('.dropdown-toggle').html(selText+' <span class="search-menu-item"></span>');
  });
 
+ /** Calendar Popover on hover **/
+ $(function(){
+    // Enables popover
+    $("[data-toggle=popover]").popover();
+});
 
  /** Close the main Banner at the top after you scroll down the page **/
   function checkOffset() {
