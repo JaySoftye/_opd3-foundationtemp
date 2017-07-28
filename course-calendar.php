@@ -150,7 +150,22 @@
             		 <span class="date">23</span>
             	</li>
             	<li class="day">
-            		<span class="date">24</span>
+                <a href="course-details.php"
+                    tabindex="0"
+                    class="event"
+                    role="button"
+                    data-html="true"
+                    data-toggle="popover"
+                    data-trigger="hover"
+                    data-placement="top"
+                    title="<small>July 6, 10:00AM EDT - 11:00AM EDT</small>"
+                    data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
+            		  <span class="date">24</span>
+                  <span class="calendar-course-type"><img src="assets/badge-default-icon.jpg" alt="admin" /></span>
+                  <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
+                  <small>1:00pm to 3:00pm</small>
+                </a>
+                <?php include 'course-calendar-admin-menu.php'; ?>
             	</li>
             	<li class="day">
                 <span class="date">25</span>

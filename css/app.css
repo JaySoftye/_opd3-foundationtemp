@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
  .dropdown-toggle::after {
    float: right !important;
    margin-top: .5rem !important;
-   border: none;
  }
 
  article .card {
@@ -1083,9 +1082,9 @@ div#calendar .other-month {
 
 div#calendar div.dropdown {
   position: absolute;
-  right: 0;
   z-index: 1050;
   margin-top: -2rem;
+  margin-left: 7.5rem;
 }
 
 div#calendar div.dropdown a.dropdown-toggle {
