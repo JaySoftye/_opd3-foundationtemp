@@ -73,7 +73,7 @@
             </div>
             <div class="card-block">
               <h5 class="card-title"><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></h5>
-              <p class="card-text">With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
+              <p class="card-text">With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream.</p>
             </div>
             <div class="card-footer"><img src="assets/default-badge-icon.svg" /></div>
           </div>
@@ -96,7 +96,7 @@
             </div>
             <div class="card-block">
               <h5 class="card-title"><a href="#">Creating Multi-Touch Books with iBooks Author</a></h5>
-              <p class="card-text">The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use... </p>
+              <p class="card-text">The new generation, referred to as Gen Z, is growing up in a world where everyday they are immersed in technology. Students have become producers and creators of content, desiring to put their skills to use.</p>
             </div>
             <div class="card-footer"></div>
           </div>

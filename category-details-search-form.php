@@ -1,4 +1,4 @@
-<div class="category-search-box-wrapper" style="background-image: url('./assets/library-category-default-image.jpg');">
+<div class="category-search-box-wrapper" style="background-image: url('./assets/apple_lg.jpg');">
 <?php /** query the category image for background image **/ ?>
 
 <section class="container-fluid category-image-bg" id="search-box-container" >

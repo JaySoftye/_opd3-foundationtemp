@@ -21,9 +21,10 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
  .dropdown-toggle::after {
    float: right !important;
    margin-top: .5rem !important;
+   border: none;
  }
 
- article .card {
+article .card {
   height: 23.5rem;
   margin-bottom: 2.5rem;
   border-radius: 6px;
@@ -35,13 +36,15 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
 }
 
 article .card.sm-card {
- min-height: 15.5rem;
+ height: 15.5rem;
  margin-bottom: 1.5rem;
  border: none;
 }
 
 article .card .card-block {
- overflow-y: auto;
+  height: 9rem;
+  line-height: 1.5rem;
+  overflow: hidden;
 }
 
 .card.thread-post {
@@ -128,7 +131,7 @@ article .card .card-block {
 }
 
 .card .card-footer {
-  background-color: transparent;
+  background-color: white;
 }
 
 .card .card-footer img {
@@ -218,7 +221,7 @@ div.modal-content .modal-header, div.modal-content .modal-footer {
    color: black;
  }
 
- a.disabled, li.disabled {
+ a.disabled, li.disabled, tr.disabled, td.disabled {
    cursor: not-allowed !important;
    pointer-events: none !important;
    opacity: 0.35 !important;
@@ -402,6 +405,10 @@ a.admin-link img {
   color: rgba(127, 168, 224, 1);
 }
 
+.orange-text {
+  color: rgba(255, 146, 58, 1);
+}
+
 .white {
   color: white;
 }
@@ -418,10 +425,16 @@ section.dark-gray-bg {
   background-color: rgba(60, 72, 82, 1);
 }
 
+section.under-header {
+  padding-top: 10rem;
+  padding-bottom: .5rem;
+}
+
 header {
   background: url('images/main-header-polygon_bg.png') no-repeat center top;
   background-size: cover;
   position: fixed;
+  top: 0;
   min-width: 100%;
   z-index: 1000;
 }
@@ -483,6 +496,19 @@ div.top-header-bar .dropdown:hover > .dropdown-menu {
 
 div.top-header-bar .dropdown-toggle::after {
   border: none;
+}
+
+ul.nav.profile-nav, ul.nav.activity-nav {
+  padding: .5rem 0;
+}
+
+ul.nav.profile-nav li.nav-item, ul.nav.profile-nav li.nav-item {
+  margin-right: 1.5rem;
+  border-bottom: 2px solid transparent;
+}
+
+ul.nav.profile-nav li.nav-item.active, ul.nav.activity-nav li.nav-item.active {
+  border-bottom: 2px solid rgb(60, 72, 82);
 }
 
 nav#mobile-navbar section#mobile-main-nav {
@@ -678,15 +704,15 @@ section.advantageHuman div.container {
 }
 
 div.category-search-box-wrapper {
+  margin-top: 9.5rem;
   background-size: cover;
-  background-position: center 9.5rem;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 section#search-box-container {
   background-color: rgba(200, 222, 255, 0.8);
-  padding-top: 10rem;
-  padding-bottom: .5rem;
+  padding-bottom: 1.25rem;
 }
 
 div#search-box form {
@@ -731,7 +757,7 @@ div#search-box div.search-menu-group.show {
 
 div#search-box div.search-menu-group button {
   width: 100%;
-  background-color: transparent;
+  background: transparent url('images/dropdown-arrow-icon.svg') no-repeat 65% center !important;
   padding: .5rem .75rem;
   border-color: transparent;
   outline: none;
@@ -1003,6 +1029,130 @@ div.satisfaction-survery .form-check label {
   font-size: 1rem;
   font-weight: 700;
   color: rgb(64, 85, 117);
+}
+
+div.btn-group.profile-plan-menu {
+  width: 100%;
+}
+
+div.btn-group.profile-plan-menu ul.dropdown-menu, div.btn-group.profile-plan-menu ul.dropdown-menu li {
+  width: inherit;
+}
+
+div.btn-group.profile-plan-menu ul.dropdown-menu a {
+  padding: .5rem 1.25rem;
+  display: block;
+}
+
+div.btn-group.profile-plan-menu button {
+  width: inherit;
+  background-color: transparent;
+  padding: .5rem 1.25rem;
+  border: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+
+div.btn-group.profile-plan-menu button.blue-bg {
+  background-color: rgb(0, 180, 228);
+}
+
+div.btn-group.profile-plan-menu button.green-bg {
+  background-color: rgb(161, 215, 132);
+}
+
+div.btn-group.profile-plan-menu button.orange-bg {
+  background-color: rgb(255, 146, 58);
+}
+
+table.course-activity-table, table.course-activity-table td img, table.course-activity-table thead, table.course-activity-table tbody  {
+  width: inherit;
+}
+
+table.course-activity-table a {
+  display: block;
+}
+
+table.course-activity-table td:hover, table.course-activity-table td:focus {
+  background-color: rgba(60, 72, 82, 0.05);
+}
+
+table.course-activity-table th, table.course-activity-table td, table.course-activity-table img {
+  height: 3.25rem;
+  padding: 0 .5rem;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.course-activity-table tr th:first-child {
+  width: 5%;
+}
+
+table.course-activity-table tr th:nth-child(2), table.course-activity-table tr td:nth-child(2) {
+  min-width: 40%;
+  text-align: left;
+}
+
+table.course-activity-table thead {
+  background-color: rgba(50, 62, 72, 0.75);
+  color: white;
+}
+
+table.course-activity-table tbody, table.course-activity-table a  {
+  font-weight: 700;
+  color: rgb(64, 85, 117);
+}
+
+table.course-activity-table tbody a.take-quiz {
+  background: url('images/profile-take-quiz-icon.svg') no-repeat left center;
+}
+
+table.course-activity-table tbody a.view-assignments {
+  background: url('images/profile-view-assignment-icon.svg') no-repeat left center;
+}
+
+table.course-activity-table tbody.green-bg tr {
+  background-color: rgba(161, 215, 132, 0.65);
+  border-bottom: 2px solid white;
+}
+
+table.course-activity-table tbody.green-bg tr.chapter-bg {
+  background-color: rgba(161, 215, 132, 0.35);
+  border-bottom: 1px solid white;
+}
+
+tbody.green-bg tr.chapter-bg a:first-child {
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 5% center;
+  padding-left: 10%;
+}
+
+table.course-activity-table tbody.orange-bg tr {
+  background-color: rgba(255, 146, 58, 0.65);
+  border-bottom: 2px solid white;
+}
+
+table.course-activity-table tbody.orange-bg tr.session-bg {
+  background-color: rgba(255, 146, 58, 0.35);
+  border-bottom: 1px solid white;
+}
+
+tbody.orange-bg tr.session-bg a:first-child {
+  background: url('images/profile-sessions-bg-icon.svg') no-repeat 5% center;
+  padding-left: 10%;
+}
+
+table.course-activity-table tbody.orange-bg tr.chapter-bg {
+  background-color: rgba(255, 146, 58, 0.15);
+  border-bottom: 1px solid white;
+}
+
+tbody.orange-bg tr.chapter-bg a:first-child {
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 15% center;
+  padding-left: 20%;
 }
 
 div#course-calendar-date-selector h2 {

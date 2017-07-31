@@ -39,6 +39,19 @@
       $(this).parents('div.search-menu-group').find('.dropdown-toggle').html(selText+' <span class="search-menu-item"></span>');
  });
 
+ $(".dropdown-menu li a").click(function(){
+   var selText = $(this).text();
+      $(this).parents('div.profile-plan-menu').find('.dropdown-toggle').html(selText+' <span class="profile-plan-menu-item"></span>');
+ });
+
+ /** card overflow **/
+ function overflowCheck () {
+   if (element.scrollHeight > $("p.card-text").innerHeight()) {
+    $(this).addClass("hidden");
+  }
+ }
+
+
  /** Calendar Popover on hover **/
  $(function(){
     // Enables popover
