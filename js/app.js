@@ -45,12 +45,9 @@
  });
 
  /** card overflow **/
- function overflowCheck () {
-   if (element.scrollHeight > $("p.card-text").innerHeight()) {
-    $(this).addClass("hidden");
-  }
- }
-
+ $("p.card-text").each(function() {
+   $(this).text($(this).text().substr(0, 195) + '...');
+  });
 
  /** Calendar Popover on hover **/
  $(function(){

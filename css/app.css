@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
  }
 
 article .card {
-  height: 23.5rem;
+  height: 20.5rem;
   margin-bottom: 2.5rem;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -41,10 +41,10 @@ article .card.sm-card {
  border: none;
 }
 
-article .card .card-block {
-  height: 9rem;
-  line-height: 1.5rem;
+article .card .card-text {
   overflow: hidden;
+  max-height: 6.55rem;
+  line-height: 1.35rem;
 }
 
 .card.thread-post {
