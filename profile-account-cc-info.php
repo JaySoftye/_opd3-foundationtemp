@@ -53,50 +53,53 @@
         </div>
 
         <div class="col-md-5 padding-top">
-
           <form name="" method="">
             <div class="form-group row align-items-center">
-              <label class="col-4 col-form-label text-right">Payment</label>
-              <div class="col-8 no-padding"><img src="assets/credit-cards-icon.svg" width="" height="" alt="" /></div>
+              <label class="col-4 col-form-label text-right"></label>
+              <div class="col-8"><img src="assets/credit-cards-icon.svg" width="" height="" alt="" /></div>
             </div>
 
             <div class="form-group row">
               <label class="col-4 col-form-label text-right">Card Number:</label>
-              <div class="col-8 no-padding">
+              <div class="col-8">
                 <input class="form-control" type="password" value="password123">
               </div>
             </div>
 
             <div class="form-group row align-items-center">
-              <label class="col-4 col-form-label text-right">Exp. Date:</label>
-              <div class="col-3 no-padding">
+              <label class="col-4 col-form-label text-right">Expiration Date:</label>
+              <div class="col-3">
                 <input class="form-control" type="text" placeholder="MM">
               </div>
-              <div class="col-2 text-center">
+              <div class="col-2 text-center no-padding">
                 /
               </div>
-              <div class="col-3 no-padding">
+              <div class="col-3">
                 <input class="form-control" type="text" placeholder="YY">
               </div>
             </div>
 
             <div class="form-group row">
-              <label class="col-4 col-form-label text-right">CSV:</label>
-              <div class="col-8 no-padding">
+              <label class="col-4 col-form-label text-right">Security Code:</label>
+              <div class="col-8">
                 <input class="form-control" type="password" value="123">
               </div>
             </div>
 
             <div class="form-group row">
               <label class="col-4 col-form-label text-right">Billing Zip:</label>
-              <div class="col-8 no-padding">
+              <div class="col-8">
                 <input class="form-control" type="number">
               </div>
             </div>
 
+            <div class="form-group row">
+              <label class="col-4 col-form-label text-right">Card Holder:</label>
+              <div class="col-8">
+                <input class="form-control" type="text">
+              </div>
+            </div>
           </form>
-
-
         </div>
 
         <div class="col-md-5 padding-top">
