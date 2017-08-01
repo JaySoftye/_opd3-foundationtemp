@@ -757,6 +757,8 @@ div#search-box input[type="text"] {
 div#search-box li.nav-item {
   width: 100%;
   margin-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   cursor: pointer;
 }
 
@@ -774,8 +776,8 @@ div#search-box div.search-menu-group.show {
 
 div#search-box div.search-menu-group button {
   width: 100%;
-  background: transparent url('images/dropdown-arrow-icon.svg') no-repeat 65% center !important;
-  padding: .5rem .75rem;
+  background: transparent url('images/dropdown-arrow-icon.svg') no-repeat right center !important;
+  padding: .5rem 1.5rem;
   border-color: transparent;
   outline: none;
   text-align: left;
