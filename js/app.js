@@ -46,7 +46,10 @@
 
  /** card overflow **/
  $("p.card-text").each(function() {
-   $(this).text($(this).text().substr(0, 195) + '...');
+   var text = jQuery(this).text();
+    if (text.length > 100) {
+      jQuery(this).text(text.substr(0, text.lastIndexOf(' ', 200)) + '...');
+    }
   });
 
  /** Calendar Popover on hover **/
