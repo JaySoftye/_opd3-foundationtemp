@@ -24,9 +24,13 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
    border: none;
  }
 
-article .card {
-  height: 20.5rem;
+article {
   margin-bottom: 2.5rem;
+}
+
+article .card {
+  height: 100%;
+  border: none;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -60,7 +64,6 @@ article .card .card-text {
 }
 
 .card .card-header, .card .card-footer {
-  height: 4.25rem;
   border: none;
 }
 
@@ -311,6 +314,12 @@ div.modal-content .modal-header, div.modal-content .modal-footer {
    color: rgb(60, 72,82);
  }
 
+ button.btn-simple, button.btn-simple:hover, button.btn-simple:focus {
+   border-color: rgb(60, 72, 82);
+   background-color: transparent;
+   color: rgb(60, 72, 82);
+ }
+
  a.lg-btn {
    padding: 1rem 2rem;
    border-radius: 70px;
@@ -415,6 +424,14 @@ a.admin-link img {
 
 section.light-blue-bg {
   background-color: rgba(200, 222, 255, 1);
+}
+
+section.light-green-bg {
+  background-color: rgba(161, 215, 132, 0.35);
+}
+
+section.light-orange-bg {
+  background-color: rgba(255, 146, 58, 0.35);
 }
 
 section.light-gray-bg {
@@ -575,7 +592,7 @@ div.login-window button.google-login {
   color: white;
 }
 
-div.login-window form .form-group {
+div.login-window form .form-group, form.password-change .form-group {
   background-color: white;
   background-clip: padding-box;
   padding: 3px;
@@ -585,11 +602,11 @@ div.login-window form .form-group {
   border-radius: 6px;
 }
 
-div.login-window form input:first-child {
+div.login-window form input:first-child, form.password-change input:first-child {
   border-bottom: 1px solid rgba(0,0,0,.15);
 }
 
-div.login-window form input {
+div.login-window form input, form.password-change input, form.password-change input {
   padding: .75rem .5rem;
   border: none;
   -webkit-border-radius: 0;
@@ -670,7 +687,7 @@ div#now-chat-box form#chat-box-conversation input {
 
 span.stat-text {
   display: block;
-  color: rgba(64, 85, 117, 1);
+  color: rgba(64, 85, 117, 0.65);
   font-size: 5rem;
   font-weight: 700;
 }
@@ -780,7 +797,7 @@ div.search-menu-group ul.dropdown-menu li a {
   padding: 0 .25rem;
 }
 
-div.search-menu-group ul.dropdown-menu li a:hover, div.search-menu-group ul.dropdown-menu li a:focus {
+div.search-menu-group ul.dropdown-menu li a:hover, div.search-menu-group ul.dropdown-menu li a:focus, div.profile-plan-menu ul.dropdown-menu li a:hover, div.profile-plan-menu ul.dropdown-menu li a:focus {
   background-color: #eceeef;
   text-decoration: none;
 }
@@ -1046,7 +1063,9 @@ div.btn-group.profile-plan-menu ul.dropdown-menu a {
 
 div.btn-group.profile-plan-menu button {
   width: inherit;
-  background-color: transparent;
+  background-image: url('images/dropdown-arrow-white-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 90% center;
   padding: .5rem 1.25rem;
   border: none;
   -webkit-border-radius: 6px;
@@ -1082,8 +1101,8 @@ table.course-activity-table td:hover, table.course-activity-table td:focus {
 }
 
 table.course-activity-table th, table.course-activity-table td, table.course-activity-table img {
-  height: 3.25rem;
-  padding: 0 .5rem;
+  height: 3.5rem;
+  padding: 0 .25rem;
   vertical-align: middle;
   text-align: center;
 }
@@ -1108,11 +1127,11 @@ table.course-activity-table tbody, table.course-activity-table a  {
 }
 
 table.course-activity-table tbody a.take-quiz {
-  background: url('images/profile-take-quiz-icon.svg') no-repeat left center;
+  background: url('images/profile-take-quiz-icon.svg') no-repeat 5% center;
 }
 
 table.course-activity-table tbody a.view-assignments {
-  background: url('images/profile-view-assignment-icon.svg') no-repeat left center;
+  background: url('images/profile-assignments-icon.svg') no-repeat 5% center;
 }
 
 table.course-activity-table tbody.green-bg tr {
@@ -1125,9 +1144,9 @@ table.course-activity-table tbody.green-bg tr.chapter-bg {
   border-bottom: 1px solid white;
 }
 
-tbody.green-bg tr.chapter-bg a:first-child {
+tbody.green-bg tr.chapter-bg > td:nth-child(2) > a {
   background: url('images/profile-chapters-bg-icon.svg') no-repeat 5% center;
-  padding-left: 10%;
+  padding-left: 12%;
 }
 
 table.course-activity-table tbody.orange-bg tr {
@@ -1140,9 +1159,9 @@ table.course-activity-table tbody.orange-bg tr.session-bg {
   border-bottom: 1px solid white;
 }
 
-tbody.orange-bg tr.session-bg a:first-child {
+tbody.orange-bg tr.session-bg > td:nth-child(2) > a {
   background: url('images/profile-sessions-bg-icon.svg') no-repeat 5% center;
-  padding-left: 10%;
+  padding-left: 12%;
 }
 
 table.course-activity-table tbody.orange-bg tr.chapter-bg {
@@ -1150,9 +1169,19 @@ table.course-activity-table tbody.orange-bg tr.chapter-bg {
   border-bottom: 1px solid white;
 }
 
-tbody.orange-bg tr.chapter-bg a:first-child {
+tbody.orange-bg tr.chapter-bg > td:nth-child(2) > a {
   background: url('images/profile-chapters-bg-icon.svg') no-repeat 15% center;
-  padding-left: 20%;
+  padding-left: 22%;
+}
+
+form#profile-form .form-group input {
+  background-color: #eceeef;
+}
+
+form#profile-form .form-control:disabled {
+  background-color: white;
+  border: none;
+  font-weight: 500;
 }
 
 div#course-calendar-date-selector h2 {

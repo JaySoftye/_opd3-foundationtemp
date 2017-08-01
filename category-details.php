@@ -26,7 +26,7 @@
               </ul>
             </div>
             <div class="card-block">
-              <h5 class="card-title"><a href="#">Digital Teacher iPad Certification 7: iPhoto</a></h5>
+              <h5 class="card-title"><a href="#">Digital Teacher</a></h5>
               <p class="card-text">What would humans look like if they were capable of muscle powered flight? How long would their bird-like wings need to be in relation to their height and weight? Join us to dissect this unique project based learning activity in which students explore these questions using the tools available on Chromebooks.  By the end of this session, you will have the know-how and means to deliver this lesson in your classroom right away!</p>
             </div>
             <div class="card-footer"></div>

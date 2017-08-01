@@ -39,7 +39,7 @@
               <a class="nav-link" href="#"><strong>Completed</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><strong>My PD Plan</strong></a>
+              <a class="nav-link" href="#"><strong>Achievements</strong></a>
             </li>
             <li class="nav-item">
               <a class="nav-link green-text" href="#"><strong>Teachers</strong></a>
@@ -65,7 +65,7 @@
                 <th>Courses</th>
                 <th>% Watched</th>
                 <th>Chapters</th>
-                <th>Quiz</th>
+                <th>Quiz Status</th>
               </tr>
             </thead>
             <tbody class="green-bg">
@@ -88,14 +88,14 @@
                 <td><a href="#">Chapter 2</a></td>
                 <td>35%</td>
                 <td></td>
-                <td></td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
               </tr>
               <tr>
                 <th><img src="assets/default-course-icon.svg" /></th>
                 <td><a href="#">SMART Learning Suite - Lab</a></td>
                 <td>100%</td>
                 <td>5 of 5</td>
-                <td><img src="assets/profile-quiz-passed-icon.svg" /></td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
               </tr>
               <tr>
                 <th><img src="assets/default-course-icon.svg" /></th>
@@ -127,13 +127,13 @@
                 <th>% Watched</th>
                 <th>% Tracks</th>
                 <th>% Chapters</th>
-                <th>Quiz</th>
+                <th>Quiz Status</th>
                 <th>Assignments</th>
               </tr>
             </thead>
             <tbody class="orange-bg">
               <tr>
-                <th><img src="assets/default-course-icon.svg" /></th>
+                <th><img src="assets/default-certification-icon.svg" /></th>
                 <td><a href="#">What's New in SMART Notebook 2014?</a></td>
                 <td>55%</td>
                 <td>65%</td>
@@ -167,6 +167,60 @@
                 <td></td>
                 <td></td>
                 <td></td>
+              </tr>
+              <tr class="session-bg">
+                <th></th>
+                <td><a href="#">Session 2</a></td>
+                <td></td>
+                <td></td>
+                <td>3 of 3</td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                <td></td>
+              </tr>
+              <tr class="session-bg">
+                <th></th>
+                <td><a href="#">Session 3</a></td>
+                <td></td>
+                <td></td>
+                <td>3 of 3</td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                <td></td>
+              </tr>
+              <tr class="session-bg">
+                <th></th>
+                <td><a href="#">Session 4</a></td>
+                <td></td>
+                <td></td>
+                <td>3 of 3</td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                <td></td>
+              </tr>
+              <tr class="session-bg">
+                <th></th>
+                <td><a href="#">Session 5</a></td>
+                <td></td>
+                <td></td>
+                <td>3 of 3</td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                <td></td>
+              </tr>
+              <tr class="session-bg">
+                <th></th>
+                <td><a href="#">Session 6</a></td>
+                <td></td>
+                <td></td>
+                <td>3 of 3</td>
+                <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th><img src="assets/default-certification-icon.svg" /></th>
+                <td><a href="#">SMART Learning Suite - lab</a></td>
+                <td>100%</td>
+                <td>100%</td>
+                <td>100%</td>
+                <td></td>
+                <td><a href="#" class="view-assignments">View</a></td>
               </tr>
             </tbody>
           </table>

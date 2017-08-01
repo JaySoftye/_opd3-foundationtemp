@@ -47,7 +47,7 @@
  /** card overflow **/
  $("p.card-text").each(function() {
    var text = jQuery(this).text();
-    if (text.length > 100) {
+    if (text.length > 200) {
       jQuery(this).text(text.substr(0, text.lastIndexOf(' ', 200)) + '...');
     }
   });

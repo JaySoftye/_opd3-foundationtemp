@@ -1,4 +1,4 @@
-<section class="container-fluid" id="search-box-container">
+<section class="container-fluid under-header" id="search-box-container">
   <div class="container">
 
     <div class="row" id="breadcrumbs">
