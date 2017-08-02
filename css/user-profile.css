@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development User Profile 
+ */
+
+div.btn-group.profile-plan-menu {
+  width: 100%;
+}
+
+div.btn-group.profile-plan-menu ul.dropdown-menu, div.btn-group.profile-plan-menu ul.dropdown-menu li {
+  width: inherit;
+}
+
+div.btn-group.profile-plan-menu ul.dropdown-menu a {
+  padding: .5rem 1.25rem;
+  display: block;
+}
+
+div.btn-group.profile-plan-menu button {
+  width: inherit;
+  background-image: url('images/dropdown-arrow-white-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  padding: .5rem 1.75rem;
+  border: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+
+div.btn-group.profile-plan-menu button.blue-bg {
+  background-color: rgb(0, 180, 228);
+}
+
+div.btn-group.profile-plan-menu button.green-bg {
+  background-color: rgb(161, 215, 132);
+}
+
+div.btn-group.profile-plan-menu button.orange-bg {
+  background-color: rgb(255, 146, 58);
+}
+
+table.course-activity-table, table.course-activity-table thead, table.course-activity-table tbody  {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table.course-activity-table td img, table.course-activity-table th img {
+  padding: 0 .5rem;
+}
+
+table.course-activity-table a {
+  padding: 0 1.25rem;
+}
+
+table.course-activity-table tr.table-row-expand {
+  cursor: pointer;
+}
+
+table.course-activity-table tr.table-row-expand:hover, table.course-activity-table tr.table-row-expand:focus {
+  background-color: rgba(236, 238, 239, 0.25);
+}
+
+table.course-activity-table th, table.course-activity-table td, table.course-activity-table img {
+  height: 3.5rem;
+  padding: 0 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.course-activity-table tr th:first-child {
+  width: 5%;
+}
+
+table.course-activity-table tr th:nth-child(2), table.course-activity-table tr td:nth-child(2) {
+  width: 40%;
+  text-align: left;
+}
+
+table.course-activity-table thead {
+  background-color: rgba(50, 62, 72, 0.75);
+  color: white;
+}
+
+table.course-activity-table tbody, table.course-activity-table a  {
+  font-weight: 700;
+  color: rgb(64, 85, 117);
+}
+
+table.course-activity-table tbody a.take-quiz {
+  background: url('images/profile-take-quiz-icon.svg') no-repeat 5% center;
+}
+
+table.course-activity-table tbody a.view-assignments {
+  background: url('images/profile-assignments-icon.svg') no-repeat 5% center;
+}
+
+table.course-activity-table tr.green-bg {
+  background-color: rgba(161, 215, 132, 0.65);
+  border-bottom: 2px solid rgb(236, 238, 239);
+}
+
+table.course-activity-table tr.green-chapter-bg {
+  background-color: rgba(161, 215, 132, 0.35);
+  border-bottom: 1px solid rgb(236, 238, 239);
+}
+
+tr.green-chapter-bg > td:nth-child(2) > a {
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 5% center;
+  padding-left: 12%;
+}
+
+table.course-activity-table tr.orange-bg {
+  background-color: rgba(255, 146, 58, 0.65);
+  border-bottom: 2px solid rgb(236, 238, 239);
+}
+
+table.course-activity-table tr.orange-session-bg {
+  background-color: rgba(255, 146, 58, 0.35);
+  border-bottom: 1px solid rgb(236, 238, 239);
+}
+
+tr.orange-session-bg > td:nth-child(2) > a {
+  background: url('images/profile-sessions-bg-icon.svg') no-repeat 5% center;
+  padding-left: 12%;
+}
+
+table.course-activity-table tr.orange-chapter-bg {
+  background-color: rgba(255, 146, 58, 0.15);
+  border-bottom: 1px solid rgb(236, 238, 239);
+}
+
+tr.orange-chapter-bg > td:nth-child(2) > a {
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 15% center;
+  padding-left: 22%;
+}
+
+form.profile-form .form-group input, form.profile-form .form-group select,  {
+  background-color: white;
+  color: black;
+}
+
+form.profile-form label {
+  font-size: 80%;
+  margin: 0 0;
+}
+
+form.profile-form input::placeholder, form.profile-form select::placeholder {
+  color: black;
+}
+
+form.profile-form .form-control:disabled {
+  background-color: rgb(236, 238, 239);
+}

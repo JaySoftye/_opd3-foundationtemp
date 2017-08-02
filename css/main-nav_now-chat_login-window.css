@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development Main Nav Chat Window Login Window
+ */
+
+header {
+  background: url('images/main-header-polygon_bg.png') no-repeat center top;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  z-index: 1000;
+}
+
+header img {
+  width: inherit;
+}
+
+nav#mobile-navbar a img {
+  width: 100%;
+}
+
+header div.row.top-header-bar {
+  background-color: rgba(64, 85, 117, 0.7);
+}
+
+footer {
+  background-color: rgba(60, 72, 82, 1);
+  padding: 5rem 0;
+}
+
+section#user-logged-in  {
+  padding: .5rem;
+}
+
+section#user-logged-in a.user-name  {
+  color: white;
+  margin-top: .3rem;
+}
+
+ul.main-nav a.nav-link, ul.sub-nav a.nav-link {
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: .9rem;
+  border-bottom: 3px solid transparent;
+}
+
+ul.main-nav a.nav-link:hover, ul.main-nav li.nav-item a.nav-link:focus, ul.main-nav li.nav-item a.nav-link.active, ul.main-nav li.nav-item a.border-bottom-blue {
+  border-bottom: 3px solid #00b4e4;
+}
+
+ul.sub-nav a.nav-link:hover, ul.sub-nav li.nav-item a.nav-link:focus, ul.sub-nav li.nav-item a.nav-link.active {
+  color: #00b4e4;
+  border-bottom: 3px solid transparent;
+}
+
+div.sub-menu {
+  background-color: rgba(64, 85, 117, 0.9);
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+}
+
+div.top-header-bar .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+div.top-header-bar .dropdown-toggle::after {
+  border: none;
+}
+
+ul.nav.profile-nav, ul.nav.activity-nav {
+  padding: .5rem 0;
+}
+
+ul.nav.profile-nav li.nav-item, ul.nav.profile-nav li.nav-item {
+  margin-right: 1.5rem;
+  border-bottom: 2px solid transparent;
+}
+
+ul.nav.profile-nav li.nav-item.active, ul.nav.activity-nav li.nav-item.active {
+  border-bottom: 2px solid rgb(60, 72, 82);
+}
+
+nav#mobile-navbar section#mobile-main-nav {
+  width: 100%;
+  background-color: rgba(64, 85, 117, 1);
+  position: absolute;
+  z-index: 10025;
+  top: 0;
+}
+
+section#mobile-main-nav ul.nav li.nav-item {
+  border-bottom: thin solid #eceeef;
+}
+
+section#mobile-main-nav li.nav-item a, section#mobile-main-nav li.nav-item a:hover, section#mobile-main-nav li.nav-item a:focus {
+  width: 100%;
+  font-size: 1.2rem;
+  color: white;
+}
+
+div.mobile-sub-menu {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  margin: 0 auto 0 50px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0;
+}
+
+section#mobile-main-nav li.nav-item a.dropdown-toggle {
+  width: 70%;
+  padding-right: 3rem;
+  background: url('images/dropdown_arrow_icon.svg') no-repeat right center;
+}
+
+section#mobile-main-nav li.nav-item.show a.dropdown-toggle {
+  background: url('images/dropdown_down_arrow_icon.svg') no-repeat right center;
+}
+
+div.login-window form button, div.login-window .modal-body button {
+  display: block;
+  margin: 15px auto;
+  padding: .75rem 2.25rem;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-style: solid;
+  border-width: thin;
+  font-weight: 300;
+  font-size: .85rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.login-window form button.login-button {
+  background-color: rgb(0, 180, 228);
+}
+
+div.login-window button.google-login {
+  background: rgb(231, 76, 59) url('images/google-login.svg') no-repeat left center;
+  padding-left: 3.25rem;
+  color: white;
+}
+
+div.login-window form .form-group, form.password-change .form-group {
+  background-color: white;
+  background-clip: padding-box;
+  padding: 3px;
+  border: 1px solid rgba(0,0,0,.15);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+div.login-window form input:first-child, form.password-change input:first-child {
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+div.login-window form input, form.password-change input, form.password-change input {
+  padding: .75rem .5rem;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+div.login-window .row a:hover, div.login-window .row a:focus {
+  text-decoration: none;
+}
+
+div#now-instructional-support {
+  background-color: rgba(64, 85, 117, 1);
+  position: fixed;
+  z-index: 10005;
+  top: 40%;
+  right: 0;
+  cursor: pointer;
+}
+
+div#now-instructional-support img {
+  width: 90px;
+}
+
+aside#now-chat-window {
+  width: 0;
+  background-color: rgba(64, 85, 117, 1);
+  position: fixed;
+  top: 40%;
+  right: 0;
+  box-shadow: 0px 0px 6px #161a1e;
+  -webkit-box-shadow: 0px 0px 6px #161a1e;
+  -moz-box-shadow: 0px 0px 6px #161a1e;
+}
+
+aside#now-chat-window button.close {
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  font-size: 48px;
+  outline: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+aside#now-chat-window button.close:hover, aside#now-chat-window button.focus {
+  color: rgba(64, 85, 117, 0.5);
+}
+
+aside#now-chat-window a img {
+  opacity: 0.4;
+}
+
+aside#now-chat-window a img:hover, aside#now-chat-window a img:focus, aside#now-chat-window a img.active {
+  opacity: 1;
+}
+
+div#now-chat-box form {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  height: 275px;
+  padding: .3rem;
+}
+
+div#now-chat-box form#chat-box-conversation {
+  padding: 1rem;
+  height: 215px;
+  overflow-y: auto;
+}
+
+div#now-chat-box form#chat-box-conversation input {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border-radius: 0;
+  border: none;
+}
+
+span.stat-text {
+  display: block;
+  color: rgba(64, 85, 117, 0.65);
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+section.edTech {
+  background: url('images/edtech-skills-skyrocket_bg.jpg') no-repeat center top;
+  background-size: cover;
+}
+
+section.edTech .row {
+  min-height: 95vh;
+}
+
+section.whatYouGet {
+  background-color: rgb(79, 197, 221);
+  background-image:
+    linear-gradient(
+      to right,
+      rgb(79, 197, 221),
+      rgb(161, 215, 132)
+    );
+}
+
+section.advantageHuman {
+  background: url('images/advantage-human-bg.jpg') no-repeat center top;
+  background-size: cover;
+}
+
+section.advantageHuman div.container {
+  min-height: 75vh;
+}

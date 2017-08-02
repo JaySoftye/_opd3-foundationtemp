@@ -74,9 +74,9 @@
             </thead>
             <tbody>
 
-              <tr class="green-bg">
+              <tr class="green-bg table-row-expand" data-target="#Whats-New-in-SMART-Notebook" data-toggle="collapse" aria-expanded="false" aria-controls="Whats-New-in-SMART-Notebook">
                 <th><img src="assets/default-course-icon.svg" /></th>
-                <td><a class="course-expand-link collapsed" href="#Whats-New-in-SMART-Notebook" data-toggle="collapse" aria-expanded="false" aria-controls="Whats-New-in-SMART-Notebook">What's New in SMART Notebook 2014?</a></td>
+                <td><a href="#">What's New in SMART Notebook 2014?</a></td>
                 <td></td>
                 <td></td>
                 <td>65%</td>

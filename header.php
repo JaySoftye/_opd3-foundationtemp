@@ -16,7 +16,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/course-calendar.css">
+    <link rel="stylesheet" href="css/course-details.css">
+    <link rel="stylesheet" href="css/course-library_category-details.css">
+    <link rel="stylesheet" href="css/main-nav_now-chat_login-window.css">
+    <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/user-profile.css">
 
   </head>
     <body>
