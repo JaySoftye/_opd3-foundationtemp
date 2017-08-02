@@ -61,7 +61,6 @@
     <section class="container-fluid light-green-bg padding-top padding-bottom">
       <div class="container">
         <div class="row align-items-center padding-sm">
-          <div class="col-1"></div>
           <div class="col-5">
             <h3><strong>Certifications</strong></h3>
           </div>

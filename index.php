@@ -109,7 +109,7 @@
             <p class="blue-text"><span class="stat-text">20,567</span>Courses Taken</p>
           </div>
           <div class="col-md-4">
-            <p class="blue-text"><span class="stat-text">20,567</span>Certifications Completed</p>
+            <p class="blue-text"><span class="stat-text">1,005</span>Schools on the Platform</p>
           </div>
           <div class="col-md-4">
             <p class="blue-text"><span class="stat-text">20,567</span>Teachers on the Plaform</p>

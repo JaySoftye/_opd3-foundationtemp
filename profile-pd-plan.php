@@ -37,7 +37,7 @@
       <div class="row">
         <div class="col-5">
           <div class="btn-group profile-plan-menu">
-            <button class="dropdown-toggle blue-bg" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Group Name <span class="profile-plan-menu-item"></span></button>
+            <button class="dropdown-toggle blue-bg" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Group Name<span class="profile-plan-menu-item"></span></button>
               <ul class="dropdown-menu">
                 <?php /* LOOP */ ?>
                 <li><a href="#">Group Name 1</a></li>

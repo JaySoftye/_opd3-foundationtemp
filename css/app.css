@@ -12,7 +12,7 @@
 
 h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, select, textarea, option {
    font-family:'Roboto',Helvetica,Arial,san-serif !important;
-   font-weight: 200;
+   font-weight: 300;
    color: rgb(60, 72, 82);
  }
 
@@ -443,7 +443,7 @@ section.dark-gray-bg {
 }
 
 section.under-header {
-  padding-top: 10rem;
+  padding-top: 9.5rem;
   padding-bottom: .5rem;
 }
 
@@ -1067,8 +1067,8 @@ div.btn-group.profile-plan-menu button {
   width: inherit;
   background-image: url('images/dropdown-arrow-white-icon.svg');
   background-repeat: no-repeat;
-  background-position: 90% center;
-  padding: .5rem 1.25rem;
+  background-position: 95% center;
+  padding: .5rem 1.75rem;
   border: none;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -1091,10 +1091,12 @@ div.btn-group.profile-plan-menu button.orange-bg {
 }
 
 table.course-activity-table, table.course-activity-table td img, table.course-activity-table thead, table.course-activity-table tbody  {
-  width: inherit;
+  width: 100%;
+  table-layout: fixed;
 }
 
 table.course-activity-table a {
+  padding: 0 1.25rem;
   display: block;
 }
 
@@ -1104,7 +1106,7 @@ table.course-activity-table td:hover, table.course-activity-table td:focus {
 
 table.course-activity-table th, table.course-activity-table td, table.course-activity-table img {
   height: 3.5rem;
-  padding: 0 .25rem;
+  padding: 0 0;
   vertical-align: middle;
   text-align: center;
 }
@@ -1136,42 +1138,54 @@ table.course-activity-table tbody a.view-assignments {
   background: url('images/profile-assignments-icon.svg') no-repeat 5% center;
 }
 
-table.course-activity-table tbody.green-bg tr {
+table.course-activity-table a.course-expand-link::after {
+  content: "-";
+  padding-right: 1rem;
+  float: right;
+}
+
+table.course-activity-table a.course-expand-link.collapsed::after {
+  content: "+";
+  padding-right: 1rem;
+  float: right;
+}
+
+table.course-activity-table tr.green-bg {
   background-color: rgba(161, 215, 132, 0.65);
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(236, 238, 239);
 }
 
-table.course-activity-table tbody.green-bg tr.chapter-bg {
+table.course-activity-table tr.green-chapter-bg {
   background-color: rgba(161, 215, 132, 0.35);
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(236, 238, 239);
 }
 
-tbody.green-bg tr.chapter-bg > td:nth-child(2) > a {
+tr.green-chapter-bg > td:nth-child(2) > a {
   background: url('images/profile-chapters-bg-icon.svg') no-repeat 5% center;
   padding-left: 12%;
 }
 
-table.course-activity-table tbody.orange-bg tr {
+table.course-activity-table tr.orange-bg {
   background-color: rgba(255, 146, 58, 0.65);
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(236, 238, 239);
 }
 
-table.course-activity-table tbody.orange-bg tr.session-bg {
+table.course-activity-table tr.orange-session-bg {
   background-color: rgba(255, 146, 58, 0.35);
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(236, 238, 239);
 }
 
-tbody.orange-bg tr.session-bg > td:nth-child(2) > a {
+tr.orange-session-bg > td:nth-child(2) > a {
   background: url('images/profile-sessions-bg-icon.svg') no-repeat 5% center;
   padding-left: 12%;
 }
 
-table.course-activity-table tbody.orange-bg tr.chapter-bg {
+table.course-activity-table tr.orange-chapter-bg {
   background-color: rgba(255, 146, 58, 0.15);
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(236, 238, 239);
 }
 
-tbody.orange-bg tr.chapter-bg > td:nth-child(2) > a {
+tr.orange-chapter-bg > td:nth-child(2) > a {
   background: url('images/profile-chapters-bg-icon.svg') no-repeat 15% center;
   padding-left: 22%;
 }
