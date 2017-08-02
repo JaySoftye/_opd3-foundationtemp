@@ -134,7 +134,7 @@
             <tbody class="orange-bg">
               <tr>
                 <th><img src="assets/default-certification-icon.svg" /></th>
-                <td><a href="#">What's New in SMART Notebook 2014?</a></td>
+                <td><a href="#">Administrator Track: Designing and Building Engaging Learning Environments</a></td>
                 <td>55%</td>
                 <td>65%</td>
                 <td>65%</td>

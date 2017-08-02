@@ -1114,7 +1114,7 @@ table.course-activity-table tr th:first-child {
 }
 
 table.course-activity-table tr th:nth-child(2), table.course-activity-table tr td:nth-child(2) {
-  min-width: 40%;
+  width: 40%;
   text-align: left;
 }
 
