@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
 
  /** BOOTSTRAP 4 OVERRIDES **/
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
  .dropdown-toggle::after {
    float: right !important;
    margin-top: .5rem !important;
@@ -61,6 +66,10 @@ article .card .card-text {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+.card.thread-post span.stat-text {
+  color: rgba(200, 222, 255, 0.95);
 }
 
 .card .card-header, .card .card-footer {
@@ -314,10 +323,14 @@ div.modal-content .modal-header, div.modal-content .modal-footer {
    color: rgb(60, 72,82);
  }
 
- button.btn-simple, button.btn-simple:hover, button.btn-simple:focus {
+ button.btn-simple {
    border-color: rgb(60, 72, 82);
-   background-color: transparent;
-   color: rgb(60, 72, 82);
+   background-color: white;
+   color: rgb(0, 180, 228);
+ }
+
+ button.btn-simple:hover, button.btn-simple:focus {
+   background-color: rgb(60, 72, 82);
  }
 
  a.lg-btn {
@@ -345,7 +358,7 @@ a.btn.blue-border:hover, a.lg-btn.blue-border:hover, a.btn.blue-border:focus, a.
   color: white;
 }
 
-a.btn.gray-border, a.lg-btn.gray-border {
+a.btn.gray-border, a.lg-btn.gray-border, button.btn.gray-border {
   border-color: rgb(60, 72, 82);
   color: rgb(60, 72, 82);
 }
@@ -1090,9 +1103,13 @@ div.btn-group.profile-plan-menu button.orange-bg {
   background-color: rgb(255, 146, 58);
 }
 
-table.course-activity-table, table.course-activity-table td img, table.course-activity-table thead, table.course-activity-table tbody  {
+table.course-activity-table, table.course-activity-table thead, table.course-activity-table tbody  {
   width: 100%;
   table-layout: fixed;
+}
+
+table.course-activity-table td img, table.course-activity-table th img {
+  padding: 0 .5rem;
 }
 
 table.course-activity-table a {
@@ -1101,7 +1118,11 @@ table.course-activity-table a {
 }
 
 table.course-activity-table td:hover, table.course-activity-table td:focus {
-  background-color: rgba(60, 72, 82, 0.05);
+  background-color: rgba(236, 238, 239, 0.25);
+}
+
+table.course-activity-table td:empty {
+  background-color: initial;
 }
 
 table.course-activity-table th, table.course-activity-table td, table.course-activity-table img {
@@ -1139,15 +1160,17 @@ table.course-activity-table tbody a.view-assignments {
 }
 
 table.course-activity-table a.course-expand-link::after {
-  content: "-";
+  content: "\2716";
   padding-right: 1rem;
   float: right;
+    color: rgba(198, 54, 54, 0.75);
 }
 
 table.course-activity-table a.course-expand-link.collapsed::after {
-  content: "+";
+  content: "\271A";
   padding-right: 1rem;
   float: right;
+  color: rgba(0, 180, 228, 0.75);
 }
 
 table.course-activity-table tr.green-bg {
@@ -1190,14 +1213,22 @@ tr.orange-chapter-bg > td:nth-child(2) > a {
   padding-left: 22%;
 }
 
-form#profile-form .form-group input {
-  background-color: #eceeef;
+form.profile-form .form-group input, form.profile-form .form-group select,  {
+  background-color: white;
+  color: black;
 }
 
-form#profile-form .form-control:disabled {
-  background-color: white;
-  border: none;
-  font-weight: 500;
+form.profile-form label {
+  font-size: 80%;
+  margin: 0 0;
+}
+
+form.profile-form input::placeholder, form.profile-form select::placeholder {
+  color: black;
+}
+
+form.profile-form .form-control:disabled {
+  background-color: rgb(236, 238, 239);
 }
 
 div#course-calendar-date-selector h2 {

@@ -40,7 +40,7 @@
 
       <div class="modal-footer">
         <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times; close</span>
+          <span aria-hidden="true">&times;</span>
         </button>
 
       </div>

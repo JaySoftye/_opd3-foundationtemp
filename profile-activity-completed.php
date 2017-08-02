@@ -28,34 +28,38 @@
       </div>
     </section>
 
-    <section class="container padding-top">
-      <div class="row">
-        <div class="col">
-          <ul class="nav activity-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><strong>In Progess</strong></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><strong>Completed</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><strong>Achievements</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link green-text" href="#"><strong>Teachers</strong></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <section class="container-fluid light-gray-bg padding-top padding-bottom">
 
-    <section class="container padding-top padding-bottom">
-      <div class="row">
-        <div class="col">
-          <p class="green-text"><strong>Completed Training</strong></p>
-          <p>Quite a list you have there <a href="#" class="teq-blue-text"><strong>User Name</strong></a>.<br />Keep up the great work!</p>
+      <section class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav activity-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>In Progess</strong></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><strong>Completed</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Achievements</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link green-text" href="#"><strong>Teachers</strong></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="container padding-top">
+        <div class="row">
+          <div class="col">
+            <p class="green-text"><strong>Completed Training</strong></p>
+            <p>Quite a list you have there <a href="#" class="teq-blue-text"><strong>User Name</strong></a>.<br />Keep up the great work!</p>
+          </div>
+        </div>
+      </section>
+
     </section>
 
     <section class="container-fluid light-green-bg padding-top padding-bottom">
@@ -113,7 +117,7 @@
           <div class="col-1">
             <img src="assets/default-badge-icon.svg">
           </div>
-          <div class="col-5">
+          <div class="col-5 no-padding">
             <h3><strong>Certification Tracks</strong></h3>
           </div>
         </div>

@@ -65,44 +65,59 @@
               <tr>
                 <th></th>
                 <th>Courses</th>
+                <th></th>
+                <th></th>
                 <th>% Watched</th>
                 <th>Chapters</th>
                 <th>Quiz Status</th>
               </tr>
             </thead>
             <tbody>
+
               <tr class="green-bg">
                 <th><img src="assets/default-course-icon.svg" /></th>
                 <td><a class="course-expand-link collapsed" href="#Whats-New-in-SMART-Notebook" data-toggle="collapse" aria-expanded="false" aria-controls="Whats-New-in-SMART-Notebook">What's New in SMART Notebook 2014?</a></td>
+                <td></td>
+                <td></td>
                 <td>65%</td>
                 <td>2 of 3</td>
                 <td></td>
               </tr>
-            </tbody>
-            <tr class="collapse" id="Whats-New-in-SMART-Notebook">
-              <tr class="green-chapter-bg">
-                <th></th>
-                <td><a href="#">Chapter 1</a></td>
-                <td>100%</td>
-                <td></td>
-                <td><img src="assets/profile-quiz-passed-icon.svg" /></td>
+              <tr class="collapse" id="Whats-New-in-SMART-Notebook">
+                <td colspan="7">
+                  <table class="course-activity-table">
+                    <tr class="green-chapter-bg">
+                      <th></th>
+                      <td><a href="#">Chapter 1</a></td>
+                      <td></td>
+                      <td></td>
+                      <td>100%</td>
+                      <td></td>
+                      <td><img src="assets/profile-quiz-passed-icon.svg" /></td>
+                    </tr>
+                    <tr class="green-chapter-bg">
+                      <th></th>
+                      <td><a href="#">Chapter 2</a></td>
+                      <td></td>
+                      <td></td>
+                      <td>35%</td>
+                      <td></td>
+                      <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                    </tr>
+                  </table>
+                </td>
               </tr>
-              <tr class="green-chapter-bg">
-                <th></th>
-                <td><a href="#">Chapter 2</a></td>
-                <td>35%</td>
-                <td></td>
-                <td><a href="#" class="take-quiz">Take Quiz</a></td>
-              </tr>
-            </tbody>
-            <tbody>
+
               <tr class="green-bg">
                 <th><img src="assets/default-course-icon.svg" /></th>
                 <td><a href="#">SMART Learning Suite - Lab</a></td>
+                <td></td>
+                <td></td>
                 <td>100%</td>
                 <td>5 of 5</td>
                 <td><a href="#" class="take-quiz">Take Quiz</a></td>
               </tr>
+
             </tbody>
           </table>
         </div>
