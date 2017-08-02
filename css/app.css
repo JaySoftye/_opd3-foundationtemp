@@ -29,6 +29,10 @@ button {
    border: none;
  }
 
+ ul.dropdown-menu li {
+   white-space: normal !important;
+ }
+
 article {
   margin-bottom: 2.5rem;
 }
@@ -872,16 +876,12 @@ ul.course-sessions-list {
   margin-bottom: -10px;
 }
 
-ul.course-sessions-taken {
-  margin-top: -25px;
-}
-
-ul.course-sessions-list li, ul.course-sessions-taken li {
+ul.course-sessions-list li {
   float: left;
   margin-right: 3px;
 }
 
-ul.course-sessions-list li a.course-session, ul.course-sessions-taken li a.course-session {
+ul.course-sessions-list li a.course-session {
   max-width: 40px;
   height: 40px;
   display: block;
@@ -895,17 +895,25 @@ ul.course-sessions-list li a.course-session, ul.course-sessions-taken li a.cours
 
 ul.course-sessions-list li a.course-session {
   background-color: white;
+  border: 1px solid transparent;
   color: rgba(0, 180, 228, 1);
 }
 
-ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.course-session.active {
+ul.course-sessions-list li a.course-session.taken {
+  background-color: rgba(127, 168, 224, 1);
+  color: white;
+}
+
+ul.course-sessions-list li a.course-session.active {
   background-color: rgba(0, 180, 228, 1);
   color: white;
 }
 
-ul.course-sessions-taken li a.course-session, ul.course-sessions-taken li a.course-session:hover, ul.course-sessions-taken li a.course-session.active {
-  background-color: rgba(79, 197, 221, 1);
-  color: white;
+ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.course-session.focus {
+  background-color: rgba(0, 180, 228, 1);
+  border: 1px solid rgba(50, 62, 72, 0.25);
+  text-decoration: none;
+  color: rgba(50, 62, 72, 1);
 }
 
 .course-details article {
@@ -1157,20 +1165,6 @@ table.course-activity-table tbody a.take-quiz {
 
 table.course-activity-table tbody a.view-assignments {
   background: url('images/profile-assignments-icon.svg') no-repeat 5% center;
-}
-
-table.course-activity-table a.course-expand-link::after {
-  content: "\2716";
-  padding-right: 1rem;
-  float: right;
-    color: rgba(198, 54, 54, 0.75);
-}
-
-table.course-activity-table a.course-expand-link.collapsed::after {
-  content: "\271A";
-  padding-right: 1rem;
-  float: right;
-  color: rgba(0, 180, 228, 0.75);
 }
 
 table.course-activity-table tr.green-bg {
