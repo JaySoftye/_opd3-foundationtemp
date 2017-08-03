@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /**
- * Teq Online Professional Development User Profile 
+ * Teq Online Professional Development User Profile
  */
 
 div.btn-group.profile-plan-menu {
@@ -52,16 +52,8 @@ table.course-activity-table td img, table.course-activity-table th img {
   padding: 0 .5rem;
 }
 
-table.course-activity-table a {
-  padding: 0 1.25rem;
-}
-
 table.course-activity-table tr.table-row-expand {
   cursor: pointer;
-}
-
-table.course-activity-table tr.table-row-expand:hover, table.course-activity-table tr.table-row-expand:focus {
-  background-color: rgba(236, 238, 239, 0.25);
 }
 
 table.course-activity-table th, table.course-activity-table td, table.course-activity-table img {
@@ -90,12 +82,22 @@ table.course-activity-table tbody, table.course-activity-table a  {
   color: rgb(64, 85, 117);
 }
 
+table.course-activity-table a {
+  padding: 0 1.5rem;
+}
+
+table.course-activity-table a:hover, table.course-activity-table a:focus {
+  color: black;
+}
+
 table.course-activity-table tbody a.take-quiz {
-  background: url('images/profile-take-quiz-icon.svg') no-repeat 5% center;
+  background: url('images/profile-take-quiz-icon.svg') no-repeat left center;
+  text-align: right;
 }
 
 table.course-activity-table tbody a.view-assignments {
-  background: url('images/profile-assignments-icon.svg') no-repeat 5% center;
+  background: url('images/profile-assignments-icon.svg') no-repeat left center;
+  text-align: right;
 }
 
 table.course-activity-table tr.green-bg {
@@ -105,12 +107,16 @@ table.course-activity-table tr.green-bg {
 
 table.course-activity-table tr.green-chapter-bg {
   background-color: rgba(161, 215, 132, 0.35);
-  border-bottom: 1px solid rgb(236, 238, 239);
+  border-bottom: 2px solid rgb(236, 238, 239);
 }
 
 tr.green-chapter-bg > td:nth-child(2) > a {
-  background: url('images/profile-chapters-bg-icon.svg') no-repeat 5% center;
-  padding-left: 12%;
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 25% center;
+  padding-left: 15%;
+}
+
+tr.green-bg.table-row-expand:hover, tr.green-bg.table-row-expand:focus {
+  background-color: rgba(161, 215, 132, 0.85);
 }
 
 table.course-activity-table tr.orange-bg {
@@ -120,22 +126,30 @@ table.course-activity-table tr.orange-bg {
 
 table.course-activity-table tr.orange-session-bg {
   background-color: rgba(255, 146, 58, 0.35);
-  border-bottom: 1px solid rgb(236, 238, 239);
+  border-bottom: 2px solid rgb(236, 238, 239);
 }
 
 tr.orange-session-bg > td:nth-child(2) > a {
-  background: url('images/profile-sessions-bg-icon.svg') no-repeat 5% center;
-  padding-left: 12%;
+  background: url('images/profile-sessions-bg-icon.svg') no-repeat 25% center;
+  padding-left: 15%;
+}
+
+tr.orange-bg.table-row-expand:hover, tr.orange-bg.table-row-expand:focus {
+  background-color: rgba(255, 146, 58, 0.85);
+}
+
+tr.orange-session-bg.table-row-expand:hover, tr.orange-session-bg.table-row-expand:focus {
+  background-color: rgba(255, 146, 58, 0.55);
 }
 
 table.course-activity-table tr.orange-chapter-bg {
   background-color: rgba(255, 146, 58, 0.15);
-  border-bottom: 1px solid rgb(236, 238, 239);
+  border-bottom: 2px solid rgb(236, 238, 239);
 }
 
 tr.orange-chapter-bg > td:nth-child(2) > a {
-  background: url('images/profile-chapters-bg-icon.svg') no-repeat 15% center;
-  padding-left: 22%;
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 35% center;
+  padding-left: 20%;
 }
 
 form.profile-form .form-group input, form.profile-form .form-group select,  {
@@ -154,4 +168,22 @@ form.profile-form input::placeholder, form.profile-form select::placeholder {
 
 form.profile-form .form-control:disabled {
   background-color: rgb(236, 238, 239);
+}
+
+form.profile-form div.form-group.file-input {
+  min-height: 2.75rem;
+  background: transparent url('images/upload-photo-icon.svg') no-repeat center center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgb(0, 180, 228);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+form.profile-form input[type=file] {
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
 }

@@ -52,6 +52,18 @@
         <div class="row">
           <div class="col-md-2 padding-top">
             <div class="padding-bottom" id="profile-image"><img src="assets/user_icon.svg" width="130" height="130" alt="" /></div>
+
+            <form action="" method="post" class="profile-form">
+              <div class="form-group file-input">
+                <input type="file" class="form-control-file">
+              </div>
+
+              <div class="form-group text-center">
+                <button><small>[X] Remove Photo</small></button>
+              </div>
+
+            </form>
+
           </div>
 
           <div class="col-md-5 padding-top">

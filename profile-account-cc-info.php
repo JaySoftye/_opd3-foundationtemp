@@ -52,6 +52,18 @@
         <div class="row">
           <div class="col-md-2 padding-top">
             <div class="padding-bottom" id="profile-image"><img src="assets/user_icon.svg" width="130" height="130" alt="" /></div>
+
+            <form action="" method="post" class="profile-form">
+              <div class="form-group file-input">
+                <input type="file" class="form-control-file">
+              </div>
+
+              <div class="form-group text-center">
+                <button><small>[X] Remove Photo</small></button>
+              </div>
+
+            </form>
+
           </div>
 
           <div class="col-md-5 padding-top">
@@ -90,13 +102,44 @@
                 <label>Card Holder Name:</label>
                 <input class="form-control" type="password" value="John Smith" disabled>
               </div>
-              <button type="submit" class="btn btn-simple float-right">Edit Your Payment Method</button>
 
-              <div class="hidden">
-                <small class="teq-blue-text"><strong>WARNING: This action cannot be undone.</strong></small>
-                <button type="submit" class="btn">Update Payment Info</button>
-              </div>
             </form>
+
+            <div id="edit-info">
+              <button id="edit-info-button" class="btn btn-simple float-right" onclick="showHide()">Edit Info</button>
+            </div>
+
+            <div id="edit-info-submit" style="display: none;">
+              <small class="teq-blue-text"><strong>WARNING: This action cannot be undone.</strong></small>
+              <button type="submit" class="btn">Update Payment Info</button>
+            </div>
+
+          <script>
+          /**
+          DELETE THIS
+          ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
+          **/
+            function showHide() {
+              var x = document.getElementById('edit-info');
+              var y = document.getElementById('edit-info-submit');
+              var inputs = document.getElementsByClassName('form-control');
+              var checks = document.getElementsByClassName('form-check-input');
+
+              if (y.style.display === 'none') {
+                x.style.display = 'none';
+                y.style.display = 'block';
+                  for(var i = 0; i < inputs.length; i++) {
+                    inputs[i].disabled = false;
+                  }
+                  for(var i = 0; i < checks.length; i++) {
+                    checks[i].disabled = false;
+                  }
+              } else {
+                y.style.display = 'none';
+                }
+              }
+            </script>
+            
           </div>
 
           <div class="col-md-5 padding-top">
