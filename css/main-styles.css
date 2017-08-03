@@ -179,13 +179,6 @@ ul.nav-tabs a.nav-link:hover, ul.nav-tabs a.nav-link:focus, ul.nav-tabs a.nav-li
   border-bottom: 3px solid #00b4e4;
 }
 
-div.modal-content {
-  border: none;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-}
-
 div.modal-content .modal-header, div.modal-content .modal-footer {
   border: none;
 }

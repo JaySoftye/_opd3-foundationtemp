@@ -122,6 +122,11 @@ section#mobile-main-nav li.nav-item.show a.dropdown-toggle {
   background: url('images/dropdown_down_arrow_icon.svg') no-repeat right center;
 }
 
+div.login-window div.modal-body {
+  background-color: rgb(236, 238, 239);
+  border-radius: .3rem;
+}
+
 div.login-window form button, div.login-window .modal-body button {
   display: block;
   margin: 15px auto;
@@ -148,7 +153,7 @@ div.login-window button.google-login {
   color: white;
 }
 
-div.login-window form .form-group, form.password-change .form-group {
+form.login-password-form .form-group, form.password-change .form-group {
   background-color: white;
   background-clip: padding-box;
   padding: 3px;
@@ -158,11 +163,11 @@ div.login-window form .form-group, form.password-change .form-group {
   border-radius: 6px;
 }
 
-div.login-window form input:first-child, form.password-change input:first-child {
+form.login-password-form input:first-child, form.password-change input:first-child {
   border-bottom: 1px solid rgba(0,0,0,.15);
 }
 
-div.login-window form input, form.password-change input, form.password-change input {
+form.login-password-form input, form.password-change input, form.password-change input {
   padding: .75rem .5rem;
   border: none;
   -webkit-border-radius: 0;
