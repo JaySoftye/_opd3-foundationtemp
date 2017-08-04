@@ -122,20 +122,19 @@ section#mobile-main-nav li.nav-item.show a.dropdown-toggle {
   background: url('images/dropdown_down_arrow_icon.svg') no-repeat right center;
 }
 
-div.login-window div.modal-body {
+div.login-window div.modal-body.gray-bg {
   background-color: rgb(236, 238, 239);
+  padding-top: 25px;
   border-radius: .3rem;
 }
 
 div.login-window form button, div.login-window .modal-body button {
+  padding: .75rem 3.25rem;
+  margin: .5rem auto;
   display: block;
-  margin: 15px auto;
-  padding: .75rem 2.25rem;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
-  border-style: solid;
-  border-width: thin;
   font-weight: 300;
   font-size: .85rem;
   color: white;
@@ -147,9 +146,13 @@ div.login-window form button.login-button {
   background-color: rgb(0, 180, 228);
 }
 
+div.login-window form button.login-button:Hover {
+  background-color: rgba(0, 180, 228, 0.5);
+}
+
 div.login-window button.google-login {
   background: rgb(231, 76, 59) url('images/google-login.svg') no-repeat left center;
-  padding-left: 3.25rem;
+  padding-right: 2.25rem;
   color: white;
 }
 

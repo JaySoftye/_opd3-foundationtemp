@@ -3,19 +3,19 @@
 
 
     <div class="modal-content" id="login-form">
-      <div class="modal-body">
-        <section class="container light-gray-bg padding">
-          <p class="text-center"><img src="assets/opd_icon.svg" width="80" height="42" alt="" /></p>
+      <div class="modal-body gray-bg">
+        <section class="container padding">
           <form name="" method="" class="login-password-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email">
-              <input type="text" class="form-control" placeholder="Password">
+              <input type="text" class="form-control" placeholder="Email Login">
+              <input type="text" class="form-control" placeholder="Enter Password">
             </div>
             <button type="submit" class="login-button">Login</button>
+            <p class="text-center"><small><a href="#" onclick="showHide()">Forgot Password</a> | <a href="#">Register Group Code</a></small></p>
           </form>
-          <p class="text-center"><small><a href="#" onclick="showHide()">Forgot Password</a> | <a href="#">Register Group Code</a></small></p>
           <h3 class="text-center"><strong>- or -</strong></h3>
           <button type="submit" class="google-login">Login with your Google Account</button>
+
         </section>
       </div>
       <div class="modal-footer">
@@ -43,10 +43,10 @@
     </div>
 
     <div class="modal-content" id="password-reset-form" style="display: none;">
-      <div class="modal-body">
-        <section class="container light-gray-bg padding">
-          <h3 class="text-center"><strong>Forgot Your Password</strong></h3>
-          <p class="text-center">Please enter the email address associated with your account and follow the instructions to reset your password.</p>
+      <div class="modal-body gray-bg">
+        <section class="container padding">
+          <h3><strong>Forgot Your Password?</strong></h3>
+          <p>Please enter the <strong>email address associated with your account</strong> and follow the instructions to reset your password. <small>Can't remember the email? <a href="#"><u>Contact us</u></a>.</small></p>
           <form name="" method="">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Email">
@@ -66,9 +66,9 @@
     </div>
 
     <div class="modal-content" id="security-ques-form" style="display: none;">
-      <div class="modal-body">
-        <section class="container light-gray-bg padding">
-          <h5 class="text-center padding-bottom"><strong>Please answer the following security questions to reset your password.</strong></h5>
+      <div class="modal-body gray-bg">
+        <section class="container padding">
+          <h3 class="padding-bottom"><strong>Please answer the following security questions to reset your password.</strong></h3>
           <form name="" method="">
             <p class="text-center">What color was your first car?</<p>
             <div class="form-group">
