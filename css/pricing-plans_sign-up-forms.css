@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development Pricing Plans and Sign Up Forms
+ */
+
+section.pricing-plans {
+  background: url('images/pricing-plans-bg.jpg') no-repeat center top;
+  background-size: contain;
+  padding-bottom: 5rem;
+}
+
+section.pricing-plans article div.card {
+  transition: all .25s ease-in-out;
+}
+
+section.pricing-plans article div.card:hover {
+  transform: scale(1.02);
+}
+
+section.pricing-plans a.btn {
+  padding: .75rem 3.25rem;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: white;
+  transition: all .25s ease-in-out;
+}
+
+section.pricing-plans a.btn:hover, section.pricing-plans a.btn:focus {
+  opacity: 0.75;
+}
+
+section.pricing-plans div.card-header.basic {
+  background-color: rgb(109, 140, 188);
+}
+
+section.pricing-plans a.btn.basic-plan {
+  background-color: rgb(109, 140, 188);
+}
+
+section.pricing-plans div.card-header.individual {
+  background-color: rgb(161, 215, 132);
+}
+
+section.pricing-plans a.btn.individual-plan {
+  background-color: rgb(161, 215, 132);
+}
+
+section.pricing-plans div.card-header.school-district {
+  background-color: rgb(79, 197, 221);
+}
+
+section.pricing-plans a.btn.school-district-plan {
+  background-color: rgb(79, 197, 221);
+}
+
+section.pricing-plans dl, section.pricing-plans dd  {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+form.sign-up-form button {
+  width: 100%;
+}

@@ -51,7 +51,7 @@
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Email">
             </div>
-            <button type="submit" class="login-button" onclick="showQues()">Enter</button>
+            <button type="submit" class="login-button" onclick="showQues(); return false;">Enter</button>
           </form>
         </section>
       </div>
@@ -124,6 +124,6 @@
 
 
 
-    </div>
+
   </div>
 </div>

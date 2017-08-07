@@ -69,7 +69,7 @@
           <div class="col-md-5 padding-top">
             <form name="" method="" class="profile-form">
               <div class="form-group">
-                <img src="assets/credit-cards-icon.svg" width="370" height="55" alt="" />
+                <img src="assets/credit-cards-icon.svg" width="370" alt="" />
               </div>
 
               <div class="form-group">
@@ -82,7 +82,7 @@
                 <div class="col-4">
                   <input class="form-control" type="password" value="mm" disabled>
                 </div>
-                <div class="col-1 text-center no-padding">/</div>
+                <span class="lead">/</span>
                 <div class="col-4">
                   <input class="form-control" type="password" value="yy" disabled>
                 </div>
@@ -139,7 +139,7 @@
                 }
               }
             </script>
-            
+
           </div>
 
           <div class="col-md-5 padding-top">

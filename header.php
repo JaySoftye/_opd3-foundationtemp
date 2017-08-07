@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/main-nav_now-chat_login-window.css">
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/user-profile.css">
+    <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
 
   </head>
     <body>
