@@ -79,23 +79,44 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
 }
 
 .course-chapters a {
-  height: 5rem;
+  height: 3.5rem;
   background-color: rgba(0, 180, 228, 1);
   display: block;
   margin-top: 1rem;
 }
 
 .course-chapters a img {
-  height: inherit;
+  opacity: .35;
 }
 
-.course-chapters a:hover img, .course-chapters a:focus img, .course-chapters a.chapter-complete img {
-  height: inherit;
-  opacity: 0.3;
+.course-chapters a:hover, .course-chapters a:focus, .course-chapters a:hover img {
+  opacity: .85;
+}
+
+.course-chapters div.col-2 {
+  counter-increment: chapter;
+}
+
+.course-chapters div.col-2:after {
+  content: counter(chapter);
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  left: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.course-chapters a.active {
+  background-color: rgba(0, 180, 228, 1);
 }
 
 .course-chapters a.chapter-link.chapter-complete {
-  background: rgba(0, 180, 228, 1) url('images/chapter-completed-icon.svg') no-repeat center center;
+  background: rgba(127, 168, 224, 1) url('images/chapter-completed-icon.svg') no-repeat center center;
 }
 
 .post-form {

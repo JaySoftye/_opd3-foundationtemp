@@ -16,41 +16,41 @@
           </video>
           <small><strong>Watch the full course video above or the chaptered sections below. All chapters need to be finsihed for course credit.</strong></small>
           <div class="row course-chapters padding-bottom">
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link chapter-complete"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link chapter-complete"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link chapter-complete"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link chapter-complete"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link chapter-complete"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link chapter-complete"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link"></a>
             </div>
-            <div class="col-sm-2">
-              <a href="#" class="chapter-link"><img src="assets/course-session-default-image.jpg" /></a>
+            <div class="col-2">
+              <a href="#" class="chapter-link"></a>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@
           <div class="row log-in-access active padding-bottom">
             <div class="col-md-8 course-details">
               <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" alt="Take Certificationi Quiz" /></a>
-              <a class="btn group-code-btn" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code"><img src="assets/group-code-icon.svg" alt="Generate Group View Code" /></a>
+              <a class="btn group-code-btn" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code"><img src="assets/group-code-icon.svg" width="179" alt="Generate Group View Code" /></a>
               <div class="collapse" id="group-view-code">
                 <form class="form-inline" name="" method="">
                   <div class="form-group">
