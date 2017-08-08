@@ -59,12 +59,7 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   font-size: .75rem;
 }
 
-.course-details .badges img {
-  width: 25%;
-}
-
 .course-details a.quiz-btn, .course-details a.group-code-btn {
-  width: 65%;
   outline: none;
 }
 

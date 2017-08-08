@@ -60,4 +60,5 @@ section.pricing-plans dl, section.pricing-plans dd  {
 
 form.sign-up-form button {
   width: 100%;
+  padding: 1rem 1.25rem;
 }

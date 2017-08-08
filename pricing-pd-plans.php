@@ -77,13 +77,69 @@
                   <dd>Earn Badges and Certificates</dd>
                 </dl>
                 <hr />
-                <a href="#" class="btn school-district-plan"><strong>Contact Us Today</strong></a>
+                <a href="#exampleModal" class="btn school-district-plan" data-toggle="modal"><strong>Contact Us Today</strong></a>
               </div>
             </div>
           </article>
         </div>
 
       </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header card-header school-district">
+              <h4 class="modal-title white">School and District Pricing Plans</h4>
+              <button class="white" type="button" data-dismiss="modal" aria-label="Close"> &times; </button>
+            </div>
+            <form action="" method="post" class="sign-up-form">
+              <div class="modal-body">
+                <p>For more information on <strong>School or District Group Pricing</strong>, fill out the form below and a Online PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="phone" class="form-control" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="School or District">
+                </div>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option selected>Please Select Your title/role...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option selected>State</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3" placeholder="Additional Information"></textarea>
+                </div>
+                <div class="form-check">
+                  <label>
+                    <i><input type="checkbox" class="form-check-input">
+                    I already have a OPD account</i>
+                  </label>
+                </div>
+                <div class="form-group row padding-top">
+                  <div class="col-6">
+                    <button type="submit" class="btn ">Request Pricing</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </section>
 
   </main>

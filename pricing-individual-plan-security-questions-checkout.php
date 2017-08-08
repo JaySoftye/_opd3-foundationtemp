@@ -1,5 +1,151 @@
+<?php include 'header.php'; ?>
+  <?php include 'now-chat-window.php'; ?>
 
-    <section class="container padding-top padding-bottom" id="security-questions">
+  <main>
+
+    <section class="container under-header">
+      <div class="row" id="breadcrumbs">
+        <div class="col">
+          <small><span><a href="#">Home</a></span> > <span><a href="#">Categories</a></span> > Category Title </small>
+        </div>
+      </div>
+    </section>
+
+    <section class="container padding-top padding-bottom" id="individual-plan">
+      <div class="row padding-top">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+          <h1><strong>Individual</strong> Plan Sign Up</h1>
+          <p>Your plan membership includes full access to <a href="http://onlinepd.teq.com/" title="http://onlinepd.teq.com/" class="teq-blue-text"><u>onlinepd.teq.com</u></a>, course management, profile activity, certification tracks, and more! To gain immediate access please complete the form below.</p>
+        </div>
+      </div>
+
+      <div class="row padding-top">
+        <div class="col">
+          <form action="" method="post" class="sign-up-form">
+            <div class="form-group row has-danger">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>First Name:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control form-control-danger" type="text">
+                <div class="form-control-feedback">Thats a terrible first name. Try another?</div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Last Name:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="text">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Email Address:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="ccol-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Email Address:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Contact Number:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="phone">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>School/District:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="phone">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Country:</strong></label>
+              <div class="col-md-2 col-sm-9">
+                <select class="form-control">
+                  <option value="">Mercia!</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>State:</strong></label>
+              <div class="col-md-2 col-sm-9">
+                <select class="form-control">
+                  <option value="">Mercia!</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Zip:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="text">
+              </div>
+            </div>
+            <div class="form-group row padding-bottom has-danger">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth:</strong></label>
+              <div class="col-md-2 col-sm-4">
+                <select class="form-control">
+                  <option selected>January</option>
+                </select>
+              </div>
+              <span class="lead hidden-sm-down"> / </span>
+              <div class="col-md-2 col-sm-4">
+                <select class="form-control">
+                  <option selected>Year</option>
+                </select>
+              </div>
+              <div class="form-control-feedback">Please select the year</div>
+            </div>
+            <div class="form-group row padding-top">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Password:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="password">
+              </div>
+            </div>
+            <div class="form-group row padding-bottom">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Password:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="password">
+              </div>
+            </div>
+            <div class="form-group row padding-bottom">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><a type="submit" class="btn btn-primary">Sign in</a></label>
+              <div class="col-md-6 col-sm-9">
+                <select class="form-control">
+                  <option selected>Your title/role...</option>
+                  <option>Parent</option>
+                  <option>Educator</option>
+                  <option>Administrator</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"></label>
+              <div class="col-md-6 col-sm-9">
+                <div class="form-check">
+                  <label class="form-check-label no-padding">
+                    <input class="form-check-input" type="checkbox">
+                    I have read and agree to the
+                  </label>
+                  <span><a href="#"><strong><u>Terms</u></strong></a> and <a href="#"><strong><u>Policies</u></strong></a>.</span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row padding-top">
+              <label class="col-sm-3"></label>
+              <div class="col-sm-2">
+                <button type="submit" class="btn" onclick="showNextStep(); return false;">Next</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="container padding-top padding-bottom" id="security-questions" style="display: none;">
       <div class="row padding-top">
         <div class="col-md-3"><img src="assets/pricing-security-icon.svg" class="hidden-sm-down" width="255" /></div>
         <div class="col-md-9">
@@ -187,3 +333,7 @@
         }
 
       </script>
+
+    </main>
+
+  <?php include 'footer.php'; ?>
