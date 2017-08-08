@@ -20,14 +20,23 @@
         </div>
       </div>
 
-      <div class="row padding-top">
+      <div class="row">
         <div class="col">
           <form action="" method="post" class="sign-up-form">
-            <div class="form-group row has-danger">
+            <div class="form-group row padding-bottom">
+              <label class="col-md-3"></label>
+              <div class="col-md-3">
+                <a class="lead" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code">Have a <u><strong>Group Code?</strong></u></a>
+              <div class="collapse" id="group-view-code">
+                <input type="text" class="form-control" placeholder="Enter Group Code">
+              </div>
+            </div>
+            </div>
+
+            <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>First Name:</strong></label>
               <div class="col-md-6 col-sm-9">
-                <input class="form-control form-control-danger" type="text">
-                <div class="form-control-feedback">Thats a terrible first name. Try another?</div>
+                <input class="form-control" type="text">
               </div>
             </div>
             <div class="form-group row">
@@ -42,16 +51,49 @@
                 <input class="form-control" type="email">
               </div>
             </div>
-            <div class="form-group row">
+            <div class="form-group row padding-bottom">
               <label class="ccol-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Email Address:</strong></label>
               <div class="col-md-6 col-sm-9">
                 <input class="form-control" type="email">
               </div>
             </div>
+
             <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Contact Number:</strong></label>
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Password:</strong></label>
               <div class="col-md-6 col-sm-9">
-                <input class="form-control" type="phone">
+                <input class="form-control" type="password">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Password:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <input class="form-control" type="password">
+              </div>
+            </div>
+            <div class="form-group row padding-bottom">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth:</strong></label>
+              <div class="col-md-2 col-sm-4">
+                <select class="form-control">
+                  <option selected>...</option>
+                </select>
+              </div>
+              <span class="lead hidden-sm-down"> / </span>
+              <div class="col-md-2 col-sm-4">
+                <select class="form-control">
+                  <option selected>...</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Title/Role:</strong></label>
+              <div class="col-md-6 col-sm-9">
+                <select class="form-control">
+                  <option selected>...</option>
+                  <option>Parent</option>
+                  <option>Educator</option>
+                  <option>Administrator</option>
+                </select>
               </div>
             </div>
             <div class="form-group row">
@@ -60,66 +102,15 @@
                 <input class="form-control" type="phone">
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Country:</strong></label>
-              <div class="col-md-2 col-sm-9">
-                <select class="form-control">
-                  <option value="">Mercia!</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group row">
+            <div class="form-group row padding-bottom">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>State:</strong></label>
               <div class="col-md-2 col-sm-9">
                 <select class="form-control">
-                  <option value="">Mercia!</option>
+                  <option value="">...</option>
                 </select>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Zip:</strong></label>
-              <div class="col-md-6 col-sm-9">
-                <input class="form-control" type="text">
-              </div>
-            </div>
-            <div class="form-group row padding-bottom has-danger">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth:</strong></label>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>January</option>
-                </select>
-              </div>
-              <span class="lead hidden-sm-down"> / </span>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>Year</option>
-                </select>
-              </div>
-              <div class="form-control-feedback">Please select the year</div>
-            </div>
-            <div class="form-group row padding-top">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Password:</strong></label>
-              <div class="col-md-6 col-sm-9">
-                <input class="form-control" type="password">
-              </div>
-            </div>
-            <div class="form-group row padding-bottom">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Password:</strong></label>
-              <div class="col-md-6 col-sm-9">
-                <input class="form-control" type="password">
-              </div>
-            </div>
-            <div class="form-group row padding-bottom">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><a type="submit" class="btn btn-primary">Sign in</a></label>
-              <div class="col-md-6 col-sm-9">
-                <select class="form-control">
-                  <option selected>Your title/role...</option>
-                  <option>Parent</option>
-                  <option>Educator</option>
-                  <option>Administrator</option>
-                </select>
-              </div>
-            </div>
+
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"></label>
               <div class="col-md-6 col-sm-9">
