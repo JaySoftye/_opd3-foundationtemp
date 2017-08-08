@@ -75,8 +75,8 @@
 
           <div class="row log-in-access active padding-bottom">
             <div class="col-md-8 course-details">
-              <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" alt="Take Certificationi Quiz" /></a>
-              <a class="btn group-code-btn" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code"><img src="assets/group-code-icon.svg" width="179" alt="Generate Group View Code" /></a>
+              <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+              <a class="btn group-code-btn" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code"><img src="assets/group-code-icon.svg" width="179" height="36" alt="Generate Group View Code" /></a>
               <div class="collapse" id="group-view-code">
                 <form class="form-inline" name="" method="">
                   <div class="form-group">
