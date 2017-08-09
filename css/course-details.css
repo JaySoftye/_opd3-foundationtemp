@@ -93,8 +93,9 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   opacity: .35;
 }
 
-.course-chapters a:hover, .course-chapters a:focus, .course-chapters a:hover img {
+.course-chapters a:hover, .course-chapters a:focus, .course-chapters a.chapter-link:hover img {
   opacity: .95;
+  background-color: rgba(0, 180, 228, 1);
 }
 
 .course-chapters div.col-2 {
