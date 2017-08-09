@@ -12,7 +12,7 @@
     </section>
 
     <section class="container padding-top padding-bottom" id="individual-plan">
-      <div class="row padding-top">
+      <div class="row padding-top padding-bottom">
         <div class="col-md-3"></div>
         <div class="col-md-9">
           <h1><strong>Individual</strong> Plan Sign Up</h1>
@@ -23,16 +23,6 @@
       <div class="row">
         <div class="col">
           <form action="" method="post" class="sign-up-form">
-            <div class="form-group row padding-bottom">
-              <label class="col-md-3"></label>
-              <div class="col-md-3">
-                <a class="lead" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code">Have a <u><strong>Group Code?</strong></u></a>
-              <div class="collapse" id="group-view-code">
-                <input type="text" class="form-control" placeholder="Enter Group Code">
-              </div>
-            </div>
-            </div>
-
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>First Name:</strong></label>
               <div class="col-md-6 col-sm-9">
@@ -111,6 +101,17 @@
               </div>
             </div>
 
+            <div class="form-group row padding-bottom">
+              <div class="col-md-3 align-self-center text-right"><strong>Have a <u>Group Code</u></strong>?</div>
+              <div class="col-md-6 align-self-center form-inline">
+                <a class="mx-sm-1 text-muted" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code">+ Register Here</a>
+                <div class="collapse" id="group-view-code">
+                  <input type="text" class="form-control" placeholder="Enter Group Code">
+                </div>
+              </div>
+
+            </div>
+
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"></label>
               <div class="col-md-6 col-sm-9">
@@ -126,7 +127,7 @@
             <div class="form-group row padding-top">
               <label class="col-sm-3"></label>
               <div class="col-sm-2">
-                <button type="submit" class="btn" onclick="showNextStep(); return false;">Next</button>
+                <button type="submit" class="btn" onclick="showQuestions(); return false;">Next</button>
               </div>
             </div>
           </form>
@@ -209,7 +210,7 @@
             </div>
 
             <div class="form-group row" >
-              <label class="col-sm-3"></label>
+              <label class="ol-md-3 col-sm-3 col-form-label text-right"><strong>Total Pricing:</strong></label>
               <div class="col-md-4 col-sm-9">
                 <img src="assets/pricing-individual-plan-monthly.svg" width="350" alt="19.99 per month" id="monthly-price" style="display:none;" />
                 <img src="assets/pricing-individual-plan-yearly.svg" width="350" alt="199.99 per year" id="yearly-price" style="display:none;" />
@@ -311,15 +312,27 @@
         }
       }
 
-      function showCheckout() {
-        var v = document.getElementById('security-questions');
-        var w = document.getElementById('secure-checkout');
+      function showQuestions() {
+        var w = document.getElementById('individual-plan');
+        var x = document.getElementById('security-questions');
 
-        if (w.style.display === 'none') {
-          v.style.display = 'none';
-          w.style.display = 'block';
-        } else {
+        if (x.style.display === 'none') {
           w.style.display = 'none';
+          x.style.display = 'block';
+        } else {
+          x.style.display = 'none';
+          }
+        }
+
+      function showCheckout() {
+        var y = document.getElementById('security-questions');
+        var z = document.getElementById('secure-checkout');;
+
+        if (z.style.display === 'none') {
+          y.style.display = 'none';
+          z.style.display = 'block';
+        } else {
+          z.style.display = 'none';
           }
         }
 

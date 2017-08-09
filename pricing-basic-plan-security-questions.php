@@ -131,7 +131,7 @@
             </div>
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"></label>
-              <div class="col-md-6 col-sm-9">
+              <div class="col-md-6 col-sm-9 no-padding">
                 <div class="form-check">
                   <label class="form-check-label no-padding">
                     <input class="form-check-input" type="checkbox">

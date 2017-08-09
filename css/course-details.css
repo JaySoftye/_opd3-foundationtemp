@@ -17,7 +17,7 @@ ul.course-sessions-list li {
 ul.course-sessions-list li a.course-session {
   width: 40px;
   height: 40px;
-  background-color: white;
+  background-color: rgba(0, 180, 228, 1);
   padding-top: 12px;
   display: block;
   border: 1px solid transparent;
@@ -27,7 +27,7 @@ ul.course-sessions-list li a.course-session {
   text-align: center;
   font-size: .7rem;
   font-weight: 700;
-  color: rgba(0, 180, 228, 1);
+  color: white;
 }
 
 ul.course-sessions-list li a.course-session.taken {
@@ -36,8 +36,8 @@ ul.course-sessions-list li a.course-session.taken {
 }
 
 ul.course-sessions-list li a.course-session.active {
-  background-color: rgba(0, 180, 228, 1);
-  color: white;
+  background-color: white;
+  color: rgba(0, 180, 228, 1);
 }
 
 ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.course-session.focus {
@@ -78,9 +78,13 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   outline: none;
 }
 
+.course-details span.input-group-btn {
+  margin: 0 0;
+}
+
 .course-chapters a {
   height: 3.5rem;
-  background-color: rgba(0, 180, 228, 1);
+  background-color: rgba(0, 180, 228, 0.65);
   display: block;
   margin-top: 1rem;
 }
@@ -90,7 +94,7 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
 }
 
 .course-chapters a:hover, .course-chapters a:focus, .course-chapters a:hover img {
-  opacity: .85;
+  opacity: .95;
 }
 
 .course-chapters div.col-2 {
@@ -111,8 +115,16 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   pointer-events: none;
 }
 
+.course-chapters div.col-2.active:after {
+  opacity: 1;
+}
+
 .course-chapters a.active {
   background-color: rgba(0, 180, 228, 1);
+}
+
+.course-chapters a.active img {
+  opacity: 1;
 }
 
 .course-chapters a.chapter-link.chapter-complete {
@@ -172,6 +184,11 @@ div.files-list-attachments a:hover, div.files-list-attachments a:focus {
   opacity: 0.35;
 }
 
+div.viewing-code div.modal-body.gray-bg, div.satisfaction-survey div.modal-body.gray-bg {
+  background-color: rgb(236, 238, 239);
+  border-radius: .3rem;
+}
+
 div.course-quiz .modal-header {
   background-color: rgb(161, 215, 132);
   font-size: 1.5rem;
@@ -183,35 +200,35 @@ div.course-quiz-form .form-check-label {
   padding-left: 0;
 }
 
-div.satisfaction-survery .form-check {
+div.satisfaction-survey-active .form-check {
   background-size: cover;
   background-position: top center;
   background-color: transparent;
   background-repeat: no-repeat;
 }
 
-div.satisfaction-survery .form-check.bad {
+div.satisfaction-survey-active  .form-check.bad {
   background-image: url('images/satisfaction-bad-icon.svg');
 }
 
-div.satisfaction-survery .form-check.fair {
+div.satisfaction-survey-active  .form-check.fair {
   background-image: url('images/satisfaction-fair-icon.svg');
 }
 
-div.satisfaction-survery .form-check.good {
+div.satisfaction-survey-active  .form-check.good {
   background-image: url('images/satisfaction-good-icon.svg');
 }
 
-div.satisfaction-survery .form-check.very-good {
+div.satisfaction-survey-active  .form-check.very-good {
   background-image: url('images/satisfaction-very-good-icon.svg');
 }
 
-div.satisfaction-survery .form-check label {
+div.satisfaction-survey-active  .form-check label {
   padding: 2.5rem 0 0 .5rem;
   text-align: center;
 }
 
-.course-quiz-form legend, .satisfaction-survery legend {
+.course-quiz-form legend, .satisfaction-survey-active  legend {
   padding: 0 .5rem;
   font-size: 1rem;
   font-weight: 700;

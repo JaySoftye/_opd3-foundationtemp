@@ -10,7 +10,7 @@
       <div class="row row-eq-height padding-top">
 
         <div class="col-md-8">
-          <video poster="assets/video-player-image.jpg" style="width: inherit;">
+          <video poster="assets/video-player-image.jpg" style="width: inherit;" data-toggle="modal" data-target=".satisfaction-survey">
             <source src="" type="video/mp4">
               Your browser does not support the video tag.
           </video>
@@ -32,13 +32,13 @@
               <a href="#" class="chapter-link chapter-complete"></a>
             </div>
             <div class="col-2">
-              <a href="#" class="chapter-link chapter-complete"></a>
+              <a href="#" class="chapter-link chapter-complete"><img src="assets/course-session-default-image.jpg" /></a>
+            </div>
+            <div class="col-2 active">
+              <a href="#" class="chapter-link active"><img src="assets/course-session-default-image.jpg" /></a>
             </div>
             <div class="col-2">
-              <a href="#" class="chapter-link"></a>
-            </div>
-            <div class="col-2">
-              <a href="#" class="chapter-link"></a>
+              <a href="#" class="chapter-link"><img src="assets/course-session-default-image.jpg" /></a>
             </div>
             <div class="col-2">
               <a href="#" class="chapter-link"></a>
@@ -76,16 +76,15 @@
           <div class="row log-in-access active padding-bottom">
             <div class="col-md-8 course-details">
               <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
-              <a class="btn group-code-btn" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code"><img src="assets/group-code-icon.svg" width="179" height="36" alt="Generate Group View Code" /></a>
-              <div class="collapse" id="group-view-code">
-                <form class="form-inline" name="" method="">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Enter Group Code">
-                    <button type="submit" class="btn">+</button>
-                  </div>
-
+              <a class="btn group-code-btn" data-toggle="modal" data-target=".viewing-code"><img src="assets/group-code-icon.svg" width="179" height="36" alt="Generate Group View Code" /></a>
+                <form name="" method="">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter viewing code">
+                      <span class="input-group-btn">
+                        <button class="btn btn-secondary" type="button">Enter</button>
+                      </span>
+                    </div>
                 </form>
-              </div>
             </div>
             <div class="col-md-4 course-details badges">
               <img src="assets/badge-default-icon.jpg" />
@@ -103,6 +102,8 @@
       </div>
 
         <?php include 'course-details-quiz.php'; ?>
+        <?php include 'course-details-satisfaction-survey.php'; ?>
+        <?php include 'course-details-viewing-code.php'; ?>
 
     </section>
 

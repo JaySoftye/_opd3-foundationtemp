@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-md-8 col-sm-6"></div>
           <div class="col-md-4 col-sm-6">
-            <small class="text-muted">Satisfaction Survery:</small>
+            <small class="text-muted">Satisfaction Survey:</small>
           </div>
         </div>
 
@@ -114,7 +114,7 @@
 
           </div>
 
-          <div class="col-md-5 col-sm-6 satisfaction-survery">
+          <div class="col-md-5 col-sm-6 satisfaction-survey-active">
 
             <fieldset class="form-group">
             <legend class="col-form-legend">Content and pace of this session</legend>
