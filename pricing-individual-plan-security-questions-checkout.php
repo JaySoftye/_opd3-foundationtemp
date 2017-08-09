@@ -54,24 +54,10 @@
                 <input class="form-control" type="password">
               </div>
             </div>
-            <div class="form-group row">
+            <div class="form-group row padding-bottom">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Password:</strong></label>
               <div class="col-md-6 col-sm-9">
                 <input class="form-control" type="password">
-              </div>
-            </div>
-            <div class="form-group row padding-bottom">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth:</strong></label>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>...</option>
-                </select>
-              </div>
-              <span class="lead hidden-sm-down"> / </span>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>...</option>
-                </select>
               </div>
             </div>
 
@@ -92,16 +78,44 @@
                 <input class="form-control" type="phone">
               </div>
             </div>
-            <div class="form-group row padding-bottom">
+            <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>State:</strong></label>
-              <div class="col-md-2 col-sm-9">
-                <select class="form-control">
-                  <option value="">...</option>
+              <div class="col-md-3 col-sm-6">
+                <select class="form-control" id="state-select" onchange="showState()">
+                  <option value="" selected></option>
+                  <option value="">Arkansas</option>
+                  <option value="new-york">New York</option>
+                  <option value="pennsylvania">Pennsylvania</option>
+                  <option value="">Texas</option>
                 </select>
               </div>
             </div>
+            <div class="collapse" id="new-york-pd">
+              <div class="form-group row">
+                <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth (mm/yy):</strong></label>
+                <div class="col-md-1 col-sm-4">
+                  <select class="form-control">
+                    <option selected>01</option>
+                  </select>
+                </div>
+                <span class="lead hidden-sm-down"> / </span>
+                <div class="col-md-1 col-sm-4">
+                  <select class="form-control">
+                    <option selected>Year</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="collapse" id="pennsylvania-pd">
+              <div class="form-group row">
+                <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Professional Personal ID (PPID):</strong></label>
+                <div class="col-md-3 col-sm-3">
+                  <input class="form-control" type="text">
+                </div>
+              </div>
+            </div>
 
-            <div class="form-group row padding-bottom">
+            <div class="form-group row padding-top padding-bottom">
               <div class="col-md-3 align-self-center text-right"><strong>Have a <u>Group Code</u></strong>?</div>
               <div class="col-md-6 align-self-center form-inline">
                 <a class="mx-sm-1 text-muted" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code">+ Register Here</a>
@@ -298,6 +312,23 @@
     DELETE THIS
     ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
     **/
+      function showState() {
+        var e = document.getElementById('state-select');
+        var f = document.getElementById('new-york-pd');
+        var g = document.getElementById('pennsylvania-pd');
+
+        if (e.value === 'new-york') {
+          f.classList.add("show");
+          g.classList.remove("show");
+        } else if (e.value === 'pennsylvania') {
+          g.classList.add("show");
+          f.classList.remove("show");
+        } else {
+          f.classList.remove("show");
+          g.classList.remove("show");
+        }
+      }
+
       function showPrice() {
         var s = document.getElementById('plan-option');
         var t = document.getElementById('monthly-price');

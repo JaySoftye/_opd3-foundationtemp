@@ -61,41 +61,46 @@
               </div>
             </div>
             <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Country:</strong></label>
-              <div class="col-md-2 col-sm-9">
-                <select class="form-control">
-                  <option value="">Mercia!</option>
-                </select>
+              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Zip:</strong></label>
+              <div class="col-md-3 col-sm-6">
+                <input class="form-control" type="text">
               </div>
             </div>
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>State:</strong></label>
-              <div class="col-md-2 col-sm-9">
-                <select class="form-control">
-                  <option value="">Mercia!</option>
+              <div class="col-md-3 col-sm-6">
+                <select class="form-control" id="state-select" onchange="showState()">
+                  <option value="" selected></option>
+                  <option value="">Arkansas</option>
+                  <option value="new-york">New York</option>
+                  <option value="pennsylvania">Pennsylvania</option>
+                  <option value="">Texas</option>
                 </select>
               </div>
             </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Zip:</strong></label>
-              <div class="col-md-6 col-sm-9">
-                <input class="form-control" type="text">
+            <div class="collapse" id="new-york-pd">
+              <div class="form-group row">
+                <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth (mm/yy):</strong></label>
+                <div class="col-md-1 col-sm-4">
+                  <select class="form-control">
+                    <option selected>01</option>
+                  </select>
+                </div>
+                <span class="lead hidden-sm-down"> / </span>
+                <div class="col-md-1 col-sm-4">
+                  <select class="form-control">
+                    <option selected>Year</option>
+                  </select>
+                </div>
               </div>
             </div>
-            <div class="form-group row padding-bottom has-danger">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth:</strong></label>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>January</option>
-                </select>
+            <div class="collapse" id="pennsylvania-pd">
+              <div class="form-group row">
+                <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Professional Personal ID (PPID):</strong></label>
+                <div class="col-md-3 col-sm-3">
+                  <input class="form-control" type="text">
+                </div>
               </div>
-              <span class="lead hidden-sm-down"> / </span>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>Year</option>
-                </select>
-              </div>
-              <div class="form-control-feedback">Please select the year</div>
             </div>
             <div class="form-group row padding-top">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Password:</strong></label>
@@ -210,6 +215,23 @@
     DELETE THIS
     ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
     **/
+      function showState() {
+        var x = document.getElementById('state-select');
+        var y = document.getElementById('new-york-pd');
+        var z = document.getElementById('pennsylvania-pd');
+
+        if (x.value === 'new-york') {
+          y.classList.add("show");
+          z.classList.remove("show");
+        } else if (x.value === 'pennsylvania') {
+          z.classList.add("show");
+          y.classList.remove("show");
+        } else {
+          y.classList.remove("show");
+          z.classList.remove("show");
+        }
+      }
+
       function showNextStep() {
         var c = document.getElementById('basic-plan');
         var d = document.getElementById('security-questions');
