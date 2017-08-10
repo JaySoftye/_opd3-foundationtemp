@@ -59,7 +59,12 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   font-size: .75rem;
 }
 
+.course-details.badges img {
+  width: auto;
+}
+
 .course-details a.quiz-btn, .course-details a.group-code-btn {
+  background-color: white;
   outline: none;
 }
 
@@ -190,7 +195,7 @@ div.viewing-code div.modal-body.gray-bg, div.satisfaction-survey div.modal-body.
   border-radius: .3rem;
 }
 
-div.course-quiz .modal-header {
+div.course-quiz .modal-header, .modal-header.green  {
   background-color: rgb(161, 215, 132);
   font-size: 1.5rem;
   font-weight: 300;
@@ -234,4 +239,57 @@ div.satisfaction-survey-active  .form-check label {
   font-size: 1rem;
   font-weight: 700;
   color: rgb(64, 85, 117);
+}
+
+aside#live-chat-container {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+aside#live-chat-container .box-header {
+  background-color: rgba(109, 140, 188, 1);
+  padding: .25rem 0;
+}
+
+aside#live-chat-container a.dropdown-toggle.participants {
+  width: 36px;
+  height: 36px;
+  padding-top: .35rem;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  text-align: center;
+  text-indent: 3px;
+  font-weight: 700;
+  color: rgb(0, 180, 228);
+  white-space: nowrap;
+}
+
+aside#live-chat-container #live-chat-box {
+  height: 20rem;
+  overflow-y: auto;
+}
+
+#live-chat-box p {
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: thin solid rgb(236, 238, 239);
+}
+
+#live-chat-box p small {
+  display: block;
+  font-weight: 700;
+}
+
+aside#live-chat-container #live-chat-form {
+  width: 100%;
+  background-color: white;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  border-top: thin solid rgb(236, 238, 239);
 }

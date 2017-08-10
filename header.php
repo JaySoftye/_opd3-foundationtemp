@@ -40,7 +40,7 @@
                 <a href="#"><img src="assets/opd_the_fusion_of_technology_and_learning.svg" alt="Online Professional Development the fusion of technology and learning" /></a>
               </div>
               <div class="col-md-3 hidden-sm-down">
-                <section class="row align-items-center hidden" id="user-logged-in">
+                <section class="row align-items-center" id="user-logged-in">
                   <div class="col-md-5"><a href="#"><img src="assets/user_icon.svg" alt="" /></a></div>
                   <div class="col-md-7"><a class="user-name" href="#">User Name Here</a></div>
                 </section>
@@ -49,7 +49,7 @@
             <div class="row">
               <div class="col-md-9">
                 <ul class="nav main-nav">
-                  <li class="nav-item dropdown disabled">
+                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="" id="profile-nav-option" data-toggle="dropdown" aria-expanded="false">My Profile</a>
                       <div class="sub-menu dropdown-menu" aria-labelledby="profile-nav-option">
                         <section class="container">
@@ -151,8 +151,8 @@
                     <a class="nav-link btn blue-fill" href="#">GETTING STARTED</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG IN</a>
-                    <a class="nav-link btn hidden"><span class="white">LOG OUT</span></a>
+                    <a class="nav-link btn blue-fill hidden" data-toggle="modal" data-target=".login-window">LOG IN</a>
+                    <a class="nav-link btn"><span class="white">LOG OUT</span></a>
                   </li>
                 </ul>
               </div>
