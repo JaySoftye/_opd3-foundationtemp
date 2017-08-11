@@ -153,7 +153,6 @@
             </ul>
           </div>
           <div class="col-sm-4">
-            <h6><strong>Downloadable Files Below:</strong></h6>
             <div class="tab-content files-list-attachments">
               <div role="tabpanel" class="tab-pane fade" id="session-1"></div>
               <div role="tabpanel" class="tab-pane fade" id="session-2"></div>
@@ -161,9 +160,9 @@
               <div role="tabpanel" class="tab-pane fade" id="session-4"></div>
               <div role="tabpanel" class="tab-pane fade" id="session-5"></div>
               <div role="tabpanel" class="tab-pane fade" id="session-6"></div>
-              <div role="tabpanel" class="tab-pane fade" id="session-7">
-                <a href="#">iPhoto User Manuel.pdf</a>
-                <a href="#">iPhoto Screenshots.jpg</a>
+              <div role="tabpanel" class="tab-pane fade active show" id="session-7">
+                <a href="#" class="file">iPhoto User Manuel.pdf</a>
+                <a href="#" class="link">iPhoto Quick Keys Page</a>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="session-8"></div>
               <div role="tabpanel" class="tab-pane fade" id="session-9"></div>

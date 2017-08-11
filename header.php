@@ -39,7 +39,7 @@
               <div class="col-md-9">
                 <a href="#"><img src="assets/opd_the_fusion_of_technology_and_learning.svg" alt="Online Professional Development the fusion of technology and learning" /></a>
               </div>
-              <div class="col-md-3 hidden-sm-down">
+              <div class="col-md-3 hidden-sm-down hidden">
                 <section class="row align-items-center" id="user-logged-in">
                   <div class="col-md-5"><a href="#"><img src="assets/user_icon.svg" alt="" /></a></div>
                   <div class="col-md-7"><a class="user-name" href="#">User Name Here</a></div>
@@ -151,8 +151,8 @@
                     <a class="nav-link btn blue-fill" href="#">GETTING STARTED</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link btn blue-fill hidden" data-toggle="modal" data-target=".login-window">LOG IN</a>
-                    <a class="nav-link btn"><span class="white">LOG OUT</span></a>
+                    <a class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG IN</a>
+                    <a class="nav-link btn hidden"><span class="white">LOG OUT</span></a>
                   </li>
                 </ul>
               </div>

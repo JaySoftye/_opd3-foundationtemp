@@ -177,7 +177,9 @@ ul.nav.files-list li a.nav-link:hover, ul.nav.files-list li a.nav-link:focus, ul
 
 div.files-list-attachments a {
   height: 2.5rem;
-  background: transparent url('images/file-attachment-icon.svg') no-repeat top left;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left top;
   display: block;
   border-bottom: thin solid rgba(60, 72, 82, 0.25);
   padding-top: .5rem;
@@ -188,6 +190,14 @@ div.files-list-attachments a {
 
 div.files-list-attachments a:hover, div.files-list-attachments a:focus {
   opacity: 0.35;
+}
+
+div.files-list-attachments a.file {
+  background-image: url('images/file-attachment-icon.svg');
+}
+
+div.files-list-attachments a.link {
+  background-image: url('images/file-link-icon.svg');
 }
 
 div.viewing-code div.modal-body.gray-bg, div.satisfaction-survey div.modal-body.gray-bg {

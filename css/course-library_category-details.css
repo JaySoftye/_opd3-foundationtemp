@@ -254,3 +254,23 @@ div.row.categories-items a img {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
+div.modal.add-to-playlist img {
+  height: 2rem;
+  width: auto;
+  margin-right: .5rem;
+}
+
+form#add-to-playlist-form .dropdown-toggle {
+  width: 100%;
+  background: rgba(109, 140, 188, 1) url('images/dropdown-arrow-white-icon.svg') no-repeat 90% center;
+  padding: .5rem .75rem .5rem 1.75rem;
+  display: block;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 5rem;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: white;
+  cursor: pointer;
+}
