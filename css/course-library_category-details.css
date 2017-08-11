@@ -160,10 +160,7 @@ div#search-box input[type="text"] {
 }
 
 div#search-box li.nav-item {
-  width: 100%;
-  margin-right: 10px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  width: 33.33%;
   cursor: pointer;
 }
 
@@ -181,12 +178,17 @@ div#search-box div.search-menu-group.show {
 
 div#search-box div.search-menu-group button {
   width: 100%;
-  background: transparent url('images/dropdown-arrow-icon.svg') no-repeat right center !important;
-  padding: .5rem 1.5rem;
+  height: 2.5rem;
+  background: transparent url('images/dropdown-arrow-icon.svg') no-repeat 90% center !important;
+  background-size: 10%;
+  padding: .5rem 2rem .5rem 1.5rem;
   border-color: transparent;
   outline: none;
   text-align: left;
   font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 div#search-box div.search-menu-group ul.dropdown-menu {
@@ -261,10 +263,11 @@ div.modal.add-to-playlist img {
   margin-right: .5rem;
 }
 
-form#add-to-playlist-form button.dropdown-toggle {
+div#add-to-playlist-form button.dropdown-toggle {
   width: 100%;
-  background: rgba(109, 140, 188, 1) url('images/dropdown-arrow-white-icon.svg') no-repeat 90% center;
-  padding: .5rem .75rem .5rem 1.75rem;
+  height: 2.5rem;
+  background: rgba(109, 140, 188, 1) url('images/dropdown-arrow-white-icon.svg') no-repeat 95% center;
+  padding: .5rem 2.5rem .5rem 1rem;
   display: block;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 5rem;
@@ -277,4 +280,23 @@ form#add-to-playlist-form button.dropdown-toggle {
   overflow: hidden;
 }
 
-form#add-to-playlist-form
+div#add-to-playlist-form ul.dropdown-menu {
+  right: 20px;
+  left:20px;
+}
+
+div#add-to-playlist-form ul.dropdown-menu a {
+  padding: .5rem 1rem;
+  display: block;
+}
+
+div#add-to-playlist-form button.add-to-playlist-btn {
+  background: white url('images/add-new-playlist-icon.svg') no-repeat left center;
+  padding-left: 2.25rem;
+  margin-top: 1rem;
+  color: rgb(0, 180, 228);
+}
+
+div#add-to-playlist-form button.add-to-playlist-btn:hover, div#add-to-playlist-form button.add-to-playlist-btn:focus {
+  border: 1px solid transparent;
+}

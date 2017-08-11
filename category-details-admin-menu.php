@@ -21,22 +21,25 @@
       <section class="modal-body">
         <section class="container">
           <p>To add this course to a users playlist, start by creating a new playlist or selecting an existing playlist then simply click the <i>add to playlist</i> button. You'll be given the option to share this course once you successfully added it to the selected playlist.</p>
-          <form name="" method="" id="add-to-playlist-form">
-            <div class="form-group row">
-              <div class="col-5">
-                <input class="form-control" type="text" placeholder="New playlist name">
-              </div>
-              <div class="col-1 align-self-center text-center no-padding">or</div>
-              <div class="col-5 profile-plan-menu">
-                <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist... </button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#" class="teq-blue-text">All</a></li>
-                    <li><a href="#">this is the name of a really really really super long school. It is for display purpose only.</a></li>
-                    <li><a href="#">[on Demand]</a></li>
-                  </ul>
-              </div>
+
+          <div class="form-group row" id="add-to-playlist-form">
+            <div class="col-5">
+              <form name="" method="">
+                  <input class="form-control" type="text" placeholder="New playlist name">
+                  <button class="btn add-to-playlist-btn" type="submit">Add to playlist</button>
+              </form>
             </div>
-          </form>
+            <div class="col-1 align-self-top text-center no-padding">or</div>
+            <div class="col-5 profile-plan-menu">
+              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...<span class="profile-plan-menu-item"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="teq-blue-text">Super Awesome Playlist 1</a></li>
+                  <li><a href="#">Super Awesome Playlist 2 with a really long ending sentence</a></li>
+                  <li><a href="#">Super Awesome Playlist 3</a></li>
+                </ul>
+            </div>
+          </div>
+          
         </section>
       </section>
 

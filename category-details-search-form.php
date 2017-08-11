@@ -60,6 +60,7 @@
                   <li><a href="#">ELA</a></li>
                   <li><a href="#">ENL/ELL</a></li>
                   <li><a href="#">Google</a></li>
+                  <li><a href="#">Google Educators Certification</a></li>
                   <li><a href="#">iPad</a></li>
                   <li><a href="#">Judaic Studies</a></li>
                   <li><a href="#">Math</a></li>
