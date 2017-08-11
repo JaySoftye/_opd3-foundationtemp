@@ -162,7 +162,7 @@
               <div role="tabpanel" class="tab-pane fade" id="session-6"></div>
               <div role="tabpanel" class="tab-pane fade active show" id="session-7">
                 <a href="#" class="file">iPhoto User Manuel.pdf</a>
-                <a href="#" class="link">iPhoto Quick Keys Page</a>
+                <a href="#" class="link">iPhoto Quick Keys Page a Great place to find resources for your reference</a>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="session-8"></div>
               <div role="tabpanel" class="tab-pane fade" id="session-9"></div>

@@ -176,14 +176,13 @@ ul.nav.files-list li a.nav-link:hover, ul.nav.files-list li a.nav-link:focus, ul
 }
 
 div.files-list-attachments a {
-  height: 2.5rem;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left center;
+  background-size: 10%;
   display: block;
   border-bottom: thin solid rgba(60, 72, 82, 0.25);
-  padding-top: .5rem;
-  padding-left: 2.75rem;
+  padding: .5rem 0 .5rem 2.75rem;
   text-align: left;
   color: rgb(60, 72, 82);
 }

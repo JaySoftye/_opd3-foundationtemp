@@ -28,10 +28,10 @@
               </div>
               <div class="col-1 align-self-center text-center no-padding">or</div>
               <div class="col-5 profile-plan-menu">
-                <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist... <span class="profile-plan-menu-item"></span></button>
+                <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist... </button>
                   <ul class="dropdown-menu">
                     <li><a href="#" class="teq-blue-text">All</a></li>
-                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">this is the name of a really really really super long school. It is for display purpose only.</a></li>
                     <li><a href="#">[on Demand]</a></li>
                   </ul>
               </div>
