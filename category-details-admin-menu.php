@@ -39,7 +39,25 @@
                 </ul>
             </div>
           </div>
-          
+
+          <div class="form-group row" id="share-playlist-form">
+            <div class="col-5">
+              <form name="" method="">
+                  <input class="form-control" type="text" placeholder="New playlist name">
+                  <button class="btn add-to-playlist-btn" type="submit">Add to playlist</button>
+              </form>
+            </div>
+            <div class="col-1 align-self-top text-center no-padding">or</div>
+            <div class="col-5 profile-plan-menu">
+              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...<span class="profile-plan-menu-item"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="teq-blue-text">Super Awesome Playlist 1</a></li>
+                  <li><a href="#">Super Awesome Playlist 2 with a really long ending sentence</a></li>
+                  <li><a href="#">Super Awesome Playlist 3</a></li>
+                </ul>
+            </div>
+          </div>
+
         </section>
       </section>
 
