@@ -123,7 +123,6 @@
                   <input type="text" class="form-control" placeholder="Enter Group Code">
                 </div>
               </div>
-
             </div>
 
             <div class="form-group row">

@@ -134,6 +134,15 @@
                 </select>
               </div>
             </div>
+            <div class="form-group row padding-bottom">
+              <div class="col-md-3 align-self-center text-right"><strong>Have a <u>Group Code</u></strong>?</div>
+              <div class="col-md-6 align-self-center form-inline">
+                <a class="mx-sm-1 text-muted" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code">+ Register Here</a>
+                <div class="collapse" id="group-view-code">
+                  <input type="text" class="form-control" placeholder="Enter Group Code">
+                </div>
+              </div>
+            </div>
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"></label>
               <div class="col-md-6 col-sm-9 no-padding">

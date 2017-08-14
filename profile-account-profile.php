@@ -89,7 +89,36 @@
               </div>
               <div class="form-group">
                 <label>State:</label>
-                <input type="text" class="form-control" placeholder="New York" disabled>
+                <select class="form-control" id="state-select" onchange="showState()" disabled>
+                  <option value="">Arkansas</option>
+                  <option value="new-york" selected>New York</option>
+                  <option value="pennsylvania">Pennsylvania</option>
+                  <option value="">Texas</option>
+                </select>
+              </div>
+              <div class="collapse show" id="new-york-pd">
+                <div class="form-group">
+                  <label>Date of Birth (mm/yy):</label>
+                    <div class="row">
+                      <div class="col-sm-5">
+                      <select class="form-control" disabled>
+                        <option selected>01</option>
+                      </select>
+                      </div>
+                      <span class="lead hidden-sm-down"> / </span>
+                      <div class="col-sm-5">
+                      <select class="form-control" disabled>
+                        <option selected>1955</option>
+                      </select>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="collapse" id="pennsylvania-pd">
+                <div class="form-group">
+                  <label>Professional Personal ID (PPID):</label>
+                    <input class="form-control" type="text">
+                </div>
               </div>
               <div class="form-group" id="test">
                 <label>Zip:</label>
@@ -132,6 +161,23 @@
               DELETE THIS
               ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
               **/
+                function showState() {
+                  var x = document.getElementById('state-select');
+                  var y = document.getElementById('new-york-pd');
+                  var z = document.getElementById('pennsylvania-pd');
+
+                  if (x.value === 'new-york') {
+                    y.classList.add("show");
+                    z.classList.remove("show");
+                  } else if (x.value === 'pennsylvania') {
+                    z.classList.add("show");
+                    y.classList.remove("show");
+                  } else {
+                    y.classList.remove("show");
+                    z.classList.remove("show");
+                  }
+                }
+
                 function showHide() {
                   var x = document.getElementById('edit-info');
                   var y = document.getElementById('edit-info-submit');
@@ -146,6 +192,9 @@
                       }
                       for(var i = 0; i < checks.length; i++) {
                         checks[i].disabled = false;
+                      }
+                      for(var i = 0; i < select.length; i++) {
+                        select[i].disabled = false;
                       }
                   } else {
                     y.style.display = 'none';

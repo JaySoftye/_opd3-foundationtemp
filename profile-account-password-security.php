@@ -77,7 +77,7 @@
                     <option>What was the name of your first grade teacher?</option>
                   </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group padding-bottom">
                   <input type="text" class="form-control" placeholder="Answer for Question 1">
                 </div>
 
@@ -89,11 +89,34 @@
                     <option>What was the name of your first grade teacher?</option>
                   </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group padding-bottom">
                   <input type="text" class="form-control" placeholder="Answer for Question 2">
                 </div>
-                <small><strong>WARNING: This action cannot be undone.</strong></small>
-                <button type="submit" class="btn gray">Submit New Q/A</button>
+
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>Security Question 3</option>
+                    <option>What Color was your first car?</option>
+                    <option>What was the street you grew up on?</option>
+                    <option>What was the name of your first grade teacher?</option>
+                  </select>
+                </div>
+                <div class="form-group padding-bottom">
+                  <input type="text" class="form-control" placeholder="Answer for Question 3">
+                </div>
+
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>Security Question 4</option>
+                    <option>What Color was your first car?</option>
+                    <option>What was the street you grew up on?</option>
+                    <option>What was the name of your first grade teacher?</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Answer for Question 4">
+                </div>
+                <button type="submit" class="btn gray pull-right">Submit New Q/A</button>
               </form>
 
               <form class="password-change padding-top padding-bottom" name="" method="">
@@ -102,7 +125,6 @@
                   <input type="text" class="form-control" placeholder="New Password">
                   <input type="text" class="form-control" placeholder="Confirm Password">
                 </div>
-                <small class="teq-blue-text"><strong>WARNING: This action cannot be undone.</strong></small>
                 <button type="submit" class="btn">Change Password</button>
               </form>
             </div>
