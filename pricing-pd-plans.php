@@ -75,9 +75,11 @@
                   <dd>nOw Instructional Support</dd>
                   <dd>Earn professional development hours</dd>
                   <dd>Earn Badges and Certificates</dd>
+                  <dd><hr /></dd>
+                  <dd><a href="#"><small>Have a <u>Group code?</u></small> <button class="btn gray">Sign Up Here</button></a></dd>
                 </dl>
                 <hr />
-                <a href="#exampleModal" class="btn school-district-plan" data-toggle="modal"><strong>Contact Us Today</strong></a>
+                <a href="#exampleModal" class="btn school-district-plan" data-toggle="modal"><strong>Contact Us for Pricing</strong></a>
               </div>
             </div>
           </article>
