@@ -41,7 +41,7 @@ div#calendar ul {
   list-style: none;
 }
 
-div#calendar li {
+div#calendar li.day {
   width: 14%;
 	display: block;
 	float: left;
@@ -49,7 +49,7 @@ div#calendar li {
   margin: 1px;
 }
 
-div#calendar ul.weekdays li {
+div#calendar ul.weekdays li.day {
   background-color: rgb(64, 85, 117);
 	padding: .25rem;
 	border: none !important;
@@ -59,12 +59,12 @@ div#calendar ul.weekdays li {
   color: white;
 }
 
-div#calendar ul.days li {
+div#calendar ul.days li.day {
 	height: 10.25rem;
   overflow-y: auto;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
 }
 
 div#calendar span.date {
@@ -150,7 +150,7 @@ div#calendar div.dropdown img {
 		display: none;
 	}
 
-	div#calendar li {
+	div#calendar li.day {
 		height: auto !important;
 		border: 1px solid #ededed;
 		width: 100%;

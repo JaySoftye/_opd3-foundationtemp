@@ -55,13 +55,13 @@
 
           <div id="calendar">
             <ul class="weekdays">
-              <li>Sunday</li>
-            	<li>Monday</li>
-            	<li>Tuesday</li>
-            	<li>Wednesday</li>
-            	<li>Thursday</li>
-            	<li>Friday</li>
-            	<li>Saturday</li>
+              <li class="day">Sunday</li>
+            	<li class="day">Monday</li>
+            	<li class="day">Tuesday</li>
+            	<li class="day">Wednesday</li>
+            	<li class="day">Thursday</li>
+            	<li class="day">Friday</li>
+            	<li class="day">Saturday</li>
             </ul>
 
             <ul class="days">
@@ -288,7 +288,7 @@
                     data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
             		  <span class="date">24</span>
                   <span class="week-of-date hidden-sm-up">Monday</span>
-                  <span class="calendar-course-type"><img src="assets/course-calendar-live-icon.svg" /></span>
+                  <span class="calendar-course-type"><img src="assets/course-calendar-live-icon.svg" /> <img src="assets/course-calendar-certification-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
                   <p class="hidden-sm-up">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
                   <small>1:00pm to 3:00pm</small>

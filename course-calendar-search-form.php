@@ -46,6 +46,7 @@
                   <?php /* LOOP */ ?>
                   <li><a href="#" class="teq-blue-text">All</a></li>
                   <li><a href="#">Test Category</a></li>
+                  <li><a href="#">Project Based Learning</a></li>
                 </ul>
               </div>
           </li>
