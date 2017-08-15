@@ -15,8 +15,8 @@
       <div class="row padding-top padding-bottom">
         <div class="col-md-3"></div>
         <div class="col-md-9">
-          <h1><strong>Individual</strong> Plan Sign Up</h1>
-          <p>Your plan membership includes full access to <a href="http://onlinepd.teq.com/" title="http://onlinepd.teq.com/" class="teq-blue-text"><u>onlinepd.teq.com</u></a>, course management, profile activity, certification tracks, and more! To gain immediate access please complete the form below.</p>
+          <h1><strong>Group, District or Institutional</strong> Plans</h1>
+          <p>Your group plan membership includes full access to <a href="http://onlinepd.teq.com/" title="http://onlinepd.teq.com/" class="teq-blue-text"><u>onlinepd.teq.com</u></a>, course management, profile activity, certification tracks, and more! To gain immediate access please complete the form below. Please note a <strong>Group Code is required</strong> for all group, district or institutional plan sign ups. If you have not been supplied one please contact your administrator or <a href="#"><u>contact us</u></a>.</p>
         </div>
       </div>
 
@@ -115,9 +115,18 @@
                   <label><strong>Professional Personal ID (PPID):</strong></label>
                   <div class="row">
                     <div class="col">
-                      <input class="form-control" type="text" placeholder="enter your PPID">
+                      <input class="form-control" type="text">
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group row padding-top padding-bottom">
+              <div class="col-md-3 align-self-center text-right"><strong>Register a Group Code:</strong></div>
+              <div class="col-md-6 col-sm-9 align-self-center form-inline">
+                <div id="group-view-code">
+                  <input type="text" class="form-control" placeholder="Enter Group Code"> <small>If you do not have a group code contact your administrator.</small>
                 </div>
               </div>
             </div>
@@ -217,119 +226,14 @@
             <div class="form-group row padding-top">
               <label class="col-sm-3"></label>
               <div class="col-sm-2">
-                <button type="submit" class="btn" onclick="showCheckout(); return false;">Next</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      </div>
-    </section>
-
-    <section class="container padding-top padding-bottom" id="secure-checkout" style="display:none;">
-      <div class="row padding-top">
-        <div class="col-md-3"><img src="assets/pricing-checkout-icon.svg" class="hidden-sm-down" width="255" /></div>
-        <div class="col-md-9">
-          <h1><strong>Secure</strong> Checkout</h1>
-        </div>
-      </div>
-      <div class="row padding-top">
-        <div class="col">
-          <form action="" method="post" class="sign-up-form">
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Select a plan:</strong></label>
-              <div class="col-md-4 col-sm-9">
-                <select class="form-control" id="plan-option" onchange="showPrice()">
-                  <option selected>choose a plan...</option>
-                  <option value="monthly">Monthly</option>
-                  <option value="yearly">Yearly</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group row" >
-              <label class="ol-md-3 col-sm-3 col-form-label text-right"><strong>Total Pricing:</strong></label>
-              <div class="col-md-4 col-sm-9">
-                <img src="assets/pricing-individual-plan-monthly.svg" width="350" alt="19.99 per month" id="monthly-price" style="display:none;" />
-                <img src="assets/pricing-individual-plan-yearly.svg" width="350" alt="199.99 per year" id="yearly-price" style="display:none;" />
-                <hr />
-              </div>
-            </div>
-
-            <div class="form-group row padding-bottom">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Payment Method:</strong></label>
-              <div class="col-md-4 col-sm-9">
-                <label class="form-check-label col-form-label">
-                  <input type="radio" class="form-check-input" name="" value="">
-                  <span><img src="assets/credit-cards-icon.svg" alt="Credit Card" /></span>
-                </label>
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="" value="">
-                  <span><img src="assets/paypal-card-icon.svg" alt="Credit Card" /></span>
-                </label>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Card Number:</strong></label>
-              <div class="col-md-4 col-sm-9">
-                <input class="form-control" type="password">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Car Holder Name:</strong></label>
-              <div class="col-md-4 col-sm-9">
-                <input class="form-control" type="password">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Expiration Date (MM/YY):</strong></label>
-              <div class="col-md-1 col-sm-4">
-                <select class="form-control">
-                  <option selected>01</option>
-                </select>
-              </div>
-              <span class="lead hidden-sm-down"> / </span>
-              <div class="col-md-2 col-sm-4">
-                <select class="form-control">
-                  <option selected>2017</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group row has-danger">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Security Code:</strong></label>
-              <div class="col-md-3 col-sm-9">
-                <input class="form-control form-control-danger" type="password">
-              </div>
-              <div class="form-control-feedback">You forgot to enter a CSV Code.</div>
-            </div>
-            <div class="form-group row">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Billing Zip:</strong></label>
-              <div class="col-md-3 col-sm-9">
-                <input class="form-control" type="password">
-              </div>
-            </div>
-            <div class="form-group row padding-top">
-              <label class="col-md-3 col-sm-3 col-form-label text-right"></label>
-              <div class="col-md-6 col-sm-9">
-                <div class="form-check">
-                  <label class="form-check-label no-padding">
-                    <input class="form-check-input" type="checkbox"> Enable automatic renewal
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label class="col-sm-3"></label>
-              <div class="col-sm-2">
                 <button type="submit" class="btn">Submit</button>
               </div>
             </div>
           </form>
         </div>
       </div>
-
+      </div>
     </section>
-
 
     <script>
     /**
@@ -353,20 +257,6 @@
         }
       }
 
-      function showPrice() {
-        var s = document.getElementById('plan-option');
-        var t = document.getElementById('monthly-price');
-        var u = document.getElementById('yearly-price');
-
-        if (s.value === 'monthly') {
-          t.style.display = 'block';
-          u.style.display = 'none';
-        } else if (s.value === 'yearly') {
-          t.style.display = 'none';
-          u.style.display = 'block';
-        }
-      }
-
       function showQuestions() {
         var w = document.getElementById('individual-plan');
         var x = document.getElementById('security-questions');
@@ -376,18 +266,6 @@
           x.style.display = 'block';
         } else {
           x.style.display = 'none';
-          }
-        }
-
-      function showCheckout() {
-        var y = document.getElementById('security-questions');
-        var z = document.getElementById('secure-checkout');;
-
-        if (z.style.display === 'none') {
-          y.style.display = 'none';
-          z.style.display = 'block';
-        } else {
-          z.style.display = 'none';
           }
         }
 

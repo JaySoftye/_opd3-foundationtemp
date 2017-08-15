@@ -62,45 +62,22 @@
             </div>
             <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Zip:</strong></label>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-2 col-sm-4">
                 <input class="form-control" type="text">
               </div>
             </div>
-            <div class="form-group row">
+            <div class="form-group row align-items-center">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>State:</strong></label>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-1 col-sm-4">
                 <select class="form-control" id="state-select" onchange="showState()">
                   <option value="" selected></option>
-                  <option value="">Arkansas</option>
-                  <option value="new-york">New York</option>
-                  <option value="pennsylvania">Pennsylvania</option>
-                  <option value="">Texas</option>
+                  <option value="">AR</option>
+                  <option value="new-york">NY</option>
+                  <option value="pennsylvania">PA</option>
+                  <option value="">TX</option>
                 </select>
               </div>
-            </div>
-            <div class="collapse" id="new-york-pd">
-              <div class="form-group row">
-                <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Date of Birth (mm/yy):</strong></label>
-                <div class="col-md-1 col-sm-4">
-                  <select class="form-control">
-                    <option selected>01</option>
-                  </select>
-                </div>
-                <span class="lead hidden-sm-down"> / </span>
-                <div class="col-md-1 col-sm-4">
-                  <select class="form-control">
-                    <option selected>Year</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="collapse" id="pennsylvania-pd">
-              <div class="form-group row">
-                <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Professional Personal ID (PPID):</strong></label>
-                <div class="col-md-3 col-sm-3">
-                  <input class="form-control" type="text">
-                </div>
-              </div>
+              <small><strong>* Some areas may require additional info for State Approved Certification</strong></small>
             </div>
             <div class="form-group row padding-top">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Password:</strong></label>
@@ -108,7 +85,7 @@
                 <input class="form-control" type="password">
               </div>
             </div>
-            <div class="form-group row padding-bottom">
+            <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>Confirm Password:</strong></label>
               <div class="col-md-6 col-sm-9">
                 <input class="form-control" type="password">
@@ -134,12 +111,33 @@
                 </select>
               </div>
             </div>
-            <div class="form-group row padding-bottom">
-              <div class="col-md-3 align-self-center text-right"><strong>Have a <u>Group Code</u></strong>?</div>
-              <div class="col-md-6 align-self-center form-inline">
-                <a class="mx-sm-1 text-muted" data-toggle="collapse" href="#group-view-code" aria-expanded="false" aria-controls="group-view-code">+ Register Here</a>
-                <div class="collapse" id="group-view-code">
-                  <input type="text" class="form-control" placeholder="Enter Group Code">
+            <div class="collapse padding-bottom" id="new-york-pd">
+              <div class="form-group row">
+                <label class="col-md-3"></label>
+                <div class="col-md-6 col-sm-9 alert alert-info">
+                  <h4>State Approved Certification Registration</h4>
+                  <p><small>This is <strong>required for your New York State CTLE certification</strong>. For a full list of state PD requirements please <a href="#"><u>contact us</u></a>.</small></p>
+                  <label><strong>Date of Birth (month/day):</strong></label>
+                  <div class="row">
+                    <div class="col">
+                      <input class="form-control" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="collapse padding-bottom" id="pennsylvania-pd">
+              <div class="form-group row">
+                <label class="col-md-3"></label>
+                <div class="col-md-6 col-sm-9 alert alert-info">
+                  <h4>State Approved Certification Registration</h4>
+                  <p><small>This is <strong>required for your Pennsylvania State Certification</strong>. For a full list of state PD requirements please <a href="#"><u>contact us</u></a>.</small></p>
+                  <label><strong>Professional Personal ID (PPID):</strong></label>
+                  <div class="row">
+                    <div class="col">
+                      <input class="form-control" type="text">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

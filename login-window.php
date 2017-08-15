@@ -44,7 +44,7 @@
 
     <div class="modal-content" id="password-reset-form" style="display: none;">
       <div class="modal-body gray-bg">
-        <section class="container padding">
+        <section class="container">
           <h3><strong>Forgot Your Password?</strong></h3>
           <p>Please enter the <strong>email address associated with your account</strong> and follow the instructions to reset your password. <small>Can't remember the email? <a href="#"><u>Contact us</u></a>.</small></p>
           <form name="" method="">
@@ -57,7 +57,7 @@
       </div>
       <div class="modal-footer">
         <section class="container">
-          <a href="#"><small class="blue-text">Not a member? <u>Click here</u></small></a>
+          <a href="#"><small class="blue-text">Don't remember the email? <u>Click here</u></small></a>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -67,24 +67,52 @@
 
     <div class="modal-content" id="security-ques-form" style="display: none;">
       <div class="modal-body gray-bg">
-        <section class="container padding">
-          <h3 class="padding-bottom"><strong>Please answer the following security questions to reset your password.</strong></h3>
+        <section class="container">
+          <p><strong>Please answer the following security questions to reset your password.</strong></p>
           <form name="" method="">
-            <p class="text-center">What color was your first car?</<p>
             <div class="form-group">
+              <label>What color was your first car?</label>
               <input type="text" class="form-control">
             </div>
-            <p class="text-center">What was the street you grew up on?</<p>
             <div class="form-group">
+              <label>What was the street you grew up on?</label>
               <input type="text" class="form-control">
             </div>
-            <button type="submit" class="login-button">Submit Answers</button>
+            <button type="submit" class="login-button" onclick="showFail(); return false;">Submit Answers</button>
           </form>
+        </section>
+      </div>
+      <div class="modal-body padding-top">
+        <section class="container text-center" id="password-reset-by-email">
+          <p><strong>Can't remember the answers to your security questions?</strong></p>
+          <div class="row align-items-center">
+            <div class="col">
+              <button class="btn gray" onclick="showEmail(); return false;">Reset by email</button>
+            </div>
+          </div>
+        </section>
+        <div class="alert alert-success" id="success-password-reset-by-email" style="display:none;">An email has been sent to the address we have on file for your account. If you don't receive an email from us within a few minutes, check your spam filter as sometimes they end up in there. The email will be from onlinepd@teq.com.</div>
+      </div>
+      <div class="modal-footer">
+        <section class="container">
+          <a href="#"><small class="blue-text">Still having issues? <u>Contact us directly</u>.</small></a>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </section>
+      </div>
+    </div>
+
+    <div class="modal-content" id="failed-attempt" style="display: none;">
+      <div class="modal-body alert alert-danger">
+        <section class="container padding">
+          <h2 class="alert-heading">We're sorry...</h2>
+          You have exceeded the maxium number of atttempts to reset your password. For security reasons, your account will be locked for 30 minutes. Please try submitting again later.
         </section>
       </div>
       <div class="modal-footer">
         <section class="container">
-          <a href="#"><small class="blue-text">Not a member? <u>Click here</u></small></a>
+          <a href="#"><small class="blue-text">Still having issues? <u>Contact us directly</u>.</small></a>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -120,10 +148,32 @@
               a.style.display = 'none';
               }
             }
+
+            function showEmail() {
+              var c = document.getElementById('password-reset-by-email');
+              var d = document.getElementById('success-password-reset-by-email');
+
+              if (d.style.display === 'none') {
+                c.style.display = 'none';
+                d.style.display = 'block';
+              } else {
+                d.style.display = 'none';
+                }
+              }
+
+            function showFail() {
+              var e = document.getElementById('security-ques-form');
+              var f = document.getElementById('failed-attempt');
+
+              if (f.style.display === 'none') {
+                e.style.display = 'none';
+                f.style.display = 'block';
+              } else {
+                f.style.display = 'none';
+                }
+              }
+
         </script>
-
-
-
 
   </div>
 </div>

@@ -90,39 +90,44 @@
               <div class="form-group">
                 <label>State:</label>
                 <select class="form-control" id="state-select" onchange="showState()" disabled>
-                  <option value="">Arkansas</option>
-                  <option value="new-york" selected>New York</option>
-                  <option value="pennsylvania">Pennsylvania</option>
-                  <option value="">Texas</option>
+                  <option value="">AR</option>
+                  <option value="new-york" selected>NY</option>
+                  <option value="pennsylvania">PA</option>
+                  <option value="">TX</option>
                 </select>
-              </div>
-              <div class="collapse show" id="new-york-pd">
-                <div class="form-group">
-                  <label>Date of Birth (mm/yy):</label>
-                    <div class="row">
-                      <div class="col-sm-5">
-                      <select class="form-control" disabled>
-                        <option selected>01</option>
-                      </select>
-                      </div>
-                      <span class="lead hidden-sm-down"> / </span>
-                      <div class="col-sm-5">
-                      <select class="form-control" disabled>
-                        <option selected>1955</option>
-                      </select>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="collapse" id="pennsylvania-pd">
-                <div class="form-group">
-                  <label>Professional Personal ID (PPID):</label>
-                    <input class="form-control" type="text">
-                </div>
               </div>
               <div class="form-group" id="test">
                 <label>Zip:</label>
                 <input type="number" class="form-control" placeholder="11566" disabled>
+              </div>
+
+              <div class="collapse show" id="new-york-pd">
+                <div class="form-group">
+                  <div class="col alert alert-info">
+                    <h4>State Approved Certification Registration</h4>
+                    <p><small>This is <strong>required for your New York State CTLE certification</strong>. For a full list of state PD requirements please <a href="#"><u>contact us</u></a>.</small></p>
+                    <label>(month/day)</label>
+                    <div class="row">
+                      <div class="col">
+                        <input class="form-control" type="text" disabled>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse padding-bottom" id="pennsylvania-pd">
+                <div class="form-group">
+                  <div class="col alert alert-info">
+                    <h4>State Approved Certification Registration</h4>
+                    <p><small>This is <strong>required for your Pennsylvania State Certification</strong>. For a full list of state PD requirements please <a href="#"><u>contact us</u></a>.</small></p>
+                    <label>Professional Personal ID (PPID):</label>
+                    <div class="row">
+                      <div class="col">
+                        <input class="form-control" type="text" placeholder="enter your PPID" disabled>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <fieldset class="form-group">
