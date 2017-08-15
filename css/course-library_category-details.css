@@ -308,33 +308,33 @@ form#add-to-playlist-form ul.dropdown-menu a, form#share-playlist-form ul.dropdo
 }
 
 form#add-to-playlist-form button.add-to-playlist-btn {
-  background: white url('images/add-new-playlist-icon.svg') no-repeat left center;
+  background: rgb(109, 140, 188) url('images/add-new-playlist-hover-icon.svg') no-repeat left center;
   padding-left: 2.25rem;
   border-color: rgb(109, 140, 188);
-  color: rgb(109, 140, 188);
+  color: white;
 }
 
 form#add-to-playlist-form button.add-to-playlist-btn:hover, form#add-to-playlist-form button.add-to-playlist-btn:focus, form#add-to-playlist-form button.add-to-playlist-btn.active {
-  background: rgb(109, 140, 188) url('images/add-new-playlist-hover-icon.svg') no-repeat left center;
-  color: white;
+  background: white url('images/add-new-playlist-icon.svg') no-repeat left center;
+  color: rgb(109, 140, 188);
 }
 
 div#share-playlist h5 span {
   margin: 0 0;
-  font-style: italic;
+  font-weight: 700;
   font-size: 1.25rem;
   color: rgb(0, 180, 228);
 }
 
 div#share-playlist button.share-playlist-btn {
-  background: white url('images/share-playlist-icon.svg') no-repeat left center;
+  background: rgb(0, 180, 228) url('images/share-playlist-hover-icon.svg') no-repeat left center;
   padding-left: 2.25rem;
-  color: rgb(0, 180, 228);
+  color: white;
 }
 
 div#share-playlist button.share-playlist-btn:hover, div#share-playlist button.share-playlist-btn:focus, div#share-playlist button.share-playlist-btn.active {
-  background: rgb(0, 180, 228) url('images/share-playlist-hover-icon.svg') no-repeat left center;
-  color: white;
+  background: white url('images/share-playlist-icon.svg') no-repeat left center;
+  color: rgb(0, 180, 228);
 }
 
 form#share-playlist-form button {

@@ -45,8 +45,8 @@
           <div class="form-group row" id="share-playlist" style="display:none;">
             <div class="col">
               <hr />
-              <h5 class="teq-blue-text">This course has been successfully added to the <span id="playlist-name"></span> Playlist.</h5>
-              <p class="teq-blue-text"><strong>You can now use the button below to share.</strong></p>
+              <h5>This course has been successfully added to the <span id="playlist-name"></span> Playlist.</h5>
+              <p><strong>You can now use the button below to share.</strong></p>
               <button class="btn share-playlist-btn" type="submit">Share Course</button>
             </div>
           </div>
