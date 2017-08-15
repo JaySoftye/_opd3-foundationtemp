@@ -51,7 +51,7 @@
       <section class="container padding-top padding-bottom">
         <div class="row">
           <div class="col-md-2 padding-top">
-            <div class="padding-bottom" id="profile-image"><img src="assets/user_icon.svg" width="130" height="130" alt="" /></div>
+            <div class="padding-bottom"><a href="#" id="profile-image"><span>UN</span></a></div>
 
             <form action="" method="post" class="profile-form">
               <div class="form-group file-input">

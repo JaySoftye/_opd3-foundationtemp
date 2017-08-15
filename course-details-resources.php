@@ -50,7 +50,7 @@
               <div id="reply-container">
                 <section class="row align-items-center">
                   <div class="col-md-2">
-                    <a href="#"><img src="assets/user_icon.svg" width="75" height="75" alt="" /></a>
+                    <a href="#" id="profile-image"><span>UN</span></a>
                   </div>
                   <div class="col-md-10 no-padding">
                     <p><a class="teq-blue-text" href="#">User Name Here</a><br /><small>post date and time here</small></p>

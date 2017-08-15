@@ -38,6 +38,32 @@ section#user-logged-in a.user-name  {
   margin-top: .3rem;
 }
 
+a#profile-image, a#profile-image:hover, a#profile-image:focus {
+  width: 125px;
+  height: 125px;
+  background-color: rgb(60, 72, 82);
+  padding: 0 0;
+  display: table;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+a#profile-image span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 2.25rem;
+  color: white;
+}
+
+section#user-logged-in a#profile-image, div#reply-container a#profile-image {
+  width: 80px;
+  height: 80px;
+}
+
 ul.main-nav a.nav-link, ul.sub-nav a.nav-link {
   color: white;
   padding: 1rem 1.5rem;
