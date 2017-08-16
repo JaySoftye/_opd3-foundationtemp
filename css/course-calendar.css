@@ -32,16 +32,20 @@ a.calendar-view-change img {
   width: 8.5%;
 }
 
-div#calendar-wrap, div#calendar, div#calendar ul {
+div#calendar-wrap, div.calendar, div.calendar ul {
 	width: 100%;
 }
 
-div#calendar ul {
+div#calendar-wrap {
+  padding: 10px;
+}
+
+div.calendar ul {
 	padding: 0 0;
   list-style: none;
 }
 
-div#calendar li.day {
+div.calendar li.day {
   width: 14%;
 	display: block;
 	float: left;
@@ -49,7 +53,7 @@ div#calendar li.day {
   margin: 1px;
 }
 
-div#calendar ul.weekdays li.day {
+div.calendar ul.weekdays li.day {
   background-color: rgb(64, 85, 117);
 	padding: .25rem;
 	border: none !important;
@@ -59,7 +63,7 @@ div#calendar ul.weekdays li.day {
   color: white;
 }
 
-div#calendar ul.days li.day {
+div.calendar ul.days li.day {
 	height: 10.25rem;
   overflow-y: auto;
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
@@ -67,7 +71,7 @@ div#calendar ul.days li.day {
   -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
 }
 
-div#calendar span.date {
+div.calendar span.date {
   float: right;
   padding: .15rem;
   font-size: 1rem;
@@ -76,19 +80,24 @@ div#calendar span.date {
   text-align: center;
 }
 
-div#calendar a.event {
+div.calendar a.event {
   height: 100%;
   display: block;
   padding: .25rem;
   line-height: 1rem;
 }
 
-div#calendar a.event:hover, div#calendar a.event:focus {
+div.calendar li.day a.event:hover, div.calendar li.day a.event:focus {
   background: rgba(200, 222, 255, 0.25);
   text-decoration: none;
 }
 
-div#calendar a.event span.calendar-course-type {
+div.calendar li.day.empty a.event:hover, div.calendar li.day.empty a.event:focus {
+  background: none;
+  text-decoration: none;
+}
+
+div.calendar a.event span.calendar-course-type {
   height: 1.75rem;
   float: left;
 }
@@ -98,45 +107,129 @@ a.event span.calendar-course-type img {
   height: inherit;
 }
 
-div#calendar p.event-title {
-  padding: 25% 2% 0 2%;
+div.calendar p.event-title {
+  padding: 25% 2% 1rem 2%;
   display: block;
+  margin: 0 0;
 	font-weight: 700;
   cursor: pointer;
 }
 
-div#calendar .other-month {
+div.calendar p.event-description {
+  display: none;
+}
+
+div.calendar .other-month {
 	background: #f5f5f5;
 	color: #666;
 }
 
-div#calendar div.dropdown {
+div.calendar div.dropdown {
   position: absolute;
   z-index: 1075;
   margin-top: -2rem;
   margin-left: 7.5rem;
 }
 
-div#calendar div.dropdown a.dropdown-toggle {
+div.calendar div.dropdown a.dropdown-toggle {
   margin-left: 10%;
 }
 
-div#calendar div.dropdown a.dropdown-toggle::after {
+div.calendar div.dropdown a.dropdown-toggle::after {
   border: none;
 }
 
-div#calendar div.dropdown img {
+div.calendar div.dropdown img {
   height: 1.5rem;
 }
 
-/* ============================
-				Mobile
-   ============================*/
-@media(max-width: 768px) {
+/**
+ * Course Calendar List View
+ */
 
-  section#search-box-container {
-    padding-top: 5rem;
-  }
+div.calender.list-view .popover {
+   display: none;
+ }
+
+ div.calender.list-view {
+   padding: 10px;
+ }
+
+ div.calender.list-view div#course-calendar-date-selector {
+   margin-bottom: 50px;
+ }
+
+ div.calendar.list-view .weekdays, div.calendar.list-view .other-month {
+   display: none;
+ }
+
+ div.calendar.list-view li.day {
+   height: auto !important;
+   border: 1px solid #ededed;
+   width: 100%;
+   padding: 10px;
+   margin-bottom: -1px;
+ }
+
+ div.calendar.list-view .date {
+   float: none;
+ }
+
+ div.calendar.list-view ul.days li.day {
+   background-color: rgba(236, 238, 239, 0.25);
+   margin-bottom: 10px;
+   border-top: none;
+   border-right: 5px solid rgba(64, 85, 117, 1);
+   border-bottom: none;
+   border-left: none;
+ }
+
+ div.calendar.list-view li.day p.event-title {
+   padding: 20px 10px 10px 10px;
+   font-size: 1.5rem;
+ }
+
+div.calendar.list-view li.day p.event-title:hover {
+  background-color: black;
+}
+
+ div.calendar.list-view p.event-description {
+   display: block;
+ }
+
+ div.calendar.list-view li.day.disabled, div.calendar.list-view li.day.empty, div.calendar.list-view li.day div.dropdown {
+   display: none;
+ }
+
+ div.calendar.list-view li.day a.event:hover, div.calendar.list-view li.day a.event:focus {
+   background-color: transparent;
+ }
+
+ div.calendar.list-view li.day small {
+   font-weight: 700;
+ }
+
+ div.calendar.list-view a.event {
+   line-height: 1.25rem;
+ }
+
+ div.calendar.list-view a.event span.calendar-course-type {
+   float: none;
+ }
+
+ div.calendar.list-view a.event span.date, div.calendar.list-view a.event span.week-of-date {
+   float: right;
+ }
+
+ div.calendar.list-view a.event span.date {
+   font-size: 3.5rem;
+ }
+
+ div.calendar.list-view a.event span.week-of-date {
+   font-size: 1.25rem;
+ }
+
+@media(max-width: 768px) {
 
   div.popover {
     display: none;
@@ -146,11 +239,11 @@ div#calendar div.dropdown img {
     margin-bottom: 50px;
   }
 
-	div#calendar .weekdays, div#calendar .other-month {
+	div.calendar .weekdays, div.calendar .other-month {
 		display: none;
 	}
 
-	div#calendar li.day {
+	div.calendar li.day {
 		height: auto !important;
 		border: 1px solid #ededed;
 		width: 100%;
@@ -158,11 +251,11 @@ div#calendar div.dropdown img {
 		margin-bottom: -1px;
 	}
 
-	div#calendar .date {
+	div.calendar .date {
 		float: none;
 	}
 
-  div#calendar ul.days li.day {
+  div.calendar ul.days li.day {
     background-color: rgba(236, 238, 239, 0.25);
     margin-bottom: 10px;
     border-top: none;
@@ -171,31 +264,44 @@ div#calendar div.dropdown img {
   	border-left: none;
   }
 
-  div#calendar li.day p.event-title {
-    padding: 15% 2% 0 2%;
+  div.calendar li.day p.event-title {
+    padding: 20px 10px 0 10px;
+    font-size: 1.5rem;
   }
 
-  div#calendar li.day.disabled, div#calendar li.day.empty{
+  div.calendar p.event-description {
+    display: block;
+  }
+
+  div.calendar li.day.disabled, div.calendar li.day.empty, div.calendar li.day div.dropdown {
     display: none;
   }
 
-  div#calendar li.day small {
+  div.calendar li.day a.event:hover, div.calendar li.day a.event:focus {
+    background-color: transparent;
+  }
+
+  div.calendar li.day small {
     font-weight: 700;
   }
 
-  div#calendar a.event {
+  div.calendar a.event {
     line-height: 1.25rem;
   }
 
-  div#calendar a.event span.date, div#calendar a.event span.week-of-date {
+  div.calendar a.event span.calendar-course-type {
+    float: none;
+  }
+
+  div.calendar a.event span.date, div.calendar a.event span.week-of-date {
     float: right;
   }
 
-  div#calendar a.event span.date {
+  div.calendar a.event span.date {
     font-size: 3.5rem;
   }
 
-  div#calendar a.event span.week-of-date {
+  div.calendar a.event span.week-of-date {
     font-size: 1.25rem;
   }
 

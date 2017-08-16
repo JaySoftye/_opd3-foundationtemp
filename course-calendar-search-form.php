@@ -3,7 +3,7 @@
 
     <div class="row" id="breadcrumbs">
       <div class="col">
-        <small><span><a href="#">Home</a></span> > <span><a href="#">Categories</a></span> > </small>
+        <small><span><a href="#">Home</a></span> > <span><a href="#">Course Calendar</a></span> > </small>
       </div>
     </div>
 

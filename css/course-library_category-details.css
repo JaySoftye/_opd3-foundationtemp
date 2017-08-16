@@ -257,13 +257,13 @@ div.row.categories-items a img {
   border-radius: 6px;
 }
 
-div.modal.add-to-playlist img {
+div.modal.add-to-playlist img, div.modal.share-playlist-no-course-addition img {
   height: 2rem;
   width: auto;
   margin-right: .5rem;
 }
 
-form#add-to-playlist-form button.dropdown-toggle {
+form#add-to-playlist-form button.dropdown-toggle, form#share-playlist-only-form button.dropdown-toggle {
   width: 100%;
   height: 2.5rem;
   background: rgba(109, 140, 188, 1) url('images/dropdown-arrow-white-icon.svg') no-repeat 95% center;
@@ -280,7 +280,7 @@ form#add-to-playlist-form button.dropdown-toggle {
   overflow: hidden;
 }
 
-form#share-playlist-form button.dropdown-toggle {
+form#share-playlist-form button.dropdown-toggle, form#share-playlist-no-addition-form button.dropdown-toggle {
   width: 100%;
   height: 2.5rem;
   background: white url('images/dropdown-arrow-blue-icon.svg') no-repeat 95% center;
@@ -297,29 +297,29 @@ form#share-playlist-form button.dropdown-toggle {
   overflow: hidden;
 }
 
-form#add-to-playlist-form ul.dropdown-menu, form#share-playlist-form ul.dropdown-menu {
+form#add-to-playlist-form ul.dropdown-menu, form#share-playlist-only-form ul.dropdown-menu, form#share-playlist-form ul.dropdown-menu, form#share-playlist-no-addition-form ul.dropdown-menu {
   right: 20px;
   left:20px;
 }
 
-form#add-to-playlist-form ul.dropdown-menu a, form#share-playlist-form ul.dropdown-menu a {
+form#add-to-playlist-form ul.dropdown-menu a, form#share-playlist-only-form ul.dropdown-menu a, form#share-playlist-form ul.dropdown-menu a, form#share-playlist-no-addition-form ul.dropdown-menu a {
   padding: .5rem 1rem;
   display: block;
 }
 
-form#add-to-playlist-form button.add-to-playlist-btn {
+form#add-to-playlist-form button.add-to-playlist-btn, form#share-playlist-only-form button.add-to-playlist-bt {
   background: rgb(109, 140, 188) url('images/add-new-playlist-hover-icon.svg') no-repeat left center;
   padding-left: 2.25rem;
   border-color: rgb(109, 140, 188);
   color: white;
 }
 
-form#add-to-playlist-form button.add-to-playlist-btn:hover, form#add-to-playlist-form button.add-to-playlist-btn:focus, form#add-to-playlist-form button.add-to-playlist-btn.active {
+form#add-to-playlist-form button.add-to-playlist-btn:hover, form#add-to-playlist-form button.add-to-playlist-btn:focus, form#add-to-playlist-form button.add-to-playlist-btn.active, form#share-playlist-only-form button.add-to-playlist-btn:hover, form#share-playlist-only-form button.add-to-playlist-btn:focus, form#share-playlist-only-form button.add-to-playlist-btn.active {
   background: white url('images/add-new-playlist-icon.svg') no-repeat left center;
   color: rgb(109, 140, 188);
 }
 
-div#share-playlist h5 span {
+div#share-playlist h5 span, div#share-playlist-only h5 span {
   margin: 0 0;
   font-weight: 700;
   font-size: 1.25rem;
@@ -337,16 +337,16 @@ div#share-playlist button.share-playlist-btn:hover, div#share-playlist button.sh
   color: rgb(0, 180, 228);
 }
 
-form#share-playlist-form button {
+form#share-playlist-form button, form#share-playlist-no-addition-form button {
   outline: none;
 }
 
-form#share-playlist-form button:hover img, form#share-playlist-form button:focus img {
+form#share-playlist-form button:hover img, form#share-playlist-form button:focus img, form#share-playlist-no-addition-form button:hover img, form#share-playlist-no-addition-form button:focus img {
   opacity: 0.65;
   cursor: pointer;
 }
 
-form#share-playlist-form button.email-playist {
+form#share-playlist-form button.email-playist, form#share-playlist-no-addition-form button.email-playist {
   background: rgb(0, 180, 288) url('images/share-playlist-email-icon.svg') no-repeat left center;
   padding-left: 2.25rem;
   display: block;

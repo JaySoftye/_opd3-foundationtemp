@@ -3,6 +3,7 @@
   <div class="dropdown-menu dropdown-menu-right">
     <a class="dropdown-item green-text" href="#"><strong>Video Setting</strong></a>
     <a class="dropdown-item green-text" href="#" data-toggle="modal" data-target=".add-to-playlist"><strong>Add to Playlist</strong></a>
+    <a class="dropdown-item green-text" href="#" data-toggle="modal" data-target=".share-playlist-no-course-addition"><strong>Share Playlist</strong></a>
     <a class="dropdown-item green-text" href="#"><strong>Admin</strong></a>
   </div>
 </div>
@@ -108,6 +109,97 @@
   </div>
 </div>
 
+<div class="modal fade share-playlist-no-course-addition" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <section class="modal-body light-gray-bg">
+        <section class="container">
+          <h6 class="blue-text"><img src="assets/default-playlist-icon.svg">Playlist</h6>
+          <h5><strong>Share Your Playlist with Other Users</strong></h5>
+        </section>
+      </section>
+
+      <section class="modal-body">
+        <section class="container">
+          <p>To share a playlist, start by selecting an existing one from the menu below. You will then be given the option to share it with users based upon the district and school they are associated with.</p>
+
+          <form name="" method="" id="share-playlist-only-form">
+          <div class="form-group row">
+            <div class="col-5 profile-plan-menu">
+              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
+                <ul class="dropdown-menu">
+                  <li><a href="#" id="playlist-selection-only">Super Awesome Playlist 1</a></li>
+                </ul>
+            </div>
+          </div>
+          </form>
+
+          <div class="form-group row" id="share-playlist-only" style="display:none;">
+            <div class="col">
+              <hr />
+              <h5>Share <span id="playlist-name-only"></span> Playlist by using the button below</h5>
+              <button class="btn share-playlist-btn" type="submit">Share Course</button>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <form name="" method="" id="share-playlist-no-addition-form" style="display:none;">
+      <section class="modal-body light-gray-bg">
+        <section class="container">
+          <div class="form-group row">
+            <div class="col-5 profile-plan-menu">
+              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select District...<span class="profile-plan-menu-item"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a class="district-option" href="#" onclick="addDistrict(this);">East Orange School District</a></li>
+                </ul>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-5 profile-plan-menu">
+              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a class="school-option" href="#" onclick="addSchool(this);">Tyson Middle School</a></li>
+                  <li><a class="school-option" href="#" onclick="addSchool(this);">East Orange Schools Admin</a></li>
+                  <li><a class="school-option" href="#" onclick="addSchool(this);">East Orange Tech Thursdays</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-5 profile-plan-menu" id="districts-seletected"></div>
+            <div class="col-1"></div>
+            <div class="col-5 profile-plan-menu" id="schools-seletected">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-5">
+              <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <div class="col-1 align-self-center"><button><img src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-5">
+              <textarea class="form-control" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-11">
+              <button class="btn email-playist" type="submit">Send Email</button>
+            </div>
+          </div>
+        </section>
+      </section>
+      </form>
+
+      <section class="modal-footer">
+        <section class="container">
+          <a href="#"><small class="blue-text">Questions? <u>Click here</u></small></a>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </section>
+      </section>
+
+    </div>
+  </div>
+</div>
+
 <script>
 /**
 DELETE THIS
@@ -121,14 +213,31 @@ var e = document.getElementById('share-playlist-form');
 var f = document.getElementsByClassName("share-playlist-btn")[0];
 var g = document.getElementById('district-options');
 
+var m = document.getElementById('share-playlist-only-form');
+var n = document.getElementById('playlist-selection-only');
+var o = document.getElementById('share-playlist-only');
+var p = document.getElementById('playlist-name-only');
+var q = document.getElementsByClassName("share-playlist-btn")[1];
+var r = document.getElementById('share-playlist-no-addition-form');
+
 a.onclick = function() {
-    b.style.display = 'none';
+    b.style.display = 'none'
     c.style.display = 'block';
     d.innerHTML = a.innerHTML;
   }
 
+n.onclick = function() {
+    m.style.display = 'none'
+    o.style.display = 'block';
+    p.innerHTML = n.innerHTML;
+  }
+
 f.onclick = function() {
     e.style.display = 'block';
+  }
+
+q.onclick = function() {
+    r.style.display = 'block';
   }
 
 function addDistrict(obj) {
