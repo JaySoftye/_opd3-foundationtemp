@@ -319,7 +319,7 @@ form#add-to-playlist-form button.add-to-playlist-btn:hover, form#add-to-playlist
   color: rgb(109, 140, 188);
 }
 
-div#share-playlist h5 span, div#share-playlist-only h5 span {
+div#share-playlist h5 span, form#share-playlist-no-addition-form h5 span {
   margin: 0 0;
   font-weight: 700;
   font-size: 1.25rem;

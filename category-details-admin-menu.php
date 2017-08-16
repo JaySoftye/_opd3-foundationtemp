@@ -115,17 +115,17 @@
 
       <section class="modal-body light-gray-bg">
         <section class="container">
-          <h6 class="blue-text"><img src="assets/default-playlist-icon.svg">Playlist</h6>
-          <h5><strong>Share Your Playlist with Other Users</strong></h5>
+          <h6 class="blue-text"><img src="assets/default-playlist-icon.svg">Share a Playlist</h6>
         </section>
       </section>
 
       <section class="modal-body">
         <section class="container">
-          <p>To share a playlist, start by selecting an existing one from the menu below. You will then be given the option to share it with users based upon the district and school they are associated with.</p>
+
 
           <form name="" method="" id="share-playlist-only-form">
           <div class="form-group row">
+            <p>Start by selecting an existing playlist from the menu below. You'll then be given the option to share with other users by selecting the District and School they are associated with.</p>
             <div class="col-5 profile-plan-menu">
               <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu">
@@ -134,18 +134,16 @@
             </div>
           </div>
           </form>
-
-          <div class="form-group row" id="share-playlist-only" style="display:none;">
-            <div class="col">
-              <hr />
-              <h5>Share <span id="playlist-name-only"></span> Playlist by using the button below</h5>
-              <button class="btn share-playlist-btn" type="submit">Share Course</button>
-            </div>
-          </div>
         </section>
       </section>
 
       <form name="" method="" id="share-playlist-no-addition-form" style="display:none;">
+      <section class="modal-body">
+        <section class="container">
+          <h5>You've selected the <span id="playlist-name-only"></span> Playlist.</h5>
+          <p><strong>Search for users to share by their District and/or School from the options below.</strong></p>
+        </section>
+      </section>
       <section class="modal-body light-gray-bg">
         <section class="container">
           <div class="form-group row">
@@ -217,8 +215,7 @@ var m = document.getElementById('share-playlist-only-form');
 var n = document.getElementById('playlist-selection-only');
 var o = document.getElementById('share-playlist-only');
 var p = document.getElementById('playlist-name-only');
-var q = document.getElementsByClassName("share-playlist-btn")[1];
-var r = document.getElementById('share-playlist-no-addition-form');
+var q = document.getElementById('share-playlist-no-addition-form');
 
 a.onclick = function() {
     b.style.display = 'none'
@@ -228,16 +225,12 @@ a.onclick = function() {
 
 n.onclick = function() {
     m.style.display = 'none'
-    o.style.display = 'block';
+    q.style.display = 'block';
     p.innerHTML = n.innerHTML;
   }
 
 f.onclick = function() {
     e.style.display = 'block';
-  }
-
-q.onclick = function() {
-    r.style.display = 'block';
   }
 
 function addDistrict(obj) {

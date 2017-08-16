@@ -209,7 +209,6 @@ div.login-window .row a:hover, div.login-window .row a:focus {
 }
 
 div#now-instructional-support {
-  background-color: rgba(64, 85, 117, 1);
   position: fixed;
   z-index: 10005;
   top: 40%;
@@ -218,7 +217,7 @@ div#now-instructional-support {
 }
 
 div#now-instructional-support img {
-  width: 8vw;
+  width: 9.5vw;
 }
 
 aside#now-chat-window {

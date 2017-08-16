@@ -193,41 +193,45 @@ div.calendar.list-view li.day p.event-title:hover {
   background-color: black;
 }
 
- div.calendar.list-view p.event-description {
-   display: block;
- }
+div.calendar.list-view li.day div.dropdown {
 
- div.calendar.list-view li.day.disabled, div.calendar.list-view li.day.empty, div.calendar.list-view li.day div.dropdown {
-   display: none;
- }
+}
 
- div.calendar.list-view li.day a.event:hover, div.calendar.list-view li.day a.event:focus {
-   background-color: transparent;
- }
+div.calendar.list-view p.event-description {
+  display: block;
+}
 
- div.calendar.list-view li.day small {
-   font-weight: 700;
- }
+div.calendar.list-view li.day.disabled, div.calendar.list-view li.day.empty {
+  display: none;
+}
 
- div.calendar.list-view a.event {
-   line-height: 1.25rem;
- }
+div.calendar.list-view li.day a.event:hover, div.calendar.list-view li.day a.event:focus {
+  background-color: transparent;
+}
 
- div.calendar.list-view a.event span.calendar-course-type {
-   float: none;
- }
+div.calendar.list-view li.day small {
+  font-weight: 700;
+}
 
- div.calendar.list-view a.event span.date, div.calendar.list-view a.event span.week-of-date {
-   float: right;
- }
+div.calendar.list-view a.event {
+  line-height: 1.25rem;
+}
 
- div.calendar.list-view a.event span.date {
-   font-size: 3.5rem;
- }
+div.calendar.list-view a.event span.calendar-course-type {
+  float: none;
+}
 
- div.calendar.list-view a.event span.week-of-date {
-   font-size: 1.25rem;
- }
+div.calendar.list-view a.event span.date, div.calendar.list-view a.event span.week-of-date {
+  float: right;
+}
+
+div.calendar.list-view a.event span.date {
+  font-size: 3.5rem;
+}
+
+div.calendar.list-view a.event span.week-of-date {
+  font-size: 1.25rem;
+}
 
 @media(max-width: 768px) {
 
