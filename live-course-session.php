@@ -19,7 +19,7 @@
 
       <div class="row row-eq-height padding-top">
         <div class="col-md-8">
-          <video poster="assets/video-player-image.jpg" style="width: inherit;">
+          <video poster="assets/video-player-image.jpg" style="width: inherit;" data-toggle="modal" data-target=".satisfaction-survey-form">
             <source src="" type="video/mp4">
               Your browser does not support the video tag.
           </video>
@@ -79,19 +79,20 @@
       </div>
 
       <div class="row padding-top padding-bottom">
-        <div class="col-8 course-details  align-self-center">
+        <div class="col-md-3 course-details  align-self-center">
           <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" height="48" alt="Take Certificationi Quiz" /></a>
         </div>
-        <div class="col-3 course-details badges  align-self-center">
+        <div class="col-md-5"></div>
+        <div class="col-md-3 course-details badges  align-self-center">
           <a href="#" data-toggle="modal" data-target=".certification-complete">Earn your Recording Podcasts with Audacity Badge  </a>
         </div>
-        <div class="col-1 no-padding course-details badges  align-self-center">
+        <div class="col-md-1 no-padding course-details badges  align-self-center">
           <a href="#" data-toggle="modal" data-target=".certification-complete"><img src="assets/badge-default-icon.jpg" /></a>
         </div>
       </div>
 
       </div>
-        <?php include 'course-details-quiz.php'; ?>
+        <?php include 'live-course-session-quiz.php'; ?>
     </section>
 
     <section class="container padding-top padding-bottom">

@@ -206,9 +206,25 @@ div.viewing-code div.modal-body.gray-bg, div.satisfaction-survey div.modal-body.
 
 div.course-quiz .modal-header, .modal-header.green  {
   background-color: rgb(161, 215, 132);
-  font-size: 1.5rem;
-  font-weight: 300;
+}
+
+div.modal-header h3 {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 1.25rem;
   color: white;
+}
+
+div.course-quiz form.good-response-feedback  {
+  background: transparent url('images/satisfaction-very-good-icon.svg') no-repeat center top;
+  background-size: 15%;
+  padding-top: 5rem;
+}
+
+div.course-quiz form.bad-response-feedback  {
+  background: transparent url('images/satisfaction-bad-icon.svg') no-repeat center top;
+  background-size: 15%;
+  padding-top: 5rem;
 }
 
 div.course-quiz-form .form-check-label {
@@ -243,7 +259,7 @@ div.satisfaction-survey-active  .form-check label {
   text-align: center;
 }
 
-.course-quiz-form legend, .satisfaction-survey-active  legend {
+.course-quiz-form legend, .satisfaction-survey-active legend {
   padding: 0 .5rem;
   font-size: 1rem;
   font-weight: 700;

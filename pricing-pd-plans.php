@@ -13,7 +13,7 @@
           </div>
         </div>
 
-        <div class="row align-items-end padding-top">
+        <div class="row align-items-end justify-content-md-center padding-top">
           <article class="col-md-4">
             <div class="card">
               <div class="card-header basic">
@@ -34,7 +34,7 @@
             </div>
           </article>
 
-          <article class="col-md-4">
+          <article class="col-md-4 hidden">
             <div class="card">
               <div class="card-header individual">
                 <h5 class="text-center white">Individual Plans</h5>
@@ -76,7 +76,7 @@
                   <dd>Earn professional development hours</dd>
                   <dd>Earn Badges and Certificates</dd>
                   <dd><hr /></dd>
-                  <dd><a href="#"><small>Have a <u>Group code?</u></small> <button class="btn gray">Sign Up Here</button></a></dd>
+                  <dd><a href="#" class="btn gray-fill"><strong>Group Code Sign Up</strong></a></dd>
                 </dl>
                 <hr />
                 <a href="#exampleModal" class="btn school-district-plan" data-toggle="modal"><strong>Contact Us for Pricing</strong></a>
