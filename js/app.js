@@ -7,8 +7,8 @@
   /** nOw Chat Window **/
  $( "#now-instructional-support" ).click(function() {
    $( "#now-chat-window" ).animate({
-     width: '600',
-     height: '320'
+     width: '770',
+     height: '400'
    }, 100, function() {
      $(this).css('z-index', 10010)
    });
