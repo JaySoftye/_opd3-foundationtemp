@@ -129,10 +129,11 @@ div.calendar .other-month {
 }
 
 div.calendar div.dropdown {
+  width: 20px;
   position: absolute;
   z-index: 1075;
   margin-top: -2rem;
-  margin-left: 7.5rem;
+  margin-left: 8.25rem;
 }
 
 div.calendar div.dropdown a.dropdown-toggle {
@@ -185,7 +186,7 @@ div.calendar.list-view ul.days li.day {
 }
 
 div.calendar.list-view ul.days li.day:hover {
-  background-color: rgba(236, 238, 239, 0.5);
+  background-color: rgba(200, 222, 255, 0.65);
 }
 
 div.calendar.list-view a.event span.week-of-date, div.calendar.list-view p.event-description {

@@ -42,8 +42,8 @@
           </div>
         </div>
         <div class="col-md-6 text-right hidden-sm-down">
-          <a class="calendar-view-change active"><img src="assets/course-calendar-Calendar-view.svg" /> Calendar View</a>
-          <a class="calendar-view-change"><img src="assets/course-calendar-list-view.svg" /> List View</a>
+          <a class="calendar-view-change active" id="course-calendar-view"><img src="assets/course-calendar-Calendar-view.svg" /> Calendar View</a>
+          <a class="calendar-view-change" id="course-list-view"><img src="assets/course-calendar-list-view.svg" /> List View</a>
         </div>
       </div>
     </section>
@@ -53,7 +53,7 @@
 
         <div id="calendar-wrap" class="padding-bottom">
 
-          <div class="calendar list-view">
+          <div class="calendar" id="calender-container">
             <ul class="weekdays">
               <li class="day">Sunday</li>
             	<li class="day">Monday</li>
@@ -378,5 +378,35 @@
     </section>
 
   </main>
+
+  <script>
+  /**
+  DELETE THIS
+  ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
+  **/
+  var a = document.getElementById('course-calendar-view');
+  var b = document.getElementById('course-list-view');
+  var c = document.getElementById('calender-container');
+  var d = document.getElementsByClassName('popover');
+
+  a.onclick = function() {
+    if ( c.classList.contains('list-view') ) {
+    $('a.event').popover({
+      trigger: 'hover'
+    });
+    c.classList.remove('list-view');
+    b.classList.remove('active');
+    a.classList.add('active');
+    }
+  }
+
+  b.onclick = function() {
+    $('a.event').popover('dispose');
+    c.classList.add('list-view');
+    b.classList.add('active');
+    a.classList.remove('active');
+  }
+
+</script>
 
 <?php include 'footer.php'; ?>
