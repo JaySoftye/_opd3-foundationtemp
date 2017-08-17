@@ -29,10 +29,41 @@
               <input class="form-control" type="text" placeholder="New playlist name">
             </div>
             <div class="col-1 align-self-top text-center no-padding">or</div>
-            <div class="col-5 profile-plan-menu">
-              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
-                <ul class="dropdown-menu">
+            <div class="col-5 profile-plan-menu show">
+              <button class="dropdown-toggle playlist-btn" id="add-block" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
+                <ul class="dropdown-menu" id="text-dropdown-menu">
                   <li><a href="#" id="playlist-selection">Super Awesome Playlist 1</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 2</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 3</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 4</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 5</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 6</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 7</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 8</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 9</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 10</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 11</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 12</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 13</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 14</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 15</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 16</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 17</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 18</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 19</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 20</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 21</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 22</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 23</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 24</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 25</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 26</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 27</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 28</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 29</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 30</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 31</a></li>
+                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 32</a></li>
                 </ul>
             </div>
           </div>
@@ -218,13 +249,13 @@ var p = document.getElementById('playlist-name-only');
 var q = document.getElementById('share-playlist-no-addition-form');
 
 a.onclick = function() {
-    b.style.display = 'none'
+    b.style.display = 'none';
     c.style.display = 'block';
     d.innerHTML = a.innerHTML;
   }
 
 n.onclick = function() {
-    m.style.display = 'none'
+    m.style.display = 'none';
     q.style.display = 'block';
     p.innerHTML = n.innerHTML;
   }
@@ -256,5 +287,11 @@ function remove() {
     elem.parentNode.removeChild(elem);
     return false;
 }
+
+var x = document.getElementById('add-block');
+var z = document.getElementById("text-dropdown-menu");
+x.onclick = function() {
+    z.style.display = 'block';
+  }
 
 </script>

@@ -298,6 +298,8 @@ form#share-playlist-form button.dropdown-toggle, form#share-playlist-no-addition
 }
 
 form#add-to-playlist-form ul.dropdown-menu, form#share-playlist-only-form ul.dropdown-menu, form#share-playlist-form ul.dropdown-menu, form#share-playlist-no-addition-form ul.dropdown-menu {
+  max-height: 20rem;
+  overflow-y: auto;
   right: 20px;
   left:20px;
 }
