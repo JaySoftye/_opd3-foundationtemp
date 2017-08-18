@@ -11,9 +11,8 @@
 
       <div class="col-sm-6">
         <form name="" post="">
-          <div class="form-group search-input has-danger">
-            <input type="text" class="form-control form-control-danger" id="search-field" placeholder="Search Courses">
-            <div class="form-control-feedback">Sorry, there is nothing matching that term. Try another?</div>
+          <div class="form-group search-input">
+            <input type="text" class="form-control" id="search-field" placeholder="Search Courses">
             <input type="hidden" name="submit" value="">
           </div>
         </form>

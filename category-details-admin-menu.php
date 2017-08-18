@@ -15,7 +15,7 @@
       <section class="modal-body light-gray-bg">
         <section class="container">
           <h6 class="blue-text"><img src="assets/default-course-icon.svg">Course</h6>
-          <h5><strong>SMART Notewbook 15 Digital Teacher Certification: Session 1</strong></h5>
+          <h5><strong>SMART Notebook 15 Digital Teacher Certification: Session 1</strong></h5>
         </section>
       </section>
 
@@ -32,38 +32,10 @@
             <div class="col-5 profile-plan-menu show">
               <button class="dropdown-toggle playlist-btn" id="add-block" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu" id="text-dropdown-menu">
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 1</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 2</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 3</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 4</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 5</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 6</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 7</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 8</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 9</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 10</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 11</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 12</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 13</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 14</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 15</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 16</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 17</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 18</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 19</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 20</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 21</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 22</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 23</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 24</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 25</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 26</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 27</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 28</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 29</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 30</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 31</a></li>
-                  <li><a href="#" id="playlist-selection">Super Awesome Playlist 32</a></li>
+                  <li><a href="#" id="playlist-selection">STEAM Playlist</a></li>
+                  <li><a href="#" id="playlist-selection">Google Playlist</a></li>
+                  <li><a href="#" id="playlist-selection">Science Department Playlist</a></li>
+                  <li><a href="#" id="playlist-selection">Math Department Playlist</a></li>
                 </ul>
             </div>
           </div>

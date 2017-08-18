@@ -32,41 +32,16 @@
             <a class="nav-link" href="#">Log Out</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="" id="profile-mobilenav-option" data-toggle="dropdown" aria-expanded="false">My Profile</a>
-            <div class="mobile-sub-menu dropdown-menu" aria-labelledby="profile-mobilenav-option">
-              <a href="#">PD Plan</a>
-              <a href="#">My Usage</a>
-              <a href="#">My Account</a>
-              <a href="#">My Reports</a>
-            </div>
+            <a class="nav-link" href="" id="profile-mobilenav-option">My Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="" id="calendar-mobilenav-option" data-toggle="dropdown" aria-expanded="false">Course Calendar</a>
-            <div class="mobile-sub-menu dropdown-menu" aria-labelledby="calendar-mobilenav-option">
-              <a href="#">All</a>
-              <a href="#">Teachers</a>
-              <a href="#">Administrators</a>
-              <a href="#">Parents</a>
-              <a href="#">Free</a>
-            </div>
+            <a class="nav-link" href="" id="calendar-mobilenav-option">Course Calendar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="" id="library-mobilenav-option" data-toggle="dropdown" aria-expanded="false">Course Library</a>
-            <div class="mobile-sub-menu dropdown-menu" aria-labelledby="library-mobilenav-option">
-              <a href="#">All</a>
-              <a href="#">Teachers</a>
-              <a href="#">Administrators</a>
-              <a href="#">Parents</a>
-              <a href="#">Free</a>
-            </div>
+            <a class="nav-link" href="" id="library-mobilenav-option">Course Library</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="" id="library-mobilenav-option" data-toggle="dropdown" aria-expanded="false">Help Center</a>
-            <div class="mobile-sub-menu dropdown-menu" aria-labelledby="library-mobilenav-option">
-              <a href="#">How-to-videos</a>
-              <a href="#">Skills and Techniques</a>
-              <a href="#">Lesons</a>
-            </div>
+            <a class="nav-link" href="" id="library-mobilenav-option">Help Center</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>

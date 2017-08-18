@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/user-profile.css">
     <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
+    <link rel="stylesheet" href="css/mobile-ui.css">
 
   </head>
     <body>

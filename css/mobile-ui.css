@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development Mobile UI
+ */
+
+ @media(max-width: 768px) {
+
+   header {
+     position: relative !important;
+   }
+
+   div.row.course-chapters {
+     display: none;
+   }
+
+   section.under-header, div.category-search-box-wrapper {
+     padding-top: 0;
+     margin-top: 0;
+   }
+
+   footer li.nav-item {
+     width: 18%;
+   }
+
+   div.row.categories-items article.col {
+     flex: auto !important;
+     padding-right: 12%;
+     padding-left: 12%;
+     display: block;
+     margin-top: 0;
+   }
+
+   div#search-box ul.nav {
+     display: block;
+   }
+
+   div#search-box li.nav-item {
+     width: 100%;
+     background-color: rgb(218, 237, 254);
+     padding: .5rem;
+     margin: 1rem 0;
+     -webkit-border-radius: .5rem;
+     -moz-border-radius: .5rem;
+     border-radius: .5rem;
+   }
+
+   div.course-details a.quiz-btn, div.course-details a.group-code-btn, div.course-details.badges {
+     width: 66%;
+     display: block;
+     margin: 25px auto;
+     text-align: center;
+   }
+
+ }
