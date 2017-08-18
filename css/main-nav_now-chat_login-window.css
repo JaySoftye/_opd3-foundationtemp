@@ -277,12 +277,17 @@ div#now-chat-box form#chat-box-conversation {
   overflow-y: auto;
 }
 
-div#now-chat-box form#chat-box-conversation input {
+div#now-chat-box form#chat-box-conversation input, div#mobile-now-chat-box form#mobile-chat-box-conversation input {
   width: 100%;
   padding: 1rem;
   outline: none;
   border-radius: 0;
   border: none;
+}
+
+div#mobile-now-chat-box form#mobile-chat-box-conversation {
+  width: 100%;
+  overflow-y: auto;
 }
 
 span.stat-text {

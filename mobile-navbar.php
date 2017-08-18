@@ -59,18 +59,18 @@
           </button>
         </div>
       </div>
-      <div class="row align-items-start" id="now-chat-box">
+      <div class="row align-items-start" id="mobile-now-chat-box">
         <div class="col-8">
           <p class="white">Chat nOw or connect via one of our other options from the menu below</p>
         </div>
         <div class="col-4">
           <img src="assets/mobile_navbar_now_logo.svg" alt="" />
         </div>
-          <form name="" method="" id="chat-box-conversation">
+          <form name="" method="" id="mobile-chat-box-conversation">
             <input type="text" placeholder="type here">
           </form>
       </div>
-      <div class="row" id="now-chat-window">
+      <div class="row" id="mobile-now-chat-window">
           <div class="col">
             <a href="#"><img src="assets/now-instructional-support-live-video.svg" alt="Live Video" /></a>
           </div>
