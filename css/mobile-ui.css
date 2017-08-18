@@ -9,7 +9,7 @@
      position: relative !important;
    }
 
-   div.row.course-chapters {
+   div.row.course-chapters, section.container-fluid.log-in-access, table.course-activity-table th img {
      display: none;
    }
 
@@ -44,11 +44,21 @@
      border-radius: .5rem;
    }
 
-   div.course-details a.quiz-btn, div.course-details a.group-code-btn, div.course-details.badges {
+   div.course-details a.quiz-btn, div.course-details a.group-code-btn, div.course-details.badges, div.course-details form {
      width: 66%;
      display: block;
-     margin: 25px auto;
+     margin: 50px auto;
      text-align: center;
    }
+
+   div.form-group label.col-form-label.text-right, div.form-group small, div.form-group div.text-right, div.form-group div.form-control-feedback {
+     padding: 0 25px;
+     text-align: left !important;
+   }
+
+   form.sign-up-form button {
+     width: auto;
+     padding: 1rem 6.25rem;
+    }
 
  }

@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="d-flex align-items-stretch">
+        <div class="row d-flex align-items-stretch">
         <?php /** LOOP **/ ?>
 
           <article class="col-md-3 col-sm-6">
