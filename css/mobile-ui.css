@@ -9,8 +9,16 @@
      position: relative !important;
    }
 
-   div.row.course-chapters, section.container-fluid.log-in-access, table.course-activity-table th img {
+   div#now-instructional-support, aside#now-chat-window, div.row.course-chapters, section.container-fluid.log-in-access, table.course-activity-table th img {
      display: none;
+   }
+
+   section.edTech {
+     background-position: 42% top;
+   }
+
+   section.container div.col-md-3.col-sm-6.text-center img {
+     width: 60%;
    }
 
    section.under-header, div.category-search-box-wrapper {
