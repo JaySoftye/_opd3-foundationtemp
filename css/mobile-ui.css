@@ -32,10 +32,14 @@
 
    div.row.categories-items article.col {
      flex: auto !important;
-     padding-right: 12%;
-     padding-left: 12%;
+     padding-right: 6%;
+     padding-left: 6%;
      display: block;
      margin-top: 0;
+   }
+
+   div.row.categories-items a img {
+     height: 17.25rem;
    }
 
    div#search-box ul.nav {
@@ -50,6 +54,10 @@
      -webkit-border-radius: .5rem;
      -moz-border-radius: .5rem;
      border-radius: .5rem;
+   }
+
+   div.row.log-in-access {
+     background-color: rgba(236, 238, 239, 1);
    }
 
    div.course-details a.quiz-btn, div.course-details a.group-code-btn, div.course-details.badges, div.course-details form {
