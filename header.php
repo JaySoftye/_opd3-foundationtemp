@@ -144,13 +144,13 @@
                 </ul>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-md-3 no-padding">
                 <ul class="nav">
                   <li class="nav-item">
                     <a class="nav-link btn blue-fill" href="#">GETTING STARTED</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG IN</a>
+                    <a href="#" class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG OUT</a>
                     <a href="#" class="nav-link btn hidden"><span class="white">LOG OUT</span></a>
                   </li>
                 </ul>
