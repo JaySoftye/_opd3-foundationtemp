@@ -142,7 +142,22 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
 }
 
 div.assignment-block {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.75rem;
+}
+
+div.assignment-block a img, div.assignment-block a {
+  width: auto;
+  color: rgb(0, 180, 228);
+}
+
+div.assignment-block.assignment-post-user {
+  margin: 1.5rem 0 0 3.5rem;
+  border-left: thick solid rgb(109, 140, 188);
+}
+
+div.assignment-block.assignment-post-admin {
+  margin: 1.5rem 0 0 3.5rem;
+  border-left: thick solid rgb(60, 72, 82);
 }
 
 input.assignment-file {

@@ -9,7 +9,7 @@
      position: relative !important;
    }
 
-   div#now-instructional-support, aside#now-chat-window, div.row.course-chapters, section.container-fluid.log-in-access, table.course-activity-table th img {
+   div#now-instructional-support, aside#now-chat-window, div.row.course-chapters, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead {
      display: none;
    }
 
@@ -87,11 +87,36 @@
 
     table.course-activity-table a, tr.green-chapter-bg > td > a, tr.orange-session-bg > td > a, tr.orange-chapter-bg > td > a {
       background: none !important;
-      padding: 0 0 !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      font-size: 1.25rem;
     }
 
-    table.course-activity-table tr td:nth-child() {
+    table#courses-in-progress tr th, table#courses-in-progress tr td, table#certifications-in-progress tbody th, table#certifications-in-progress tbody td {
+      width: 100%;
+      height: auto;
+      display: block;
+      text-align: center;
+    }
+
+    table#courses-in-progress tr.green-bg td:nth-last-child(2), table#courses-in-progress tr.green-chapter-bg td:nth-last-child(2), table#certifications-in-progress tr.orange-bg td:nth-last-child(1), table#certifications-in-progress tr.orange-bg td:nth-last-child(3), table#certifications-in-progress tr.orange-bg td:nth-last-child(4), table#certifications-in-progress tr.orange-chapter-bg td:nth-last-child(1), table#certifications-in-progress tr.orange-chapter-bg td:nth-last-child(3), table#certifications-in-progress tr.orange-chapter-bg td:nth-last-child(4), table#certifications-in-progress tr.orange-session-bg td:nth-last-child(1), table#certifications-in-progress tr.orange-session-bg td:nth-last-child(3), table#certifications-in-progress tr.orange-session-bg td:nth-last-child(4) {
       display: none;
+    }
+
+    table#courses-in-progress tr.green-bg td:nth-last-child(3):after, table#courses-in-progress tr.green-chapter-bg td:nth-last-child(3):after, table#certifications-in-progress tr.orange-bg td:nth-last-child(5):after, table#certifications-in-progress tr.orange-chapter-bg td:nth-last-child(5):after, table#certifications-in-progress tr.orange-session-bg td:nth-last-child(5):after {
+      content: ' completed';
+    }
+
+    table#courses-in-progress tr.green-bg th:first-child, table#certifications-in-progress tr.orange-bg th:first-child {
+    padding-top: 12px;
+    }
+
+    table#courses-in-progress tr.green-bg td:last-child, table#certifications-in-progress tr.orange-bg td:nth-last-child(2) {
+      padding-bottom: 24px;
+    }
+
+    table#courses-in-progress tr.green-chapter-bg a, table#certifications-in-progress tr.orange-chapter-bg a, table#certifications-in-progress tr.orange-session-bg a {
+      font-size: 1rem;
     }
 
  }

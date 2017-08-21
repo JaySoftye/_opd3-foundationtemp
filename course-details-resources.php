@@ -187,7 +187,43 @@
                   <p>Will you be creating teacher management materials or student sample materials? For student materials, what will be your final project topic? For teacher materials, how do you hope to use iPads and apps mentioned to enhance your classroom experience? Ready to Submit your assignment?</p>
                 </div>
               </div>
-              <a class="btn"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" /></a>
+            </div>
+
+            <div class="assignment-block assignment-post-user">
+              <div class="card thread-post">
+                <div class="card-block">
+                  <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56am</p>
+                  <p>I utilized Activity Builder for a sorting activity. I used the YouTube feature for a Read-Aloud. </p>
+                  <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row has-danger">
+              <div class="form-control-danger form-control-feedback">Incomplete, please re-submit</div>
+            </div>
+
+            <div class="assignment-block assignment-post-admin">
+              <div class="card thread-post">
+                <div class="card-block">
+                  <p><a href="#" class="teq-blue-text">Administrator User name</a> posted on August 15, 2017 at 11:56am</p>
+                  <p>Hello User. I liked your idea for the Lesson Activity Builder - however, when I began placing the objects into the correct category, nothing happened. There also was no bounce back if I chose the incorrect category. The YouTube add on worked fine! Once you fix the Lesson Activity Builder, re-submit and we'll be able to mark and complete and provide any feedback. Thanks! </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="assignment-block assignment-post-user">
+              <div class="card thread-post">
+                <div class="card-block">
+                  <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
+                  <p>I fixed the Activity Builder. </p>
+                  <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row has-success">
+              <div class="form-control-success form-control-feedback">Complete</div>
             </div>
 
           </div>
@@ -198,7 +234,7 @@
               <form name="" method="">
 
                 <div class="form-group">
-                  <textarea class="form-control" placeholder="Comments" rows="3"></textarea>
+                  <textarea class="form-control" placeholder="Comments" rows="6"></textarea>
                 </div>
                 <div class="form-group">
                   <input type="file" class="form-control-file form-control">

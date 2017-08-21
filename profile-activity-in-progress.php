@@ -102,7 +102,7 @@
                       <td></td>
                       <td>35%</td>
                       <td></td>
-                      <td><a href="#" class="take-quiz">Take Quiz</a></td>
+                      <td><img src="assets/profile-quiz-passed-icon.svg" /></td>
                     </tr>
                   </table>
                 </td>
