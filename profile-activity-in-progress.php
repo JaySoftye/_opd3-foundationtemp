@@ -60,7 +60,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <table class="course-activity-table">
+          <table class="course-activity-table" id="courses-in-progress">
             <thead>
               <tr>
                 <th></th>
@@ -133,7 +133,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <table class="course-activity-table">
+          <table class="course-activity-table" id="certifications-in-progress">
             <thead>
               <tr>
                 <th></th>

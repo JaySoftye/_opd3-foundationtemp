@@ -77,4 +77,21 @@
      padding: 1rem 6.25rem;
     }
 
+    div.modal.add-to-playlist form, section.modal-footer section.container {
+      width: 100%;
+    }
+
+    div.modal.add-to-playlist form div.col-1.align-self-center {
+      padding: 0 0;
+    }
+
+    table.course-activity-table a, tr.green-chapter-bg > td > a, tr.orange-session-bg > td > a, tr.orange-chapter-bg > td > a {
+      background: none !important;
+      padding: 0 0 !important;
+    }
+
+    table.course-activity-table tr td:nth-child() {
+      display: none;
+    }
+
  }
