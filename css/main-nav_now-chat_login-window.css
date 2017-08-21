@@ -16,6 +16,10 @@ header img {
   width: inherit;
 }
 
+nav#mobile-navbar {
+  display: none;
+}
+
 nav#mobile-navbar a img {
   width: 100%;
 }
@@ -101,13 +105,17 @@ ul.nav.profile-nav, ul.nav.activity-nav {
   padding: .5rem 0;
 }
 
-ul.nav.profile-nav li.nav-item, ul.nav.profile-nav li.nav-item {
+ul.nav.profile-nav li.nav-item, ul.nav.profile-nav li.nav-item a {
   margin-right: 1.5rem;
   border-bottom: 2px solid transparent;
 }
 
 ul.nav.profile-nav li.nav-item.active, ul.nav.activity-nav li.nav-item.active {
   border-bottom: 2px solid rgb(60, 72, 82);
+}
+
+ul.nav.profile-nav li.nav-item a.nav-link, ul.nav.activity-nav li.nav-item a.nav-link {
+  color: inherit;
 }
 
 nav#mobile-navbar {

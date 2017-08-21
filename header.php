@@ -12,7 +12,7 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet" type="text/css">
 
     <!-- Compiled Version of Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 
@@ -35,7 +35,7 @@
 
         <div class="row top-header-bar">
 
-          <nav class="container hidden-sm-down">
+          <nav class="container" id="main-navbar">
             <div class="row" id="mainBanner">
               <div class="col-md-9">
                 <a href="#"><img src="assets/opd_the_fusion_of_technology_and_learning.svg" alt="Online Professional Development the fusion of technology and learning" /></a>
@@ -152,8 +152,8 @@
                     <a class="nav-link btn blue-fill" href="#">GETTING STARTED</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG IN</a>
-                    <a class="nav-link btn hidden"><span class="white">LOG OUT</span></a>
+                    <a href="#" class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG IN</a>
+                    <a href="#" class="nav-link btn hidden"><span class="white">LOG OUT</span></a>
                   </li>
                 </ul>
               </div>

@@ -204,6 +204,7 @@ div#search-box div.search-menu-group ul.dropdown-menu {
 div.search-menu-group ul.dropdown-menu li a {
   display: block;
   padding: 0 .25rem;
+  color: inherit;
 }
 
 div.search-menu-group ul.dropdown-menu li a:hover, div.search-menu-group ul.dropdown-menu li a:focus, div.profile-plan-menu ul.dropdown-menu li a:hover, div.profile-plan-menu ul.dropdown-menu li a:focus {
@@ -349,8 +350,8 @@ form#share-playlist-form button:hover img, form#share-playlist-form button:focus
 }
 
 form#share-playlist-form button.email-playist, form#share-playlist-no-addition-form button.email-playist {
-  background: rgb(0, 180, 288) url('images/share-playlist-email-icon.svg') no-repeat left center;
-  padding-left: 2.25rem;
+  background-color: rgb(0, 180, 288);
+  padding: 1rem 2rem;
   display: block;
   margin: 0 auto;
   border-color: rgb(0, 180, 288);

@@ -4,16 +4,16 @@
   <div class="col-md-8 col-sm-12">
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="true"><img src="assets/course-discussion-icon.svg" width="150px" height="25px" alt="Discussion" /></a>
+        <a class="nav-link active" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="true"><img src="assets/course-discussion-icon.svg" width="" height="25px" alt="Discussion" /></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#course-files-tab" role="tab" data-toggle="tab" aria-controls="course-files-tab"><img src="assets/course-files-icon.svg"  width="150px" height="25px" alt="Files" /></a>
+        <a class="nav-link" href="#course-files-tab" role="tab" data-toggle="tab" aria-controls="course-files-tab"><img src="assets/course-files-icon.svg"  width="" height="25px" alt="Files" /></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#course-assignments-tab" role="tab" data-toggle="tab" aria-controls="course-assignments-tab"><img src="assets/course-assignments-icon.svg" width="150px" height="25px" alt="Assignments"  /></a>
+        <a class="nav-link" href="#course-assignments-tab" role="tab" data-toggle="tab" aria-controls="course-assignments-tab"><img src="assets/course-assignments-icon.svg" width="" height="25px" alt="Assignments"  /></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#course-skills-techniques-tab" role="tab" data-toggle="tab" aria-controls="course-skills-techniques-tab"><img src="assets/course-skills-icon.svg"  width="150px" height="25px" alt="Skills and Techniques" /></a>
+        <a class="nav-link" href="#course-skills-techniques-tab" role="tab" data-toggle="tab" aria-controls="course-skills-techniques-tab"><img src="assets/course-skills-icon.svg"  width="" height="25px" alt="Skills and Techniques" /></a>
       </li>
     </ul>
   </div>
@@ -176,9 +176,7 @@
 
       <div role="tabpanel" class="tab-pane fade" id="course-assignments-tab">
         <div class="row">
-
           <div class="col-md-8">
-
             <div class="assignment-block">
               <div class="card thread-post">
                 <div class="card-block">
@@ -188,53 +186,14 @@
                 </div>
               </div>
             </div>
-
-            <div class="assignment-block assignment-post-user">
-              <div class="card thread-post">
-                <div class="card-block">
-                  <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56am</p>
-                  <p>I utilized Activity Builder for a sorting activity. I used the YouTube feature for a Read-Aloud. </p>
-                  <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="row has-danger">
-              <div class="form-control-danger form-control-feedback">Incomplete, please re-submit</div>
-            </div>
-
-            <div class="assignment-block assignment-post-admin">
-              <div class="card thread-post">
-                <div class="card-block">
-                  <p><a href="#" class="teq-blue-text">Administrator User name</a> posted on August 15, 2017 at 11:56am</p>
-                  <p>Hello User. I liked your idea for the Lesson Activity Builder - however, when I began placing the objects into the correct category, nothing happened. There also was no bounce back if I chose the incorrect category. The YouTube add on worked fine! Once you fix the Lesson Activity Builder, re-submit and we'll be able to mark and complete and provide any feedback. Thanks! </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="assignment-block assignment-post-user">
-              <div class="card thread-post">
-                <div class="card-block">
-                  <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
-                  <p>I fixed the Activity Builder. </p>
-                  <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="row has-success">
-              <div class="form-control-success form-control-feedback">Complete</div>
-            </div>
-
           </div>
-
           <div class="col-md-4">
             <section class="assignment-submit active">
               <h6><strong>Ready to Submit Your Assignment?</strong></h6>
               <form name="" method="">
 
-                <div class="form-group">
-                  <textarea class="form-control" placeholder="Comments" rows="6"></textarea>
+                <div class="form-group" id="submit-assignment-first">
+                  <textarea class="form-control" placeholder="Comments" rows="3"></textarea>
                 </div>
                 <div class="form-group">
                   <input type="file" class="form-control-file form-control">
@@ -244,6 +203,72 @@
               </form>
             </section>
           </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 assignment-block assignment-post-user">
+            <div class="card thread-post">
+              <div class="card-block">
+                  <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56am</p>
+                  <p>I utilized Activity Builder for a sorting activity. I used the YouTube feature for a Read-Aloud. </p>
+                  <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8">
+            <div class="form-control-feedback">Submitted</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 assignment-block assignment-post-admin">
+            <div class="card thread-post">
+              <div class="card-block">
+                <p><a href="#" class="teq-blue-text">Administrator User name</a> posted on August 15, 2017 at 11:56am</p>
+                <p>Hello User. I liked your idea for the Lesson Activity Builder - however, when I began placing the objects into the correct category, nothing happened. There also was no bounce back if I chose the incorrect category. The YouTube add on worked fine! Once you fix the Lesson Activity Builder, re-submit and we'll be able to mark and complete and provide any feedback. Thanks! </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 assignment-block assignment-post-user">
+            <div class="card thread-post">
+              <div class="card-block">
+                <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
+                <p>I fixed the Activity Builder. </p>
+                <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-8 has-danger">
+            <div class="form-control-danger form-control-feedback">Incomplete, please re-submit</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 assignment-block assignment-post-user">
+            <div class="card thread-post">
+              <div class="card-block">
+                <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
+                <p>I fixed the Activity Builder. </p>
+                <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 has-success">
+            <div class="form-control-success form-control-feedback">Complete</div>
+          </div>
+        </div>
 
         </div>
       </div>

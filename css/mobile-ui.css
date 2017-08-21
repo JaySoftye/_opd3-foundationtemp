@@ -9,8 +9,16 @@
      position: relative !important;
    }
 
-   div#now-instructional-support, aside#now-chat-window, div.row.course-chapters, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead {
+   nav#mobile-navbar {
+     display: block;
+   }
+
+   nav#main-navbar, div#now-instructional-support, aside#now-chat-window, div.row.course-chapters, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead {
      display: none;
+   }
+
+   .hide-small {
+     display: none !important;
    }
 
    section.edTech {
@@ -81,7 +89,7 @@
       width: 100%;
     }
 
-    div.modal.add-to-playlist form div.col-1.align-self-center {
+    div.modal.add-to-playlist form div.col-1.align-self-center, div.modal.share-playlist-no-course-addition form div.col-1.align-self-center {
       padding: 0 0;
     }
 

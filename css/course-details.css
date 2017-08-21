@@ -3,6 +3,8 @@
  * Teq Online Professional Development Course Details
  */
 
+
+
 ul.course-sessions-list {
   padding: 0 0;
   list-style: none;
@@ -141,6 +143,10 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   padding-bottom: 7.5rem;
 }
 
+section.log-in-access li.nav-item {
+  width: 25%;
+}
+
 div.assignment-block {
   margin-bottom: 1.75rem;
 }
@@ -160,8 +166,16 @@ div.assignment-block.assignment-post-admin {
   border-left: thick solid rgb(60, 72, 82);
 }
 
+div.row div.form-control-feedback {
+  text-indent: 3.75rem;
+}
+
 input.assignment-file {
   background-color: white;
+}
+
+ul.nav.files-list li {
+  width: 100%;
 }
 
 ul.nav.files-list li a.nav-link {
