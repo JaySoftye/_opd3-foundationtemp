@@ -4,16 +4,16 @@
   <div class="col-md-8 col-sm-12">
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="true"><img src="assets/course-discussion-icon.svg" width="" height="25px" alt="Discussion" /></a>
+        <a class="nav-link" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="false"><img src="assets/course-discussion-icon.svg" width="150" height="25px" alt="Discussion" /></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#course-files-tab" role="tab" data-toggle="tab" aria-controls="course-files-tab"><img src="assets/course-files-icon.svg"  width="" height="25px" alt="Files" /></a>
+        <a class="nav-link" href="#course-files-tab" role="tab" data-toggle="tab" aria-controls="course-files-tab" aria-expanded="false"><img src="assets/course-files-icon.svg"  width="150" height="25px" alt="Files" /></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#course-assignments-tab" role="tab" data-toggle="tab" aria-controls="course-assignments-tab"><img src="assets/course-assignments-icon.svg" width="" height="25px" alt="Assignments"  /></a>
+        <a class="nav-link active" href="#course-assignments-tab" role="tab" data-toggle="tab" aria-controls="course-assignments-tab" aria-expanded="true"><img src="assets/course-assignments-icon.svg" width="150" height="25px" alt="Assignments"  /></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#course-skills-techniques-tab" role="tab" data-toggle="tab" aria-controls="course-skills-techniques-tab"><img src="assets/course-skills-icon.svg"  width="" height="25px" alt="Skills and Techniques" /></a>
+        <a class="nav-link" href="#course-skills-techniques-tab" role="tab" data-toggle="tab" aria-controls="course-skills-techniques-tab" aria-expanded="false"><img src="assets/course-skills-icon.svg"  width="150" height="25px" alt="Skills and Techniques" /></a>
       </li>
     </ul>
   </div>
@@ -23,13 +23,12 @@
 
 <section class="container-fluid light-gray-bg log-in-access active padding-bottom">
   <div class="container">
-
     <div class="tab-content">
 
-      <div role="tabpanel" class="tab-pane fade show active" id="courese-discussion-tab">
+      <div role="tabpanel" class="tab-pane fade" id="courese-discussion-tab">
         <div class="row">
-          <div class="col-md-8">
 
+          <div class="col-md-8">
             <div class="post-form new-thread">
               <h6><strong>Start a New Discussion</strong></h6>
               <form name="" method="">
@@ -81,8 +80,8 @@
                 </form>
               </div>
             </div>
-
           </div>
+
           <div class="col-md-4">
             <h6><strong>Previous Threads</strong></h6>
             <div class="card thread-post">
@@ -107,6 +106,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -174,23 +174,19 @@
         </div>
       </div>
 
-      <div role="tabpanel" class="tab-pane fade" id="course-assignments-tab">
+      <div role="tabpanel" class="tab-pane fade show active" id="course-assignments-tab">
         <div class="row">
           <div class="col-md-8">
             <div class="assignment-block">
-              <div class="card thread-post">
-                <div class="card-block">
-                  <h5><strong>Session 7 - Photos</strong></h5>
-                  <p>Share your final project topic with us!</p>
-                  <p>Will you be creating teacher management materials or student sample materials? For student materials, what will be your final project topic? For teacher materials, how do you hope to use iPads and apps mentioned to enhance your classroom experience? Ready to Submit your assignment?</p>
-                </div>
-              </div>
+              <h5><strong>Session 7 - Photos</strong></h5>
+              <p>Share your final project topic with us!</p>
+              <p>Will you be creating teacher management materials or student sample materials? For student materials, what will be your final project topic? For teacher materials, how do you hope to use iPads and apps
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" id="step-1">
             <section class="assignment-submit active">
               <h6><strong>Ready to Submit Your Assignment?</strong></h6>
-              <form name="" method="">
+              <form name="" method="" onsubmit="showTwo()">
 
                 <div class="form-group" id="submit-assignment-first">
                   <textarea class="form-control" placeholder="Comments" rows="3"></textarea>
@@ -205,126 +201,157 @@
           </div>
         </div>
 
+        <script>
+        /**
+        DELETE THIS
+        ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
+        **/
+          function showTwo() {
+            var a = document.getElementById('step-1');
+            var b = document.getElementById('step-2');
+
+            if (b.style.display === 'none') {
+              a.style.display = 'none';
+              b.style.display = 'block';
+            } else {
+              b.style.display = 'none';
+              }
+            }
+            function showThree() {
+              var c = document.getElementById('step-2');
+              var d = document.getElementById('step-3');
+
+              if (d.style.display === 'none') {
+                c.style.display = 'none';
+                d.style.display = 'block';
+              } else {
+                d.style.display = 'none';
+                }
+              }
+              function showFour() {
+                var e = document.getElementById('step-3');
+                var f = document.getElementById('step-4');
+
+                if (f.style.display === 'none') {
+                  e.style.display = 'none';
+                  f.style.display = 'block';
+                } else {
+                  f.style.display = 'none';
+                  }
+                }
+        </script>
+
+        <div class="row" id="step-2" style="display:none;" onclick="showThree()">
+          <div class="col-md-8">
+            <div class="assignment-block assignment-post-user">
+              <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56am</p>
+              <p>I utilized Activity Builder for a sorting activity. I used the YouTube feature for a Read-Aloud. </p>
+              <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+          </div>
+          <div class="form-control-feedback submit row align-items-center"><span>Submitted</span></div>
+        </div>
+
+        <div id="step-3" style="display:none;">
         <div class="row">
-          <div class="col-md-8 assignment-block assignment-post-user">
-            <div class="card thread-post">
-              <div class="card-block">
-                  <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56am</p>
-                  <p>I utilized Activity Builder for a sorting activity. I used the YouTube feature for a Read-Aloud. </p>
-                  <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
-              </div>
+          <div class="col-md-8">
+            <div class="assignment-block assignment-post-user">
+              <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
+              <p>I fixed the Activity Builder. </p>
+              <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <section class="assignment-submit active">
+              <h6><strong>Ready to Submit Your Assignment?</strong></h6>
+              <form name="" method="" onsubmit="showFour()">
+                <div class="form-group" id="submit-assignment-first">
+                  <textarea class="form-control" placeholder="Comments" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="file" class="form-control-file form-control">
+                </div>
+                <button type="submit" class="btn gray float-right">Cancel</button><button type="submit" class="btn float-right">Submit</button>
+              </form>
+            </section>
+          </div>
+          <div class="form-control-feedback row align-items-center"><span class="incomplete">Incomplete <button type="submit" class="btn">Please re-submit</button></span></div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="assignment-block assignment-post-admin">
+              <p><a href="#" class="teq-blue-text">Administrator User name</a> posted on August 15, 2017 at 11:56am</p>
+              <p>Hello User. I liked your idea for the Lesson Activity Builder - however, when I began placing the objects into the correct category, nothing happened. There also was no bounce back if I chose the incorrect category. The YouTube add on worked fine! Once you fix the Lesson Activity Builder, re-submit and we'll be able to mark and complete and provide any feedback. Thanks! </p>
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-8">
-            <div class="form-control-feedback">Submitted</div>
-          </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-8 assignment-block assignment-post-admin">
-            <div class="card thread-post">
-              <div class="card-block">
-                <p><a href="#" class="teq-blue-text">Administrator User name</a> posted on August 15, 2017 at 11:56am</p>
-                <p>Hello User. I liked your idea for the Lesson Activity Builder - however, when I began placing the objects into the correct category, nothing happened. There also was no bounce back if I chose the incorrect category. The YouTube add on worked fine! Once you fix the Lesson Activity Builder, re-submit and we'll be able to mark and complete and provide any feedback. Thanks! </p>
-              </div>
+        <div class="row" id="step-4" style="display:none;">
+          <div class="col-md-8">
+            <div class="assignment-block assignment-post-user">
+              <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
+              <p>I fixed the Activity Builder. </p>
+              <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
             </div>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-8 assignment-block assignment-post-user">
-            <div class="card thread-post">
-              <div class="card-block">
-                <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
-                <p>I fixed the Activity Builder. </p>
-                <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
-              </div>
-            </div>
+          <div class="col-md-4">
           </div>
+          <div class="form-control-feedback row align-items-center"><span class="complete">Complete</span></div>
         </div>
 
-        <div class="row">
-          <div class="col-8 has-danger">
-            <div class="form-control-danger form-control-feedback">Incomplete, please re-submit</div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-8 assignment-block assignment-post-user">
-            <div class="card thread-post">
-              <div class="card-block">
-                <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56pm</p>
-                <p>I fixed the Activity Builder. </p>
-                <a href="#"><img src="assets/assignment-file-icon.svg" width="300" height="60" alt="Assignment Files" />july03-1153.wmv</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-8 has-success">
-            <div class="form-control-success form-control-feedback">Complete</div>
-          </div>
-        </div>
-
-        </div>
       </div>
 
       <div role="tabpanel" class="tab-pane fade" id="course-skills-techniques-tab">
         <div class="row">
-
-
-            <article class="col-md-3 col-sm-6">
-              <div class="card sm-card">
-                <div class="card-header">
-                  <p class="category-duration-details"><span>2min</span></p>
-                </div>
-                <div class="card-block">
-                  <p class="card-title"><a href="#">All of your favorite apps, organized just the way you want</a></p>
-                  <p class="card-text">With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
-                </div>
+          <article class="col-md-3 col-sm-6">
+            <div class="card sm-card">
+              <div class="card-header">
+                <p class="category-duration-details"><span>2min</span></p>
               </div>
-            </article>
-            <article class="col-md-3 col-sm-6">
-              <div class="card sm-card">
-                <div class="card-header">
-                  <p class="category-duration-details"><span>1min</span></p>
-                </div>
-                <div class="card-block">
-                  <p class="card-title"><a href="#">Title Course 2</a></p>
-                  <p class="card-text">With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
-                </div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">All of your favorite apps, organized just the way you want</a></p>
+                <p class="card-text">With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
               </div>
-            </article>
-            <article class="col-md-3 col-sm-6">
-              <div class="card sm-card">
-                <div class="card-header">
-                  <p class="category-duration-details"><span>1min 36sec</span></p>
-                </div>
-                <div class="card-block">
-                  <p class="card-title"><a href="#">Title Course 3</a></p>
-                  <p class="card-text">With this course, participants will be able to add and organize </p>
-                </div>
+            </div>
+          </article>
+          <article class="col-md-3 col-sm-6">
+            <div class="card sm-card">
+              <div class="card-header">
+                <p class="category-duration-details"><span>1min</span></p>
               </div>
-            </article>
-            <article class="col-md-3 col-sm-6">
-              <div class="card sm-card">
-                <div class="card-header">
-                  <p class="category-duration-details"><span>2min 2sec</span></p>
-                </div>
-                <div class="card-block">
-                  <p class="card-title"><a href="#">Title Course 4</a></p>
-                  <p class="card-text">Collaborate with others through a shared Photostream...</p>
-                </div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">Title Course 2</a></p>
+                <p class="card-text">With this course, participants will be able to add and organize content to iPhoto and collaborate with others through a shared Photostream...</p>
               </div>
-            </article>
-
-
+            </div>
+          </article>
+          <article class="col-md-3 col-sm-6">
+            <div class="card sm-card">
+              <div class="card-header">
+                <p class="category-duration-details"><span>1min 36sec</span></p>
+              </div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">Title Course 3</a></p>
+                <p class="card-text">With this course, participants will be able to add and organize </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 col-sm-6">
+            <div class="card sm-card">
+              <div class="card-header">
+                <p class="category-duration-details"><span>2min 2sec</span></p>
+              </div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">Title Course 4</a></p>
+                <p class="card-text">Collaborate with others through a shared Photostream...</p>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
 
   </div>
 </section>
