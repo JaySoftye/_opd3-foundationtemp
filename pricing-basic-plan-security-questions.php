@@ -23,11 +23,10 @@
       <div class="row padding-top">
         <div class="col">
           <form action="" method="post" class="sign-up-form">
-            <div class="form-group row has-danger">
+            <div class="form-group row">
               <label class="col-md-3 col-sm-3 col-form-label text-right"><strong>First Name:</strong></label>
               <div class="col-md-6 col-sm-9">
-                <input class="form-control form-control-danger" type="text">
-                <div class="form-control-feedback">Thats a terrible first name. Try another?</div>
+                <input class="form-control" type="text">
               </div>
             </div>
             <div class="form-group row">
