@@ -6,6 +6,7 @@
 div#course-calendar-date-selector h2 {
   display: block;
   margin: 0 auto;
+  text-align: center;
   font-size: 3.5rem;
 }
 

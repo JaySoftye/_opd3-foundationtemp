@@ -350,8 +350,8 @@ form#share-playlist-form button:hover img, form#share-playlist-form button:focus
 }
 
 form#share-playlist-form button.email-playist, form#share-playlist-no-addition-form button.email-playist {
-  background-color: rgb(0, 180, 288);
-  padding: 1rem 2rem;
+  background: rgb(0, 180, 228) url('images/share-playlist-hover-icon.svg') no-repeat left center;
+  padding: 1rem 2rem 1rem 3.25rem;
   display: block;
   margin: 0 auto;
   border-color: rgb(0, 180, 288);

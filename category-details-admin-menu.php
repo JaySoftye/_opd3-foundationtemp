@@ -183,7 +183,7 @@
           </div>
           <div class="form-group row">
             <div class="col-11">
-              <button class="btn email-playist" type="submit">Send Email</button>
+              <button class="btn email-playist" type="submit">Share Playlist</button>
             </div>
           </div>
         </section>
