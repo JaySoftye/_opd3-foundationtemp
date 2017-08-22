@@ -186,7 +186,7 @@
           <div class="col-md-4" id="step-1">
             <section class="assignment-submit active">
               <h6><strong>Ready to Submit Your Assignment?</strong></h6>
-              <form name="" method="" onsubmit="showTwo()">
+              <form name="" method="" onsubmit="showTwo(); return false;">
 
                 <div class="form-group" id="submit-assignment-first">
                   <textarea class="form-control" placeholder="Comments" rows="3"></textarea>
@@ -241,7 +241,7 @@
                 }
         </script>
 
-        <div class="row" id="step-2" style="display:none;" onclick="showThree()">
+        <div class="row" id="step-2" style="display:none;" onclick="showThree(); return false;">
           <div class="col-md-8">
             <div class="assignment-block assignment-post-user">
               <p><a href="#" class="teq-blue-text">User name</a> posted on August 14, 2017 at 11:56am</p>
@@ -266,7 +266,7 @@
           <div class="col-md-4">
             <section class="assignment-submit active">
               <h6><strong>Ready to Submit Your Assignment?</strong></h6>
-              <form name="" method="" onsubmit="showFour()">
+              <form name="" method="" onsubmit="showFour(); return false;">
                 <div class="form-group" id="submit-assignment-first">
                   <textarea class="form-control" placeholder="Comments" rows="3"></textarea>
                 </div>
