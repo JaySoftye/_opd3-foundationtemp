@@ -41,8 +41,8 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 text-right hidden-sm-down">
-          <a class="calendar-view-change active" id="course-calendar-view"><img src="assets/course-calendar-Calendar-view.svg" /> Calendar View</a>
+        <div class="col-md-6 text-right">
+          <a class="calendar-view-change active" id="course-calendar-view"><img src="assets/course-calendar-calendar-view.svg" /> Calendar View</a>
           <a class="calendar-view-change" id="course-list-view"><img src="assets/course-calendar-list-view.svg" /> List View</a>
         </div>
       </div>

@@ -209,7 +209,8 @@ div.calendar.list-view li.day p.event-title {
 }
 
 div.calendar.list-view li.day div.dropdown {
-  right: 20px;
+  position: inherit;
+  margin-left: 97%;
 }
 
 div.calendar.list-view li.day a.event:hover, div.calendar.list-view li.day a.event:focus {
