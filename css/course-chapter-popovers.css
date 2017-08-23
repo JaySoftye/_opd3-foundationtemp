@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development Course Details Chapters
+ */
+
+body.course-session-vid div.popover {
+  margin-top: -5px;
+  text-align: center;
+}
+
+body.course-session-vid div.popover div.arrow {
+  display: none;
+}
+
+body.course-session-vid h3.popover-header {
+  background-color: transparent;
+  font-size: .75rem;
+  color: rgb(0, 180, 228);
+}
+
+body.course-session-vid div.popover-body {
+  font-weight: 500;
+  font-size: .75rem;
+}

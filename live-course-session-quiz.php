@@ -344,6 +344,7 @@
         <h3>Congratulations!</h3>
       </div>
       <div class="modal-body text-center course-details badges">
+        <h5><strong>Recording Podcasts</strong></h5>
         <p>You have completed this course successfully. Click the link below to receive your certification.</p>
         <p><a href="#"><img src="assets/badge-default-icon.jpg" /></a></p>
         <p><button class="btn" href="#">Download Certificate</button></p>

@@ -86,27 +86,24 @@
 
     <div class="row padding-top">
       <div class="col-md-4">
-        <h3><strong>Recording Podcasts</strong></h3>
+        <h3><strong>TED-Ed Videos for the Math Classroom</strong></h3>
         <h5 class="teq-blue-text"><strong>10:00AM - 11:00AM, July 30, 2017</strong></h5>
       </div>
       <div class="col-md-7">
         <ul class="course-sessions-list">
-          <li><a class="course-session taken" href="#">1</a></li>
-          <li><a class="course-session taken" href="#">2</a></li>
-          <li><a class="course-session taken" href="#">3</a></li>
-          <li><a class="course-session taken" href="#">4</a></li>
-          <li><a class="course-session taken" href="#">5</a></li>
-          <li><a class="course-session taken" href="#">6</a></li>
-          <li><a class="course-session active" href="#">7</a></li>
+          <li><a class="course-session" href="#">1</a></li>
+          <li><a class="course-session" href="#">2</a></li>
+          <li><a class="course-session" href="#">3</a></li>
+          <li><a class="course-session" href="#">4</a></li>
+          <li><a class="course-session" href="#">5</a></li>
+          <li><a class="course-session" href="#">6</a></li>
+          <li><a class="course-session" href="#">7</a></li>
           <li><a class="course-session" href="#">8</a></li>
           <li><a class="course-session" href="#">9</a></li>
           <li><a class="course-session" href="#">10</a></li>
           <li><a class="course-session" href="#">11</a></li>
           <li><a class="course-session" href="#">12</a></li>
         </ul>
-      </div>
-      <div class="col-md-1 text-right">
-        <a href="#" class="admin-link"><img src="assets/admin-gear-icon.svg" alt="admin" /></a>
       </div>
     </div>
 

@@ -23,8 +23,10 @@
     <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
     <link rel="stylesheet" href="css/mobile-ui.css">
 
+    <link rel="stylesheet" href="css/course-chapter-popovers.css">
+
   </head>
-    <body>
+    <body class="course-session-vid">
 
       <?php include 'login-window.php'; ?>
 
@@ -38,7 +40,7 @@
               <div class="col-md-9">
                 <a href="#"><img src="assets/opd_the_fusion_of_technology_and_learning.svg" alt="Online Professional Development the fusion of technology and learning" /></a>
               </div>
-              <div class="col-md-3 hidden">
+              <div class="col-md-3 hidden-sm-down">
                 <section class="row align-items-center active" id="user-logged-in">
                   <div class="col no-padding"><a href="#" id="profile-image"><span>UN</span></a></div>
                   <div class="col no-padding"><a class="user-name" href="#">User Name</a></div>
@@ -150,7 +152,7 @@
                     <a class="nav-link btn blue-fill" href="#">GETTING STARTED</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG IN</a>
+                    <a href="#" class="nav-link btn blue-fill" data-toggle="modal" data-target=".login-window">LOG OUT</a>
                     <a href="#" class="nav-link btn hidden"><span class="white">LOG OUT</span></a>
                   </li>
                 </ul>
@@ -164,3 +166,101 @@
           <?php include 'mobile-navbar.php'; ?>
 
       </header>
+  <?php include 'now-chat-window.php'; ?>
+
+  <main>
+
+    <?php include 'course-details-search-form.php'; ?>
+
+    <section class="container padding-bottom">
+
+      <div class="row row-eq-height padding-top">
+
+        <div class="col-md-8">
+          <video poster="assets/video-player-image.jpg" style="width: inherit;" data-toggle="modal" data-target=".satisfaction-survey">
+            <source src="" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <small><strong>Watch the full course video above or the chaptered sections below. All chapters need to be finsihed for course credit.</strong></small>
+          <div class="row course-chapters">
+
+
+<div class="col-2 active">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link active" title="" data-chapteridx="0" data-start="0" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 1"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="1" data-start="15" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 2"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="2" data-start="30" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 3"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="3" data-start="45" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 05secs" data-original-title="Chapter 4"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 5"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="0" data-start="0" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 6"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="1" data-start="15" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 7"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="2" data-start="30" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 8"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="3" data-start="45" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 05secs" data-original-title="Chapter 9"></a>
+</div>
+<div class="col-2">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 10"></a>
+</div>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-4 course-details">
+          <ul class="nav">
+            <li class="nav-item category-duration-details">
+              <span>8hr 54min</span>
+            </li>
+            <li class="nav-item">
+              <?php include 'category-details-admin-menu.php'; ?>
+            </li>
+          </ul>
+          <article>
+            <h6>iPhoto</h6>
+            <p>With this course, participants will be able to successfully use iPad apps in conjunction with one another to create a project based learning activity. Throughout this session, we will demonstrate a complete activity and the use of multiple apps to perform various functions such as driving research, gathering data, and creating presentations. With this course, participants will be able to successfully use iPad apps in conjunction with one another to create a project based learning activity. Throughout this session, we will demonstrate a complete activity and the use of multiple apps to perform various functions such as driving research, gathering data, and creating presentations. </p>
+          </article>
+          <article>
+            <h6>Course Objective</h6>
+            <p>At the end of this course you will know how to find and access the basic settings of your iPad, access the wireless tools, and access the tools available in your Control Center.</p>
+          </article>
+
+          <div class="row log-in-access active padding-bottom">
+            <div class="col-md-8 course-details">
+              <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+              <a class="btn group-code-btn" data-toggle="modal" data-target=".viewing-code"><img src="assets/group-code-icon.svg" width="179" height="36" alt="Generate Group View Code" /></a>
+                <form name="" method="">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter viewing code">
+                      <span class="input-group-btn">
+                        <button class="btn btn-secondary" type="button">Enter</button>
+                      </span>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 course-details badges">
+              <img src="assets/badge-default-icon.jpg" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+<?php include 'footer.php'; ?>

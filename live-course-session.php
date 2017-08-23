@@ -7,8 +7,8 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col-md-10">
-            <h3><strong>Course Title</strong></h3>
-            <h5>Course date and time</h5>
+            <h3><strong>Apple</strong></h3>
+            <h5>Recording Podcasts</h5>
           </div>
         </div>
       </div>
