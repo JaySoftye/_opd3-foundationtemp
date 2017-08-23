@@ -41,7 +41,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 text-right">
+        <div class="col-md-6 hide-small text-right">
           <a class="calendar-view-change active" id="course-calendar-view"><img src="assets/course-calendar-calendar-view.svg" /> Calendar View</a>
           <a class="calendar-view-change" id="course-list-view"><img src="assets/course-calendar-list-view.svg" /> List View</a>
         </div>
@@ -65,45 +65,45 @@
             </ul>
 
             <ul class="days">
-              <li class="day other-month disabled disabled">
-                <a class="event">
+              <li class="day other-month disabled">
                 <span class="date">25</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">26</span>
                 <a class="event">
-            		 <span class="date">26</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">27</span>
                 <a class="event">
-            		 <span class="date">27</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">28</span>
                 <a class="event">
-            		 <span class="date">28</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">29</span>
                 <a class="event">
-            		 <span class="date">29</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
               <li class="day other-month disabled">
-                <a class="event">
                 <span class="date">30</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">1</span>
                 <a class="event">
-            		 <span class="date">1</span>
                  <p class="event-title"></p>
                 </a>
               </li>
@@ -111,30 +111,31 @@
 
             <ul class="days">
               <li class="day empty">
-                <a class="event">
                 <span class="date">2</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">3</span>
                 <a class="event">
-            		 <span class="date">3</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">4</span>
                 <a class="event">
-            		 <span class="date">4</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">5</span>
                 <a class="event">
-            		 <span class="date">5</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
               <li class="day">
+                <span class="date">6</span>
                 <a class="event" href="course-details.php"
                     tabindex="0"
                     role="button"
@@ -142,14 +143,29 @@
                     data-toggle="popover"
                     data-trigger="hover"
                     data-placement="top"
-                    title="<small>July 6, 10:00AM EDT - 11:00AM EDT</small>"
-                    data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
-            		  <span class="date">6</span>
-                  <span class="week-of-date">Thursday</span>
+                    title="<small>July 6, 1:00PM EDT - 3:00PM EDT</small>"
+                    data-content="<p>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
+                  <span class="week-of-date">Thursday <strong>6</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-free-icon.svg" /></span>
-                  <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
+                  <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix I</p>
                   <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
                   <small>1:00pm to 3:00pm</small>
+                </a>
+                <?php include 'course-calendar-admin-menu.php'; ?>
+                <a class="event" href="course-details.php"
+                    tabindex="0"
+                    role="button"
+                    data-html="true"
+                    data-toggle="popover"
+                    data-trigger="hover"
+                    data-placement="top"
+                    title="<small>July 6, 4:00PM EDT - 5:00PM EDT</small>"
+                    data-content="<p>We further explore the wonders of Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. </p>">
+                  <span class="week-of-date">Thursday <strong>6</strong></span>
+                  <span class="calendar-course-type"><img src="assets/course-calendar-free-icon.svg" /></span>
+                  <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix II</p>
+                  <p class="event-description">We further explore the wonders of Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. </p>
+                  <small>4:00pm to 5:00pm</small>
                 </a>
                 <?php include 'course-calendar-admin-menu.php'; ?>
             	</li>
@@ -163,8 +179,7 @@
                     data-placement="top"
                     title="<small>July 6, 10:00AM EDT - 11:00AM EDT</small>"
                     data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
-            		  <span class="date">7</span>
-                  <span class="week-of-date">Friday</span>
+                  <span class="week-of-date">Friday <strong>7</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-certification-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
                   <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
@@ -182,44 +197,44 @@
 
             <ul class="days">
               <li class="day empty">
-                <a class="event">
                 <span class="date">9</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">10</span>
                 <a class="event">
-            		 <span class="date">10</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">11</span>
                 <a class="event">
-            		 <span class="date">11</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">12</span>
                 <a class="event">
-            		 <span class="date">12</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">13</span>
                 <a class="event">
-            		 <span class="date">13</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
               <li class="day empty">
-                <a class="event">
                 <span class="date">14</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">15</span>
                 <a class="event">
-            		 <span class="date">15</span>
                  <p class="event-title"></p>
                 </a>
               </li>
@@ -227,56 +242,57 @@
 
             <ul class="days">
               <li class="day empty">
-                <a class="event">
                 <span class="date">16</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">17</span>
                 <a class="event">
-            		 <span class="date">17</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">18</span>
                 <a class="event">
-            		 <span class="date">18</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">19</span>
                 <a class="event">
-            		 <span class="date">19</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">20</span>
                 <a class="event">
-            		 <span class="date">20</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
               <li class="day empty">
-                <a class="event">
                 <span class="date">21</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">22</span>
                 <a class="event">
-            		 <span class="date">22</span>
                  <p class="event-title"></p>
                 </a>
               </li>
             </ul>
             <ul class="days">
               <li class="day empty">
+                <span class="date">23</span>
                 <a class="event">
-            		 <span class="date">23</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day">
+                <span class="date">24</span>
                 <a class="event" href="course-details.php"
                     tabindex="0"
                     role="button"
@@ -286,8 +302,7 @@
                     data-placement="top"
                     title="<small>July 6, 10:00AM EDT - 11:00AM EDT</small>"
                     data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
-            		  <span class="date">24</span>
-                  <span class="week-of-date">Monday</span>
+                  <span class="week-of-date">Monday <strong>24</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-live-icon.svg" /> <img src="assets/course-calendar-certification-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
                   <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
@@ -296,76 +311,76 @@
                 <?php include 'course-calendar-admin-menu.php'; ?>
             	</li>
             	<li class="day empty">
+                <span class="date">25</span>
                 <a class="event">
-            		 <span class="date">25</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">26</span>
                 <a class="event">
-            		 <span class="date">26</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">27</span>
                 <a class="event">
-            		 <span class="date">27</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
               <li class="day empty">
-                <a class="event">
                 <span class="date">28</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">29</span>
                 <a class="event">
-            		 <span class="date">29</span>
                  <p class="event-title"></p>
                 </a>
               </li>
             </ul>
             <ul class="days disabled">
               <li class="day empty">
-                <a class="event">
                 <span class="date">30</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day empty">
+                <span class="date">31</span>
                 <a class="event">
-            		 <span class="date">31</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">1</span>
                 <a class="event">
-            		 <span class="date">1</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">2</span>
                 <a class="event">
-            		 <span class="date">2</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">3</span>
                 <a class="event">
-            		 <span class="date">3</span>
                  <p class="event-title"></p>
                 </a>
             	</li>
               <li class="day other-month disabled">
-                <a class="event">
                 <span class="date">4</span>
+                <a class="event">
                  <p class="event-title"></p>
                 </a>
             	</li>
             	<li class="day other-month disabled">
+                <span class="date">5</span>
                 <a class="event">
-            		 <span class="date">5</span>
                  <p class="event-title"></p>
                 </a>
               </li>
