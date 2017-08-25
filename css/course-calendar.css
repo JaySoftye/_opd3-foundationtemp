@@ -3,6 +3,15 @@
  * Teq Online Professional Development Course Calendar
  */
 
+body.event-calendar div.modal-backdrop {
+  z-index: -1 !important;
+}
+
+body.event-calendar div.modal {
+  top: 18% !important;
+}
+
+
 div#course-calendar-date-selector h2 {
   display: block;
   margin: 0 auto;
@@ -42,7 +51,7 @@ a.calendar-view-change img {
   width: 8.5%;
 }
 
-div#calendar-wrap, div.calendar, div.calendar ul.days {
+div#calendar-wrap, div.calendar, div.calendar ul.days, div.calendar ul.weekdays {
 	width: 100%;
 }
 
@@ -50,7 +59,7 @@ div#calendar-wrap {
   padding: 10px;
 }
 
-div.calendar ul.days {
+div.calendar ul.days, div.calendar ul.weekdays {
   height: 100%;
   margin-bottom: 0;
 	padding: 0 0;
@@ -69,6 +78,7 @@ div.calendar li.day {
 div.calendar ul.weekdays li.day {
   background-color: rgb(64, 85, 117);
 	padding: .25rem;
+  display: table-cell;
 	border: none !important;
 	font-size: 1rem;
   font-weight: 200;
@@ -138,6 +148,7 @@ div.calendar p.event-description {
 
 div.calendar .other-month {
 	background: #f5f5f5;
+  z-index: -1;
 	color: #666;
 }
 

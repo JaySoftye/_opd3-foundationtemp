@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/mobile-ui.css">
 
   </head>
-    <body>
+    <body class="event-calendar">
 
       <?php include 'login-window.php'; ?>
 
