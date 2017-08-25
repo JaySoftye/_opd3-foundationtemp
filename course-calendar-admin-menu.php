@@ -111,46 +111,6 @@
 DELETE THIS
 ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
 **/
-var a = document.getElementById('playlist-selection');
-var b = document.getElementById('add-to-playlist-form');
-var c = document.getElementById('share-playlist');
-var d = document.getElementById('playlist-name');
-var e = document.getElementById('share-playlist-form');
-var f = document.getElementsByClassName("share-playlist-btn")[0];
-var g = document.getElementById('district-options');
 
-a.onclick = function() {
-    b.style.display = 'none';
-    c.style.display = 'block';
-    d.innerHTML = a.innerHTML;
-  }
-
-f.onclick = function() {
-    e.style.display = 'block';
-  }
-
-function addDistrict(obj) {
-    var h = document.createElement('button');
-    var i = document.getElementById('districts-seletected');
-    h.className += "remove-item";
-    h.innerHTML = "&times; " + obj.innerHTML;
-    h.onclick = function() {this.parentNode.removeChild(this); }
-    i.appendChild(h);
-}
-
-function addSchool(obj) {
-    var j = document.createElement('button');
-    var k = document.getElementById('schools-seletected');
-    j.className += "remove-item";
-    j.innerHTML = "&times; " + obj.innerHTML;
-    j.onclick = function() {this.parentNode.removeChild(this); }
-    k.appendChild(j);
-}
-
-function remove() {
-    var l = document.getElementById('dummy');
-    elem.parentNode.removeChild(elem);
-    return false;
-}
 
 </script>

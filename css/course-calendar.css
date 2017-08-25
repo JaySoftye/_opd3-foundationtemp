@@ -42,7 +42,7 @@ a.calendar-view-change img {
   width: 8.5%;
 }
 
-div#calendar-wrap, div.calendar, div.calendar ul {
+div#calendar-wrap, div.calendar, div.calendar ul.days {
 	width: 100%;
 }
 
@@ -50,7 +50,7 @@ div#calendar-wrap {
   padding: 10px;
 }
 
-div.calendar ul {
+div.calendar ul.days {
   height: 100%;
   margin-bottom: 0;
 	padding: 0 0;
@@ -144,7 +144,7 @@ div.calendar .other-month {
 div.calendar div.dropdown {
   width: 20px;
   position: absolute;
-  z-index: 1075;
+  z-index: 950;
   margin-top: -2rem;
   margin-left: 8.25rem;
 }
