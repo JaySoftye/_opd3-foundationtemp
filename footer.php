@@ -36,7 +36,7 @@
 
     <div class="row padding-top">
       <div class="col text-center">
-        <p class="white"><strong>Copyright © Teq </strong><a href="#" class="white"><strong>Privacy Policy</strong><a/>, <a href="#"  class="white"><strong>Terms</strong></a></p>
+        <p class="white"><strong>Copyright © Teq </strong><a href="/privacy-doc.php" class="white"><strong>Privacy Policy</strong><a/>, <a href="/terms-doc.php" class="white"><strong>Terms</strong></a></p>
       </div>
     </div>
 
