@@ -33,6 +33,10 @@ footer {
   padding: 5rem 0;
 }
 
+main {
+  min-height: 75vh;
+}
+
 section#user-logged-in  {
   padding: .5rem;
 }
