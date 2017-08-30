@@ -23,6 +23,11 @@
     <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
     <link rel="stylesheet" href="css/mobile-ui.css">
 
+    <link rel="stylesheet" href="http://releases.flowplayer.org/5.5.2/skin/minimalist.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://releases.flowplayer.org/5.5.2/flowplayer.min.js"></script>
+
+
   </head>
     <body>
 
