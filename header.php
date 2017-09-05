@@ -45,7 +45,7 @@
               </div>
               <div class="col-md-3">
                 <section class="row align-items-center active" id="user-logged-in">
-                  <div class="col no-padding"><a href="#" id="profile-image"><span>UN</span></a></div>
+                  <div class="col no-padding"><a href="#" id="profile-image" style="background-image: url(http://opd-dev.teq.com/images/person_placeholder.jpg);"><span class="hidden">UN</span></a></div>
                   <div class="col no-padding"><a class="user-name" href="#">User Name</a></div>
                 </section>
               </div>

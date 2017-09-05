@@ -455,6 +455,14 @@ section.light-blue-bg {
   background-color: rgba(200, 222, 255, 1);
 }
 
+section.profile-color-bg {
+  background-color: #ffc8d7;
+}
+
+section.howto-color-bg {
+  background-color: #ffb18a;
+}
+
 section.light-green-bg {
   background-color: rgba(161, 215, 132, 0.35);
 }

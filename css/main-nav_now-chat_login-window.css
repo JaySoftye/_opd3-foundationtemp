@@ -50,6 +50,10 @@ a#profile-image, a#profile-image:hover, a#profile-image:focus {
   width: 125px;
   height: 125px;
   background-color: rgb(60, 72, 82);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 50%;
   padding: 0 0;
   display: table;
   margin: 0 auto;

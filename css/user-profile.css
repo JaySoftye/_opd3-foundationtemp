@@ -187,3 +187,15 @@ form.profile-form input[type=file] {
   opacity: 0;
   cursor: pointer;
 }
+
+
+div.profile-photo {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(60, 72, 82);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}

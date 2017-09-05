@@ -3,10 +3,10 @@
 
   <main>
 
-    <section class="container-fluid under-header light-blue-bg">
+    <section class="container-fluid under-header profile-color-bg">
       <div class="container">
 
-        <div class="row">
+        <div class="row padding-top">
           <div class="col">
             <ul class="nav profile-nav">
               <li class="nav-item">
@@ -51,7 +51,8 @@
       <section class="container padding-top padding-bottom">
         <div class="row">
           <div class="col-md-2 padding-top">
-            <div class="padding-bottom"><a href="#" id="profile-image"><span>UN</span></a></div>
+            <div class="padding-bottom hidden"><a href="#" id="profile-image"><span>UN</span></a></div>
+            <div class="profile-photo" style="background-image: url(http://opd-dev.teq.com/images/person_placeholder.jpg);"></div>
 
             <form action="" method="post" class="profile-form">
               <div class="form-group file-input">

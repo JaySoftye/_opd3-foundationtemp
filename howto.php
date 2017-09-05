@@ -2,12 +2,12 @@
 
   <main>
 
-    <section class="container-fluid under-header" id="search-box-container">
+    <section class="container-fluid under-header howto-color-bg">
       <div class="container">
         <div class="row padding-top">
           <div class="col">
             <h2>How-to <strong>Videos</strong></h2>
-            Here you have access to view all the How-to Videos on how to navigate our website.<br /><small>Can't find what you're looking for? Contact us directly at <a href="mailto:onlinepd@teq.com"><u>OnlinePD@teq.com</u></a></small>
+            <p>Here you have access to view all the How-to Videos on how to navigate our website.<br /><small>Can't find what you're looking for? Contact us directly at <a href="mailto:onlinepd@teq.com"><u>OnlinePD@teq.com</u></a></small></p>
           </div>
         </div>
       </div>

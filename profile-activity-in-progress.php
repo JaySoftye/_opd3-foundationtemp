@@ -3,10 +3,10 @@
 
   <main>
 
-    <section class="container-fluid under-header light-blue-bg">
+    <section class="container-fluid under-header profile-color-bg">
       <div class="container">
 
-        <div class="row">
+        <div class="row padding-top">
           <div class="col">
             <ul class="nav profile-nav">
               <li class="nav-item">

@@ -3,7 +3,7 @@
 
   <main>
 
-    <section class="container-fluid under-header light-blue-bg">
+    <section class="container-fluid under-header profile-color-bg">
       <div class="container">
 
         <div class="row">
