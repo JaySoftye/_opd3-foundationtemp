@@ -152,7 +152,7 @@ tr.orange-chapter-bg > td:nth-child(2) > a {
   padding-left: 20%;
 }
 
-form.profile-form .form-group input, form.profile-form .form-group select,  {
+form.profile-form .form-group input, form.profile-form .form-group select {
   background-color: white;
   color: black;
 }
