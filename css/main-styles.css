@@ -164,6 +164,11 @@ article .card .card-text {
   float: right;
 }
 
+.card div.fp-ui:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 div.tab-content {
   padding: 1.75rem 0;
 }
