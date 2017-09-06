@@ -19,7 +19,7 @@
 
       <div class="row row-eq-height padding-top">
         <div class="col-md-8">
-          <video poster="assets/video-player-image.jpg" style="width: inherit;" data-toggle="modal" data-target=".satisfaction-survey-form">
+          <video class="hidden" poster="assets/video-player-image.jpg" style="width: inherit;" data-toggle="modal" data-target=".satisfaction-survey-form">
             <source src="" type="video/mp4">
               Your browser does not support the video tag.
           </video>
@@ -53,6 +53,7 @@
               <small class="teq-blue-text">Host</small>
               <span>Aenean ut libero tempus erat tristique varius. Proin sit amet diam turpis. Pellentesque ut purus non libero eleifend sagittis.</span>
             </p>
+
             <p>
               <small class="teq-blue-text">Participant One</small>
               <span>Maecenas ac consectetur neque.</span>
