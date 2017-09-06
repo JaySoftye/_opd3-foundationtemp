@@ -351,6 +351,7 @@ aside#live-chat-container a.dropdown-toggle.participants {
 }
 
 aside#live-chat-container #live-chat-box {
+  min-height: 20rem;
   max-height: 20rem;
   margin-bottom: 4rem;
   overflow-y: auto;
