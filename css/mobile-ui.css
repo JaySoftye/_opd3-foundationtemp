@@ -21,6 +21,10 @@
      display: none !important;
    }
 
+   a.lg-btn, a.btn {
+     display: inline-block;
+   }
+
    section.edTech {
      background-position: 42% top;
    }
