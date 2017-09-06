@@ -41,6 +41,7 @@
           </div>
 
           <div class="row" id="live-chat-box">
+            <div>
             <p>
               <small class="teq-blue-text">Host</small>
               <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
@@ -49,6 +50,7 @@
               <small class="teq-blue-text">Participant One</small>
               <span>Pellentesque ut purus non libero eleifend sagittis. Maecenas ac consectetur neque.</span>
             </p>
+
             <p>
               <small class="teq-blue-text">Host</small>
               <span>Aenean ut libero tempus erat tristique varius. Proin sit amet diam turpis. Pellentesque ut purus non libero eleifend sagittis.</span>
@@ -62,6 +64,7 @@
               <small class="teq-blue-text">Participant Two</small>
               <span>Aenean ut libero tempus erat tristique varius. Proin sit amet diam turpis. Pellentesque ut purus non libero eleifend sagittis.</span>
             </p>
+            </div>
           </div>
 
           <div class="row" id="live-chat-form">
