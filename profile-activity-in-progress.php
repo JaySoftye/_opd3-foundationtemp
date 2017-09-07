@@ -88,7 +88,7 @@
                   <table class="course-activity-table">
                     <tr class="green-chapter-bg">
                       <th></th>
-                      <td><a href="#">Chapter 1</a></td>
+                      <td><a href="#">This is a really long Chapter 1 title it will wrap into 2 lines fo sho</a></td>
                       <td></td>
                       <td></td>
                       <td>100%</td>
@@ -97,7 +97,7 @@
                     </tr>
                     <tr class="green-chapter-bg">
                       <th></th>
-                      <td><a href="#">Chapter 2</a></td>
+                      <td><a href="#">This is a really long Chapter 2 title it will wrap into 2 lines fo sho</a></td>
                       <td></td>
                       <td></td>
                       <td>35%</td>
@@ -161,7 +161,7 @@
                   <table class="course-activity-table">
                     <tr class="orange-session-bg table-row-expand" data-target="#Session-1-Administrator-Track-Designing-and-Building-Engaging-Learning-Environments" data-toggle="collapse" aria-expanded="true" aria-controls="ASession-1-dministrator-Track-Designing-and-Building-Engaging-Learning-Environments">
                       <th></th>
-                      <td><a href="#">Session 1</a></td>
+                      <td><a href="#">This is a really long Session 1 title it will wrap into 2 lines fo sho. If you don't believe me refresh</a></td>
                       <td></td>
                       <td></td>
                       <td>2 of 3</td>
@@ -174,7 +174,7 @@
                         <table class="course-activity-table">
                           <tr class="orange-chapter-bg">
                             <th></th>
-                            <td><a href="#">Chapter 1</a></td>
+                            <td><a href="#">This is a really long Chapter 1 title it will wrap into 2 lines fo sho</a></td>
                             <td>100%</td>
                             <td></td>
                             <td></td>
@@ -183,7 +183,7 @@
                           </tr>
                           <tr class="orange-chapter-bg">
                             <th></th>
-                            <td><a href="#">Chapter 2</a></td>
+                            <td><a href="#">This is a really long Chapter 2 title it will wrap into 2 lines fo sho</a></td>
                             <td>35%</td>
                             <td></td>
                             <td></td>
@@ -196,7 +196,7 @@
 
                     <tr class="orange-session-bg">
                       <th></th>
-                      <td><a href="#">Session 2</a></td>
+                      <td><a href="#">This is a really long Session 2 title it will wrap into 2 lines fo sho. If you don't believe me refresh</a></td>
                       <td></td>
                       <td></td>
                       <td>3 of 3</td>
@@ -205,7 +205,7 @@
                     </tr>
                     <tr class="orange-session-bg">
                       <th></th>
-                      <td><a href="#">Session 3</a></td>
+                      <td><a href="#">This is a really long Session 3 title it will wrap into 2 lines fo sho. If you don't believe me refresh</a></td>
                       <td></td>
                       <td></td>
                       <td>3 of 3</td>
@@ -214,7 +214,7 @@
                     </tr>
                     <tr class="orange-session-bg">
                       <th></th>
-                      <td><a href="#">Session 4</a></td>
+                      <td><a href="#">This is a really long Session 4 title it will wrap into 2 lines fo sho. If you don't believe me refresh</a></td>
                       <td></td>
                       <td></td>
                       <td>3 of 3</td>
@@ -223,7 +223,7 @@
                     </tr>
                     <tr class="orange-session-bg">
                       <th></th>
-                      <td><a href="#">Session 5</a></td>
+                      <td><a href="#">This is a really long Session 5 title it will wrap into 2 lines fo sho. If you don't believe me refresh</a></td>
                       <td></td>
                       <td></td>
                       <td>3 of 3</td>
@@ -232,7 +232,7 @@
                     </tr>
                     <tr class="orange-session-bg">
                       <th></th>
-                      <td><a href="#">Session 6</a></td>
+                      <td><a href="#">This is a really long Session 6 title it will wrap into 2 lines fo sho. If you don't believe me refresh</a></td>
                       <td></td>
                       <td></td>
                       <td>3 of 3</td>

@@ -82,21 +82,19 @@ table.course-activity-table tbody, table.course-activity-table a  {
   color: rgb(64, 85, 117);
 }
 
-table.course-activity-table a {
-  padding: 0 1.5rem;
-}
-
 table.course-activity-table a:hover, table.course-activity-table a:focus {
   color: black;
 }
 
 table.course-activity-table tbody a.take-quiz {
   background: url('images/profile-take-quiz-icon.svg') no-repeat left center;
+  padding: 0 1.5rem;
   text-align: right;
 }
 
 table.course-activity-table tbody a.view-assignments {
   background: url('images/profile-assignments-icon.svg') no-repeat left center;
+  padding: 0 1.5rem;
   text-align: right;
 }
 
@@ -111,8 +109,8 @@ table.course-activity-table tr.green-chapter-bg {
 }
 
 tr.green-chapter-bg > td:nth-child(2) > a {
-  background: url('images/profile-chapters-bg-icon.svg') no-repeat 25% center;
-  padding-left: 15%;
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 5px center;
+  padding-left: 30px;
 }
 
 tr.green-bg.table-row-expand:hover, tr.green-bg.table-row-expand:focus {
@@ -130,8 +128,8 @@ table.course-activity-table tr.orange-session-bg {
 }
 
 tr.orange-session-bg > td:nth-child(2) > a {
-  background: url('images/profile-sessions-bg-icon.svg') no-repeat 25% center;
-  padding-left: 15%;
+  background: url('images/profile-sessions-bg-icon.svg') no-repeat 5px center;
+  padding-left: 30px;
 }
 
 tr.orange-bg.table-row-expand:hover, tr.orange-bg.table-row-expand:focus {
@@ -148,8 +146,8 @@ table.course-activity-table tr.orange-chapter-bg {
 }
 
 tr.orange-chapter-bg > td:nth-child(2) > a {
-  background: url('images/profile-chapters-bg-icon.svg') no-repeat 35% center;
-  padding-left: 20%;
+  background: url('images/profile-chapters-bg-icon.svg') no-repeat 20px center;
+  padding-left: 45px;
 }
 
 form.profile-form .form-group input, form.profile-form .form-group select {
