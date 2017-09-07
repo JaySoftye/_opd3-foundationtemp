@@ -8,8 +8,8 @@
 
         <div class="row">
           <div class="col padding-top padding-bottom">
-            <h1 class="text-center">Individual and Institutional <strong>Pricing</strong></h1>
-            <p class="text-center">Faculty. Staff. Administrator. Parents. No matter who you are, Teq Online Professional Development offers just the right solution for you. Individual license starts at $199.99/year or $19.99/month. <strong>Significant volume discounts available to schools, districts, and campuses</strong>. Whatever your needs, we’ll create a custom package to meet them.</p>
+            <h1 class="text-center">Faculty. Staff. Administrator. Parents. </h1>
+            <p class="text-center">No matter who you are, Teq Online Professional Development offers just the right solution for you.</p>
           </div>
         </div>
 
