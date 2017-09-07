@@ -217,12 +217,64 @@
                     <p><span><strong>2,397</strong> days until your Account Expires</span><br /><span>Sunday, December 31, 2023</span></p>
                   </div>
                   <div class="card-footer">
-                    <a class="btn blue-border" href="#">Renew Account</a><a class="btn teq-blue-text" href="#">Request Full Access</a>
+                    <a href="#account-renewal-form" data-toggle="modal" class="btn blue-border" href="#">Renew Account</a> <a href="#requeset-full-access-form" data-toggle="modal" class="btn teq-blue-text" href="#">Request Full Access</a>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+
+          <div class="modal fade" id="account-renewal-form" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header card-header school-district">
+                  <h4 class="modal-title white">Renew Your Account</h4>
+                  <button class="white" type="button" data-dismiss="modal" aria-label="Close"> &times; </button>
+                </div>
+                <div class="modal-body">
+                  <p>To <strong>renew your OPD Account</strong>, fill out the form below and a Online PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
+                  <section class="hubspot-form-fields">
+                    <!--[if lte IE 8]>
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                    <![endif]-->
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                      portalId: '182596',
+                      formId: '3b84439e-9301-4aff-a92c-0b848040d055'
+                    });
+                    </script>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="requeset-full-access-form" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header card-header school-district">
+                  <h4 class="modal-title white">Request Full Access</h4>
+                  <button class="white" type="button" data-dismiss="modal" aria-label="Close"> &times; </button>
+                </div>
+                <div class="modal-body">
+                  <p>To <strong>request full access to Online PD</strong>, fill out the form below and a Online PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
+                  <section class="hubspot-form-fields">
+                    <!--[if lte IE 8]>
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                    <![endif]-->
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                    <script>
+                    hbspt.forms.create({
+                      portalId: '182596',
+                      formId: 'c3b8cfc0-fd6e-4b69-9f00-8ececf18bba4'
+                    });
+                    </script>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </section>
 

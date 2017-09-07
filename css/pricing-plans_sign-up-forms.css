@@ -45,7 +45,7 @@ section.pricing-plans a.btn.individual-plan {
   background-color: rgb(161, 215, 132);
 }
 
-section.pricing-plans div.card-header.school-district {
+section div.card-header.school-district {
   background-color: rgb(79, 197, 221);
 }
 
@@ -61,4 +61,51 @@ section.pricing-plans dl, section.pricing-plans dd  {
 form.sign-up-form button {
   width: 100%;
   padding: 1rem 1.25rem;
+}
+
+section.hubspot-form-fields span.hs-form-required {
+  display: none;
+  text-indent: -99999px;
+}
+
+section.hubspot-form-fields div.field.hs-form-field input[type="text"], section.hubspot-form-fields div.field.hs-form-field input[type="email"], section.hubspot-form-fields div.field.hs-form-field input[type="tel"] {
+  height: 1.5rem;
+  background-color: white;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+section.hubspot-form-fields div.field.hs-form-field select {
+  height: 2.75rem;
+  width: 95%;
+  background-color: white;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+section.hubspot-form-fields div.hs_submit input[type="submit"], section.hubspot-form-fields div.hs_submit input.hs-button {
+  padding: 1rem 1.75rem;
+  background-color: rgb(0, 180, 228);
+  background-image: none;
+  border-color: transparent;
+  box-shadow: none;
+  color: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  font-size: .95rem;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+}
+
+section.hubspot-form-fields ul.hs-error-msgs label {
+  font-size: .85rem;
+  color: red;
 }

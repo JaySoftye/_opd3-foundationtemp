@@ -94,50 +94,21 @@
               <h4 class="modal-title white">School and District Pricing Plans</h4>
               <button class="white" type="button" data-dismiss="modal" aria-label="Close"> &times; </button>
             </div>
-            <form action="" method="post" class="sign-up-form">
-              <div class="modal-body">
-                <p>For more information on <strong>School or District Group Pricing</strong>, fill out the form below and a Online PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="First Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Last Name">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <input type="phone" class="form-control" placeholder="Phone">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="School or District">
-                </div>
-                <div class="form-group">
-                  <select class="form-control">
-                    <option selected>Please Select Your title/role...</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <select class="form-control">
-                    <option selected>State</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" rows="3" placeholder="Additional Information"></textarea>
-                </div>
-                <div class="form-check">
-                  <label>
-                    <i><input type="checkbox" class="form-check-input">
-                    I already have a OPD account</i>
-                  </label>
-                </div>
-                <div class="form-group row padding-top">
-                  <div class="col-6">
-                    <button type="submit" class="btn ">Request Pricing</button>
-                  </div>
-                </div>
-              </div>
-            </form>
+            <div class="modal-body">
+              <p>For more information on <strong>School or District Group Pricing</strong>, fill out the form below and a Online PD Specialist will reach out to you directly or call us toll free at <strong class="teq-blue-text">877.455.9369</strong>.</p>
+              <section class="hubspot-form-fields">
+                <!--[if lte IE 8]>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                  hbspt.forms.create({
+                    portalId: '182596',
+                    formId: '2b9fbf88-0dbe-4067-ad25-d11e33f9be74'
+                  });
+                </script>
+              </section>
+            </div>
           </div>
         </div>
       </div>
