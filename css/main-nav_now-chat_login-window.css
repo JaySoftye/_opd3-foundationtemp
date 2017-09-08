@@ -30,7 +30,21 @@ header div.row.top-header-bar {
 
 footer {
   background-color: rgba(60, 72, 82, 1);
-  padding: 5rem 0;
+}
+
+footer .digital-certs {
+  background-color: rgba(161, 200, 215, 0.95);
+}
+
+footer a svg .svg-link {
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+footer a svg:hover .svg-link {
+  fill: #3c4852;
 }
 
 main {
