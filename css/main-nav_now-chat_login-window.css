@@ -22,6 +22,7 @@ nav#mobile-navbar {
 
 nav#mobile-navbar a img {
   width: 100%;
+  max-width: 100%;
 }
 
 header div.row.top-header-bar {

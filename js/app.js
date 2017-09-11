@@ -14,6 +14,15 @@
    });
  });
 
+ $( "#mobile-now-window" ).click(function() {
+   $( "#now-chat-window" ).animate({
+     width: '100%',
+     height: '100%'
+   }, 100, function() {
+     $(this).css('z-index', 10010)
+   });
+ });
+
  $( "button#now-chat-close" ).click(function() {
    $( "#now-chat-window" ).animate({
      width: '0',
