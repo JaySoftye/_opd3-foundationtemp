@@ -12,12 +12,17 @@
   </button>
   <div class="mobile-now-chat-window">
     <div class="col">
-      <p class="white">Chat nOw or connect via one of our other options from the menu below</p>
+      <p class="white">Connect to a live PD Specialist using the menu of options below</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col hide-small text-center">
+      <small class="white">Connect to a live PD Specialist using the menu of options below</small>
     </div>
   </div>
   <div class="row">
-    <div class="col-4 hide-small">
-      <a href="#" class="active"><img src="assets/now-instructional-support-chat-via.svg" alt="Chat nOw or connect via one of our other options" /></a>
+    <div class="col hide-small">
+      <a href="#" class="active"><img src="assets/now-instructional-support-chat-now.svg" alt="Chat nOw" /></a>
     </div>
     <div class="col mobile-now-chat-window">
       <a href="#" class="active"><img src="assets/now-instructional-support-chat-now.svg" alt="Chat nOw" /></a>

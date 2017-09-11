@@ -8,7 +8,7 @@
  $( "#now-instructional-support" ).click(function() {
    $( "#now-chat-window" ).animate({
      width: '770',
-     height: '400'
+     height: '440'
    }, 100, function() {
      $(this).css('z-index', 10010)
    });
