@@ -86,7 +86,7 @@
         <h2><strong>Category Title</strong></h2>
       </div>
       <div class="col-md-6 text-right">
-        <a href="#" class="admin-link"><img src="assets/admin-gear-icon.svg" alt="admin" /></a>
+        
       </div>
     </div>
 
