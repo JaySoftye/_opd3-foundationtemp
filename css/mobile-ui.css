@@ -47,11 +47,15 @@
    }
 
    aside#now-chat-window button.close {
-     width: 200px;
      top: 0;
+     min-height: 75px;
      position: relative;
      display: block;
      float: none !important;
+   }
+
+   aside#now-chat-window .mobile-now-chat-window {
+     display: block;
    }
 
    div.row.categories-items article.col {

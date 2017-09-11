@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
    color: rgb(60, 72, 82);
  }
 
+ img {
+   max-width: initial !important;
+ }
+
  /** BOOTSTRAP 4 OVERRIDES **/
 
 button {

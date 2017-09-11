@@ -277,8 +277,12 @@ aside#now-chat-window a img {
   opacity: 0.4;
 }
 
-aside#now-chat-window a img:hover, aside#now-chat-window a img:focus, aside#now-chat-window a img.active {
+aside#now-chat-window a:hover img, aside#now-chat-window a:focus img, aside#now-chat-window a.active img {
   opacity: 1;
+}
+
+aside#now-chat-window .mobile-now-chat-window {
+  display: none;
 }
 
 div#now-chat-box form {
@@ -300,11 +304,6 @@ div#now-chat-box form#chat-box-conversation input, div#mobile-now-chat-box form#
   outline: none;
   border-radius: 0;
   border: none;
-}
-
-div#mobile-now-chat-box form#mobile-chat-box-conversation {
-  width: 100%;
-  overflow-y: auto;
 }
 
 span.stat-text {
