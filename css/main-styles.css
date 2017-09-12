@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
    max-width: initial !important;
  }
 
+ iframe#olark-inline-iframe {
+   height: 250px !important;
+ }
+
  /** BOOTSTRAP 4 OVERRIDES **/
 
 button {
