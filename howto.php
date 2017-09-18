@@ -29,7 +29,7 @@
                 </ul>
               </div>
 
-              <div class="card-body" data-toggle="modal" data-target=".add-to-playlist"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-1c916b27-0d49-47d7-a277-39fa1995392c-high-1.jpg" /></div>
+              <div class="card-body" data-toggle="modal" data-target=".add-to-playlist"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-1c916b27-0d49-47d7-a277-39fa1995392c-high-1.jpg" style="cursor:pointer;" /></div>
 
               <div class="modal fade add-to-playlist" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -61,7 +61,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".chapters-screen"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7-high-1.jpg" /></div>
+              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".chapters-screen"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7-high-1.jpg" /></div>
 
               <div class="modal fade chapters-screen" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -94,7 +94,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".group-code"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-b38437a2-4762-4fce-9387-6dc1254c6e49-high-1.jpg" /></div>
+              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".group-code"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-b38437a2-4762-4fce-9387-6dc1254c6e49-high-1.jpg" /></div>
 
               <div class="modal fade group-code" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -127,7 +127,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".taking-a-quiz"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-712eae8f-73ed-44eb-a51e-a8c77889b518-high-1.jpg" /></div>
+              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".taking-a-quiz"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-712eae8f-73ed-44eb-a51e-a8c77889b518-high-1.jpg" /></div>
 
               <div class="modal fade taking-a-quiz" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -160,7 +160,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".register-for-a-course"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-1a5f11d2-b19c-4795-a7d8-b4e64e2b1409-high-1.jpg" /></div>
+              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".register-for-a-course"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-1a5f11d2-b19c-4795-a7d8-b4e64e2b1409-high-1.jpg" /></div>
 
               <div class="modal fade register-for-a-course" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -193,7 +193,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".user-profile"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-758711b0-fe1f-4df7-8287-d1d5f4248ae2-high-1.jpg" /></div>
+              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".user-profile"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-758711b0-fe1f-4df7-8287-d1d5f4248ae2-high-1.jpg" /></div>
 
               <div class="modal fade user-profile" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
