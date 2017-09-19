@@ -29,8 +29,7 @@
                 </ul>
               </div>
 
-              <div class="card-body" data-toggle="modal" data-target=".add-to-playlist"><div class="fp-ui"></div><img src="https://l3561eb26.lwcdn.com/i/v-i-1c916b27-0d49-47d7-a277-39fa1995392c-high-1.jpg" style="cursor:pointer;" /></div>
-
+              <div class="card-body" data-toggle="modal" data-target=".add-to-playlist"><span class="how-to-video-icon"></span><img src="https://l3561eb26.lwcdn.com/i/v-i-1c916b27-0d49-47d7-a277-39fa1995392c-high-1.jpg" style="cursor:pointer;" /></div>
               <div class="modal fade add-to-playlist" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
@@ -40,8 +39,11 @@
                         <span aria-hidden="true">×</span>
                       </button>
                     </div>
-                    <div>
-                      <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=1c916b27-0d49-47d7-a277-39fa1995392c&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class="flowplayer">
+                      <video>
+                        <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/1c916b27-0d49-47d7-a277-39fa1995392c/playlist.m3u8">
+                        <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-1c916b27-0d49-47d7-a277-39fa1995392c.mp4">
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -61,7 +63,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".chapters-screen"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7-high-1.jpg" /></div>
+              <div class="card-body" data-toggle="modal" data-target=".chapters-screen"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7-high-1.jpg" /></div>
 
               <div class="modal fade chapters-screen" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -72,8 +74,11 @@
                         <span aria-hidden="true">×</span>
                       </button>
                     </div>
-                    <div>
-                      <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=0d2aa6c9-3528-4ace-9dd2-84ef85215ab7&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class="flowplayer">
+                      <video>
+                        <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/0d2aa6c9-3528-4ace-9dd2-84ef85215ab7/playlist.m3u8">
+                        <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7.mp4">
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -94,7 +99,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".group-code"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-b38437a2-4762-4fce-9387-6dc1254c6e49-high-1.jpg" /></div>
+              <div class="card-body" data-toggle="modal" data-target=".group-code"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-b38437a2-4762-4fce-9387-6dc1254c6e49-high-1.jpg" /></div>
 
               <div class="modal fade group-code" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -105,8 +110,11 @@
                         <span aria-hidden="true">×</span>
                       </button>
                     </div>
-                    <div>
-                      <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=b38437a2-4762-4fce-9387-6dc1254c6e49&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class="flowplayer">
+                      <video>
+                        <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/b38437a2-4762-4fce-9387-6dc1254c6e49/playlist.m3u8">
+                        <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-b38437a2-4762-4fce-9387-6dc1254c6e49.mp4">
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -127,7 +135,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".taking-a-quiz"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-712eae8f-73ed-44eb-a51e-a8c77889b518-high-1.jpg" /></div>
+              <div class="card-body" data-toggle="modal" data-target=".taking-a-quiz"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-712eae8f-73ed-44eb-a51e-a8c77889b518-high-1.jpg" /></div>
 
               <div class="modal fade taking-a-quiz" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -138,8 +146,11 @@
                         <span aria-hidden="true">×</span>
                       </button>
                     </div>
-                    <div>
-                      <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=712eae8f-73ed-44eb-a51e-a8c77889b518&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class="flowplayer">
+                      <video>
+                        <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/712eae8f-73ed-44eb-a51e-a8c77889b518/playlist.m3u8">
+                        <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-712eae8f-73ed-44eb-a51e-a8c77889b518.mp4">
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -160,7 +171,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".register-for-a-course"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-1a5f11d2-b19c-4795-a7d8-b4e64e2b1409-high-1.jpg" /></div>
+              <div class="card-body" data-toggle="modal" data-target=".register-for-a-course"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-1a5f11d2-b19c-4795-a7d8-b4e64e2b1409-high-1.jpg" /></div>
 
               <div class="modal fade register-for-a-course" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -171,8 +182,11 @@
                         <span aria-hidden="true">×</span>
                       </button>
                     </div>
-                    <div>
-                      <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=1a5f11d2-b19c-4795-a7d8-b4e64e2b1409&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class="flowplayer">
+                      <video>
+                        <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/1a5f11d2-b19c-4795-a7d8-b4e64e2b1409/playlist.m3u8">
+                        <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-1a5f11d2-b19c-4795-a7d8-b4e64e2b1409.mp4">
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -193,7 +207,7 @@
                 </ul>
               </div>
 
-              <div class="card-body flowplayer is-paused" data-toggle="modal" data-target=".user-profile"><div class="fp-ui"></div><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-758711b0-fe1f-4df7-8287-d1d5f4248ae2-high-1.jpg" /></div>
+              <div class="card-body" data-toggle="modal" data-target=".user-profile"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-758711b0-fe1f-4df7-8287-d1d5f4248ae2-high-1.jpg" /></div>
 
               <div class="modal fade user-profile" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
@@ -204,8 +218,11 @@
                         <span aria-hidden="true">×</span>
                       </button>
                     </div>
-                    <div>
-                      <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=758711b0-fe1f-4df7-8287-d1d5f4248ae2&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                    <div class="flowplayer">
+                      <video>
+                        <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/758711b0-fe1f-4df7-8287-d1d5f4248ae2/playlist.m3u8">
+                        <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-758711b0-fe1f-4df7-8287-d1d5f4248ae2.mp4">
+                      </video>
                     </div>
                   </div>
                 </div>

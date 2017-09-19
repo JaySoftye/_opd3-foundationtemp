@@ -163,6 +163,15 @@ article .card .card-text {
   color: inherit;
 }
 
+.card .card-body span.how-to-video-icon {
+  height: 60px;
+  width: 60px;
+  background: url('images/play-white-icon.svg') no-repeat center center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
 .card .card-footer {
   background-color: white;
 }
