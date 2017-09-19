@@ -7,7 +7,7 @@
   </div>
 </div>
 
-<aside id="now-chat-window" style="background-color: rgb(60, 72, 82); border: 5px solid rgb(197, 15, 60);">
+<aside id="now-chat-window" style="border: 5px solid transparent; right: -10px;">
   <button type="button" class="close" id="now-chat-close">
     <img src="assets/close-icon-red.svg" alt="close" />
   </button>
@@ -155,5 +155,17 @@
     </section>
 
   </main>
+
+  <script>
+  /**
+  DELETE THIS
+  ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
+  **/
+$( "#now-instructional-support" ).click(function() {
+      $("#now-chat-window").css('background-color', 'rgb(60,72,82)');
+      $("#now-chat-window").css('border-color', 'rgb(197,15,60)');
+  });
+</script>
+
 
 <?php include 'footer.php'; ?>
