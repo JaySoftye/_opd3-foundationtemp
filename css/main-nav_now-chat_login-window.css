@@ -254,6 +254,7 @@ div#now-instructional-support {
   position: fixed;
   z-index: 10005;
   top: 40%;
+  left: 90%;
   right: 0;
   cursor: pointer;
 }
