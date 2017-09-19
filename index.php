@@ -154,15 +154,7 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <video controls class="embed-responsive-item">
-                      <source src="" type="video/mp4">
-                      <source src="" type="video/ogg">
-                      Your browser does not support HTML5 video.
-                    </video>
-                  </div>
-                </div>
+                <iframe style="min-height:450px;width:100%" allowfullscreen src="//ljsp.lwcdn.com/api/video/embed.jsp?id=91aedd11-1514-4366-abf8-822a7fb217fb&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" title="0;" byline="0;" portrait="0;" width="640" height="360" frameborder="0"></iframe>
               </div>
             </div>
           </div>
@@ -203,15 +195,7 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <video controls class="embed-responsive-item">
-                      <source src="" type="video/mp4">
-                      <source src="" type="video/ogg">
-                      Your browser does not support HTML5 video.
-                    </video>
-                  </div>
-                </div>
+                <iframe style="min-height:450px;width:100%" allowfullscreen src="//ljsp.lwcdn.com/api/video/embed.jsp?id=9519fbac-9937-4cde-91d7-98dd53f2ef8e&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" title="0;" byline="0;" portrait="0;" width="640" height="360" frameborder="0"></iframe>
               </div>
             </div>
           </div>
@@ -230,15 +214,7 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <video controls class="embed-responsive-item">
-                      <source src="" type="video/mp4">
-                      <source src="" type="video/ogg">
-                      Your browser does not support HTML5 video.
-                    </video>
-                  </div>
-                </div>
+                <iframe style="min-height:450px;width:100%" allowfullscreen src="//ljsp.lwcdn.com/api/video/embed.jsp?id=f1db76fb-d3d1-40d6-ad44-ba2427a91f31&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" title="0;" byline="0;" portrait="0;" width="640" height="360" frameborder="0"></iframe>
               </div>
             </div>
           </div>

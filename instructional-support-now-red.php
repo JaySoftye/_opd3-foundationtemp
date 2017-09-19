@@ -7,9 +7,9 @@
   </div>
 </div>
 
-<aside id="now-chat-window">
+<aside id="now-chat-window" style="background-color: rgb(60, 72, 82); border: 5px solid rgb(197, 15, 60);">
   <button type="button" class="close" id="now-chat-close">
-    <img src="assets/close-icon.svg" alt="close" />
+    <img src="assets/close-icon-red.svg" alt="close" />
   </button>
   <div class="mobile-now-chat-window">
     <div class="col">
