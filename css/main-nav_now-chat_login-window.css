@@ -290,6 +290,7 @@ aside#now-chat-window button.close:hover, aside#now-chat-window button.focus {
 
 aside#now-chat-window a img {
   opacity: 0.4;
+  height: 100%;
 }
 
 aside#now-chat-window a:hover img, aside#now-chat-window a:focus img, aside#now-chat-window a.active img {
