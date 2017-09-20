@@ -8,8 +8,8 @@
 </div>
 
 <aside id="now-chat-window" style="border: 5px solid transparent; right: -10px;">
-  <button type="button" class="close" id="now-chat-close">
-    <img src="assets/close-icon-red.svg" alt="close" />
+  <button type="button" class="close" id="now-chat-close" style="top: -48px; left: -5px;">
+    <img src="assets/close-icon-red.svg" alt="close" style="border: 5px solid rgb(197, 15, 60);" />
   </button>
   <div class="mobile-now-chat-window">
     <div class="col">
