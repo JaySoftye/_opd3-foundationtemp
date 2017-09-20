@@ -5,7 +5,9 @@
 <style type="text/css">
 	.st0{fill:#A1D784;}
 </style>
-<circle class="st0" cx="6.452" cy="25" r="6.452"/>
-<circle class="st0" cx="6.452" cy="6.452" r="6.452"/>
-<circle class="st0" cx="6.452" cy="43.548" r="6.452"/>
+<g>
+	<circle class="st0" cx="6.452" cy="25" r="5.131"/>
+	<circle class="st0" cx="6.452" cy="10.249" r="5.131"/>
+	<circle class="st0" cx="6.452" cy="39.751" r="5.131"/>
+</g>
 </svg>
