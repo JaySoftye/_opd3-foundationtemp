@@ -182,6 +182,15 @@ article .card .card-text {
   float: right;
 }
 
+.card .card-footer span.course-details-date {
+  background: url(images/catetory-details-date-small-icon.svg) no-repeat center left;
+  padding: .33rem 0 .33rem 2rem;
+  float: left;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(109, 140, 188);
+}
+
 .card div.fp-ui:hover {
   opacity: 0.5;
   cursor: pointer;
