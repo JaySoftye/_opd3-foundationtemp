@@ -8,7 +8,7 @@
 
 <aside id="now-chat-window">
   <button type="button" class="close" id="now-chat-close">
-    <img src="assets/close-icon.svg" alt="close" />
+    <img src="assets/close-icon-red.svg" alt="close" style="border: 5px solid rgb(197, 15, 60);" />
   </button>
   <div class="mobile-now-chat-window">
     <div class="col">
@@ -17,7 +17,7 @@
   </div>
   <div class="container">
     <div class="col hide-small text-center">
-      <small class="white">Connect to a live PD Specialist using the menu of options below</small>
+      <p class="white">Connect to a live PD Specialist using the menu of options below</p>
     </div>
   </div>
   <div class="row">

@@ -73,6 +73,7 @@ article .card.sm-card {
 article .card .card-text {
   overflow: hidden;
   max-height: 6.55rem;
+  font-size: .9rem;
   line-height: 1.35rem;
 }
 
@@ -102,7 +103,7 @@ article .card .card-text {
 
 .card .card-header {
   background-color: rgba(109, 140, 188, 1);
-  padding: .66rem 1rem;
+  padding: .35rem 1rem;
 }
 
 .card.sm-card .card-header {
