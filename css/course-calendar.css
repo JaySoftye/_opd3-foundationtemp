@@ -281,7 +281,7 @@ div.calendar.list-view a.event span.week-of-date {
   }
 
 	div.calendar .weekdays, div.calendar .other-month {
-		display: none;
+		display: none !important;
 	}
 
 	div.calendar li.day {
