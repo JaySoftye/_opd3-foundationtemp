@@ -67,7 +67,7 @@ article .card.sm-card {
 }
 
 .card .card-block {
-  padding: 1rem;
+  padding: 1rem 1rem 5rem 1rem;
 }
 
 article .card .card-text {
@@ -159,6 +159,8 @@ article .card .card-text {
 
 .card .card-footer {
   background-color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 .card .card-footer img {

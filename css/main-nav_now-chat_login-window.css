@@ -261,7 +261,10 @@ div#now-instructional-support {
 
 div#now-instructional-support img {
   width: 9.5vw;
-  min-height: 9.5vh;
+}
+
+_:-ms-lang(x), div#now-instructional-support img {
+  height: 9.5vh;
 }
 
 aside#now-chat-window {
