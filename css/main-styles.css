@@ -138,22 +138,6 @@ article .card .card-text {
   right: 0;
 }
 
-.card.sm-card .card-header p.category-duration-details, .course-details li.category-duration-details {
-  background: url('images/catetory-details-duration-small-icon.svg') no-repeat center left;
-}
-
-.card-header li.category-duration-details {
-  background: url('images/catetory-details-duration-icon.svg') no-repeat center left;
-}
-
-.card-header li.category-chapters-details, .course-details li.category-chapters-details {
-  background: url('images/catetory-details-chapters-icon.svg') no-repeat center left;
-}
-
-.card-header li.category-sessions-details, .course-details li.category-sessions-details {
-  background: url('images/catetory-details-sessions-icon.svg') no-repeat center left;
-}
-
 .card-header a.dropdown-toggle::after, .course-details a.dropdown-toggle::after {
   border: none;
 }

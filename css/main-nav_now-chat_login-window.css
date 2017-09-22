@@ -340,6 +340,10 @@ section.edTech .row {
   min-height: 95vh;
 }
 
+_:-ms-fullscreen, :root section.edTech div.container {
+ margin-top: 15.75rem;
+}
+
 section.whatYouGet {
   background-color: rgb(79, 197, 221);
   background-image:

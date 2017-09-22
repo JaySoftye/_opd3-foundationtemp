@@ -107,6 +107,10 @@
    background: url('images/catetory-details-sessions-icon.svg') no-repeat center left;
  }
 
+ _:-ms-fullscreen, :root .card-header li.category-sessions-details, .course-details li.category-sessions-details, .card-header li.category-chapters-details, .course-details li.category-chapters-details, .card-header li.category-duration-details {
+  background-image: none;
+}
+
  .card-header a.dropdown-toggle::after, .course-details a.dropdown-toggle::after {
    border: none;
  }
@@ -130,6 +134,10 @@ div.category-search-box-wrapper {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+_:-ms-fullscreen, :root div.category-search-box-wrapper {
+ margin-top: 12.5rem;
 }
 
 section#search-box-container {
