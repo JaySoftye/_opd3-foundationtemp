@@ -7,13 +7,13 @@
       <div class="container padding-top">
 
         <div class="row">
-          <div class="col padding-top padding-bottom">
-            <h1 class="text-center">Faculty. Staff. Administrator. Parents. </h1>
-            <p class="text-center">No matter who you are, Teq Online Professional Development offers just the right solution for you.</p>
+          <div class="col padding-top">
+            <h1 class="text-center">Individual and Institutional Plans</h1>
+            <p class="text-center">Faculty. Staff. Administrator. Parents. No matter who you are, Teq Online Professional Development offers just the right solution for you. Significant volume discounts available to schools, districts, and campuses. Whatever your needs, we’ll create a custom package to meet them.</p>
           </div>
         </div>
 
-        <div class="row align-items-end justify-content-md-center padding-top">
+        <div class="row align-items-start justify-content-md-center padding-top">
           <article class="col-md-4">
             <div class="card">
               <div class="card-header basic">
@@ -75,11 +75,12 @@
                   <dd>nOw Instructional Support</dd>
                   <dd>Earn professional development hours</dd>
                   <dd>Earn Badges and Certificates</dd>
-                  <dd><hr /></dd>
-                  <dd><a href="#" class="btn gray-fill"><strong>Group Code Sign Up</strong></a></dd>
                 </dl>
                 <hr />
-                <a href="#exampleModal" class="btn school-district-plan" data-toggle="modal"><strong>Contact Us for Pricing</strong></a>
+                <ul class="nav">
+                  <li class="nav-item"><a href="#exampleModal" class="btn school-district-plan" data-toggle="modal"><strong>Contact Us Now</strong></a></li>
+                  <li class="nav-item"><a href="#" class="btn group-sign-up"><strong>Group Code Sign Up</strong></a></li>
+                </ul>
               </div>
             </div>
           </article>

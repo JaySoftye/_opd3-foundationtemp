@@ -60,17 +60,25 @@ div#calendar-wrap {
 }
 
 div.calendar ul.days, div.calendar ul.weekdays {
-  height: 100%;
   margin-bottom: 0;
 	padding: 0 0;
   list-style: none;
   display: table;
 }
 
+div.calendar ul.days {
+  height: 10.25rem;
+  min-height: 10.25rem;
+}
+
+div.calendar ul.weekdays {
+  height: inherit;
+  min-height: 0;
+}
+
 div.calendar li.day {
   width: 14%;
 	display: block;
-	float: left;
   z-index: 900;
   margin: 1px;
 }
@@ -90,9 +98,9 @@ div.calendar ul.days li.day {
   height: 100%;
 	min-height: 10.25rem;
   display: table-cell;
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.45);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.65);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.65);
 }
 
 div.calendar span.date {
