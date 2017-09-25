@@ -58,7 +58,7 @@
                 <ul class="nav">
                   <li class="nav-item">
                     <li class="nav-item">
-                      <p class="lead white">NEXT AVAILABLE COURSE IS:</p>
+                      <p class="lead white"><strong>NEXT AVAILABLE COURSE IS:</strong></p>
                     </li>
                   </li>
                   <li class="nav-item">
