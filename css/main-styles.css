@@ -461,6 +461,10 @@ a.admin-link img {
   color: rgba(255, 146, 58, 1) !important;
 }
 
+.salmon-text {
+  color: #d75d73 !important;
+}
+
 .white {
   color: white !important;
 }
