@@ -158,6 +158,7 @@ article .card .card-text {
 }
 
 .card .card-footer {
+  width: 100%;
   background-color: white;
   position: absolute;
   bottom: 0;
