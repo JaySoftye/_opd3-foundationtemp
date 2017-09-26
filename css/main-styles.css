@@ -77,6 +77,53 @@ article .card .card-text {
   line-height: 1.35rem;
 }
 
+article.certification-card {
+  z-index: 1;
+}
+
+article.certification-card .card-header {
+  height: 36px;
+}
+
+article.certification-card .card-footer img {
+  min-width: 50px;
+}
+
+article.certification-card.digital-teacher .card-header {
+  background-color: rgb(60, 72, 82);
+}
+
+article.certification-card.digital-teacher::before, article.certification-card.digital-teacher::after {
+  box-shadow: 2px 1px 1px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+article.certification-card.digital-teacher::before, article.certification-card.digital-teacher::after {
+  width: 90%;
+  height: 100%;
+  content: "";
+  background-color: white;
+  position: absolute;
+  border-top: 36px solid rgb(60, 72, 82);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+article.certification-card.digital-teacher::before {
+  right: 9px;
+  top: 5px;
+  z-index: -1;
+}
+
+article.certification-card.digital-teacher::after {
+  right: 4px;
+  top: 10px;
+  z-index: -2;
+}
+
 .card.thread-post {
   background-color: rgba(255, 255, 255, .85);
   margin-bottom: .25rem;

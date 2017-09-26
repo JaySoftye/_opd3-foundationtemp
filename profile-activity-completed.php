@@ -73,7 +73,7 @@
         <div class="row d-flex align-items-stretch">
         <?php /** LOOP **/ ?>
 
-          <article class="col-md-3 col-sm-6">
+          <article class="col-md-3 col-sm-6 certification-card">
             <div class="card">
               <div class="card-header"></div>
               <div class="card-block">
@@ -84,7 +84,7 @@
               </div>
             </div>
           </article>
-          <article class="col-md-3 col-sm-6">
+          <article class="col-md-3 col-sm-6 certification-card">
             <div class="card">
               <div class="card-header"></div>
               <div class="card-block">
@@ -95,7 +95,7 @@
               </div>
             </div>
           </article>
-          <article class="col-md-3 col-sm-6">
+          <article class="col-md-3 col-sm-6 certification-card">
             <div class="card">
               <div class="card-header"></div>
               <div class="card-block">
@@ -125,7 +125,7 @@
         <div class="row">
         <?php /** LOOP **/ ?>
 
-        <article class="col-md-3 col-sm-6">
+        <article class="col-md-3 col-sm-6 certification-card">
           <div class="card">
             <div class="card-header"></div>
             <div class="card-block">
@@ -136,7 +136,7 @@
             </div>
           </div>
         </article>
-        <article class="col-md-3 col-sm-6">
+        <article class="col-md-3 col-sm-6 certification-card">
           <div class="card">
             <div class="card-header"></div>
             <div class="card-block">
@@ -147,7 +147,7 @@
             </div>
           </div>
         </article>
-        <article class="col-md-3 col-sm-6">
+        <article class="col-md-3 col-sm-6 certification-card">
           <div class="card">
             <div class="card-header"></div>
             <div class="card-block">
@@ -158,7 +158,7 @@
             </div>
           </div>
         </article>
-        <article class="col-md-3 col-sm-6">
+        <article class="col-md-3 col-sm-6 certification-card">
           <div class="card">
             <div class="card-header"></div>
             <div class="card-block">
@@ -169,7 +169,7 @@
             </div>
           </div>
         </article>
-        <article class="col-md-3 col-sm-6">
+        <article class="col-md-3 col-sm-6 certification-card">
           <div class="card">
             <div class="card-header"></div>
             <div class="card-block">
@@ -180,7 +180,7 @@
             </div>
           </div>
         </article>
-        <article class="col-md-3 col-sm-6">
+        <article class="col-md-3 col-sm-6 certification-card">
           <div class="card">
             <div class="card-header"></div>
             <div class="card-block">
@@ -191,6 +191,67 @@
             </div>
           </div>
         </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid light-blue-bg padding-top padding-bottom">
+      <div class="container">
+        <div class="row align-items-center padding-sm">
+          <div class="col-5">
+            <h3><strong>Teq Digital Teacher Certifications</strong></h3>
+          </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
+        <?php /** LOOP **/ ?>
+
+          <article class="col-md-3 col-sm-6 certification-card digital-teacher">
+            <div class="card">
+              <div class="card-header"></div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">Digital Teacher iPad Certification</a></p>
+              </div>
+              <div class="card-footer">
+                <a class="btn blue-border" href="#">Get Certificate</a>
+                <img src="http://opd.teq.com/uploads/badge/Optimize-3d-print.png" />
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 col-sm-6 certification-card digital-teacher">
+            <div class="card">
+              <div class="card-header"></div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">Teq DTC: Google Educator Basics</a></p>
+              </div>
+              <div class="card-footer">
+                <a class="btn blue-border" href="#">Get Certificate</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 col-sm-6 certification-card digital-teacher">
+            <div class="card">
+              <div class="card-header"></div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">SMART Learning Suite 16.1 Certification</a></p>
+              </div>
+              <div class="card-footer">
+                <a class="btn blue-border" href="#">Get Certificate</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-3 col-sm-6 certification-card digital-teacher">
+            <div class="card">
+              <div class="card-header"></div>
+              <div class="card-block">
+                <p class="card-title"><a href="#">Microsoft Digital Teacher Certification</a></p>
+              </div>
+              <div class="card-footer">
+                <a class="btn blue-border" href="#">Get Certificate</a>
+              </div>
+            </div>
+          </article>
 
         </div>
       </div>
