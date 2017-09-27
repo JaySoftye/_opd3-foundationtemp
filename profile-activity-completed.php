@@ -215,7 +215,7 @@
               </div>
               <div class="card-footer">
                 <a class="btn blue-border" href="#">Get Certificate</a>
-                <img src="http://opd.teq.com/uploads/badge/Optimize-3d-print.png" />
+                <img src="assets/digital_teacher_cert.png" />
               </div>
             </div>
           </article>
@@ -227,6 +227,7 @@
               </div>
               <div class="card-footer">
                 <a class="btn blue-border" href="#">Get Certificate</a>
+                <img src="assets/digital_teacher_cert.png" />
               </div>
             </div>
           </article>
@@ -238,6 +239,7 @@
               </div>
               <div class="card-footer">
                 <a class="btn blue-border" href="#">Get Certificate</a>
+                <img src="assets/digital_teacher_cert.png" />
               </div>
             </div>
           </article>
@@ -245,10 +247,11 @@
             <div class="card">
               <div class="card-header"></div>
               <div class="card-block">
-                <p class="card-title"><a href="#">Microsoft Digital Teacher Certification</a></p>
+                <p class="card-title"><a href="#">Microsoft Office Digital Teacher Certification: Office 365 </a></p>
               </div>
               <div class="card-footer">
                 <a class="btn blue-border" href="#">Get Certificate</a>
+                <img src="assets/digital_teacher_cert.png" />
               </div>
             </div>
           </article>

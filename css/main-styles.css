@@ -86,7 +86,7 @@ article.certification-card .card-header {
 }
 
 article.certification-card .card-footer img {
-  min-width: 50px;
+  min-width: 3rem;
 }
 
 article.certification-card.digital-teacher .card-header {
