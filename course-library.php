@@ -11,7 +11,6 @@
           <h1><strong>Categories</strong></h1>
         </div>
         <div class="col-md-6 text-right">
-          <a href="#" class="admin-link"><img src="assets/admin-gear-icon.svg" alt="admin" /></a>
         </div>
       </div>
     </section>

@@ -552,3 +552,100 @@ section.under-header {
 div#breadcrumbs span a, div#breadcrumbs span {
   color: rgb(60, 72, 82);
 }
+
+footer div#skyrocket-in-flight {
+  width:100%;
+  height: 75px;
+  background-color: rgba(60, 72, 82, 1);
+  position: relative;
+  display: block;
+}
+
+footer img#skyrocket-in-flight-1, footer img#skyrocket-in-flight-2, footer img#skyrocket-in-flight-3, footer img#skyrocket-in-flight-4, footer img#skyrocket-in-flight-5, footer img#skyrocket-in-flight-6 {
+  position: absolute;
+}
+
+@keyframes launchgo
+{
+  0%
+  {
+    top: -120%;
+  }
+  50%
+  {
+    top: -118%;
+  }
+  100%
+  {
+    top: -120%;
+  }
+}
+
+footer img#skyrocket-in-flight-1 {
+  height: 165%;
+  top: -120%;
+  z-index: 4;
+  animation: launchgo 1s infinite;
+}
+
+@keyframes exhaust
+{
+  0%
+  {
+    padding-top: 1px;
+  }
+  50%
+  {
+    padding-top: 3px;
+  }
+  100%
+  {
+    padding-top: 1px;
+  }
+}
+
+footer img#skyrocket-in-flight-2 {
+  height: inherit;
+  z-index: 3;
+  animation: exhaust 1s infinite;
+}
+
+footer img#skyrocket-in-flight-3 {
+  height: inherit;
+  z-index: 3;
+  animation: exhaust 1.25s infinite;
+}
+
+footer img#skyrocket-in-flight-4 {
+  height: inherit;
+  z-index: 1;
+}
+
+@keyframes blastoff
+{
+  0%
+  {
+    opacity: .5;
+  }
+  50%
+  {
+    opacity: 1;
+  }
+  100%
+  {
+    opacity: .75;
+  }
+}
+
+footer img#skyrocket-in-flight-5 {
+  height: inherit;
+  z-index: 2;
+  animation: blastoff 1.5s infinite;
+}
+
+footer img#skyrocket-in-flight-6 {
+  width: 40%;
+  right: 0;
+  top: -100%;
+  z-index: 2;
+}

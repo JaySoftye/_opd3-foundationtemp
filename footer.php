@@ -1,5 +1,5 @@
 <footer>
-  <section class="container padding-top padding-bottom">
+  <section class="container padding-top">
 
     <div class="row">
       <div class="col-sm-5">
@@ -35,12 +35,24 @@
     </div>
 
     <div class="row padding-top">
-      <div class="col text-center">
+
+      <div class="col">
         <p class="white"><strong>Copyright © Teq </strong><a href="/privacy-doc.php" class="white"><strong>Privacy Policy</strong><a/>, <a href="/terms-doc.php" class="white"><strong>Terms</strong></a></p>
       </div>
+
+      <div class="col" id="skyrocket-in-flight">
+        <img src="assets/opd-rockert-ship-1.svg" id="skyrocket-in-flight-1" />
+          <img src="assets/opd-rockert-ship-2.svg" id="skyrocket-in-flight-2" />
+            <img src="assets/opd-rockert-ship-3.svg" id="skyrocket-in-flight-3" />
+              <img src="assets/opd-rockert-ship-4.svg" id="skyrocket-in-flight-4" />
+                <img src="assets/opd-rockert-ship-5.svg" id="skyrocket-in-flight-5" />
+                  <img src="assets/opd-rockert-ship-6.svg" id="skyrocket-in-flight-6" />
+      </div>
+
     </div>
 
   </section>
+
 </footer>
 
   <script src="js/app.js"></script>

@@ -184,12 +184,12 @@ div#search-box div.search-menu-group.show {
   background-color: rgba(218, 237, 254, 1);
 }
 
-div#search-box div.search-menu-group button {
+div#search-box div.search-menu-group button, div#search-box select, div#search-box select option {
   width: 100%;
   height: 2.5rem;
   background: transparent url('images/dropdown-arrow-icon.svg') no-repeat 90% center !important;
   background-size: 10%;
-  padding: .5rem 2rem .5rem 1.5rem;
+  padding: .5rem 2.75rem .5rem 1.5rem;
   border-color: transparent;
   outline: none;
   text-align: left;
@@ -197,6 +197,9 @@ div#search-box div.search-menu-group button {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 div#search-box div.search-menu-group ul.dropdown-menu {
