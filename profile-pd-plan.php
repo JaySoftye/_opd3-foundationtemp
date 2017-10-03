@@ -35,16 +35,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-5">
-          <div class="btn-group profile-plan-menu">
-            <button class="dropdown-toggle blue-bg" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Group Name<span class="profile-plan-menu-item"></span></button>
-              <ul class="dropdown-menu">
-                <?php /* LOOP */ ?>
-                <li><a href="#">Group Name 1</a></li>
-                <li><a href="#">Group Name 2</a></li>
-                <li><a href="#">Group Name 3</a></li>
-              </ul>
-            </div>
+        <div class="col-md-4">
+          <select class="profile-plan-menu blue-bg" name="" form="">
+            <option disabled="disabled" selected>Select your group name</option>
+            <option value="Group Name 1">Group Name 1</option>
+            <option value="Group Name 2">Group Name 2</option>
+            <option value="Group Name 3">Group Name 3</option>
+          </select>
         </div>
       </div>
 
@@ -132,16 +129,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-5">
-          <div class="btn-group profile-plan-menu">
-            <button class="dropdown-toggle orange-bg" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Group Name <span class="profile-plan-menu-item"></span></button>
-              <ul class="dropdown-menu">
-                <?php /* LOOP */ ?>
-                <li><a href="#">Group Name 1</a></li>
-                <li><a href="#">Group Name 2</a></li>
-                <li><a href="#">Group Name 3</a></li>
-              </ul>
-            </div>
+        <div class="col-md-4">
+          <select class="profile-plan-menu orange-bg" name="" form="">
+            <option disabled="disabled" selected>Select your group name</option>
+            <option value="Group Name 1">Group Name 1</option>
+            <option value="Group Name 2">Group Name 2</option>
+            <option value="Group Name 3">Group Name 3</option>
+          </select>
         </div>
       </div>
 
@@ -183,16 +177,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-5">
-          <div class="btn-group profile-plan-menu">
-            <button class="dropdown-toggle green-bg" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Group Name <span class="profile-plan-menu-item"></span></button>
-              <ul class="dropdown-menu">
-                <?php /* LOOP */ ?>
-                <li><a href="#">Group Name 1</a></li>
-                <li><a href="#">Group Name 2</a></li>
-                <li><a href="#">Group Name 3</a></li>
-              </ul>
-            </div>
+        <div class="col-md-4">
+          <select class="profile-plan-menu green-bg" name="" form="">
+            <option disabled="disabled" selected>Select your group name</option>
+            <option value="Group Name 1">Group Name 1</option>
+            <option value="Group Name 2">Group Name 2</option>
+            <option value="Group Name 3">Group Name 3</option>
+          </select>
         </div>
       </div>
 

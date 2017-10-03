@@ -16,7 +16,7 @@ div.btn-group.profile-plan-menu ul.dropdown-menu a {
   display: block;
 }
 
-div.btn-group.profile-plan-menu button {
+div.btn-group.profile-plan-menu button, select.profile-plan-menu {
   width: inherit;
   background-image: url('images/dropdown-arrow-white-icon.svg');
   background-repeat: no-repeat;
@@ -29,17 +29,20 @@ div.btn-group.profile-plan-menu button {
   text-align: left;
   color: white;
   cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
-div.btn-group.profile-plan-menu button.blue-bg {
+div.btn-group.profile-plan-menu button.blue-bg, select.profile-plan-menu.blue-bg {
   background-color: rgb(0, 180, 228);
 }
 
-div.btn-group.profile-plan-menu button.green-bg {
+div.btn-group.profile-plan-menu button.green-bg, select.profile-plan-menu.green-bg {
   background-color: rgb(161, 215, 132);
 }
 
-div.btn-group.profile-plan-menu button.orange-bg {
+div.btn-group.profile-plan-menu button.orange-bg, select.profile-plan-menu.orange-bg {
   background-color: rgb(255, 146, 58);
 }
 
