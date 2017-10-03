@@ -24,6 +24,19 @@ h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, sel
    height: 250px !important;
  }
 
+ .fadeIn {
+   opacity: 0;
+ }
+
+ .fadeRise {
+   opacity: 0;
+   margin-top: 50px;
+ }
+
+ .backgroundScroll {
+   background-size: 100% !important;
+ }
+
  /** BOOTSTRAP 4 OVERRIDES **/
 
 button {
@@ -551,6 +564,11 @@ section.under-header {
 
 div#breadcrumbs span a, div#breadcrumbs span {
   color: rgb(60, 72, 82);
+}
+
+section.digital-certs a img:hover {
+  -webkit-filter: invert(75%);
+  filter: invert(75%);
 }
 
 footer div#skyrocket-in-flight {

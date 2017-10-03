@@ -88,5 +88,29 @@
      checkOffset();
    });
 
+   $(window).scroll( function(){
+     var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+     $('.fadeRise').each( function(i){
+       var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        if( bottom_of_window >= bottom_of_object ){
+         $(this).delay(i*100).animate({'opacity':'1', 'margin-top':'0'},400);
+        }
+     });
+
+     $('.fadeIn').each( function(i){
+       var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        if( bottom_of_window >= bottom_of_object ){
+         $(this).animate({'opacity':'1'},700);
+        }
+     });
+
+     $('.backgroundScroll').each( function(i){
+       var window_top = $(window).scrollTop() - $(this).offset().top;
+        $(this).css({'background-position':'center calc(50% - '+(window_top * .2)+'px)'});
+     });
+
+   });
+
 
 });

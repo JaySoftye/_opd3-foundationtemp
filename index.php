@@ -28,22 +28,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-sm-6 text-center">
+        <div class="col-md-3 col-sm-6 text-center fadeRise">
           <img src="assets/learn-anywhere-teacher-image.jpg" alt="" />
           <h2 class="blue-text">Teachers</h2>
           <p><strong>Fulfill state-required</strong> PD hours, master that new piece of technology, or simply fine-tune your skills. Learn when you want and receive instant help when you need it with Teq Online PD.</p>
         </div>
-        <div class="col-md-3 col-sm-6 text-center">
+        <div class="col-md-3 col-sm-6 text-center fadeRise">
           <img src="assets/learn-anywhere-administrators-image.jpg" alt="" />
           <h2 class="blue-text">Administrators</h2>
           <p>Align PD with your instructional goals. <strong>Create personalized PD plans, customize course quizzes, receive robust analytics,</strong> and gain access to on-demand support and pd resources.</p>
         </div>
-        <div class="col-md-3 col-sm-6 text-center">
+        <div class="col-md-3 col-sm-6 text-center fadeRise">
           <img src="assets/learn-anywhere-parents-image.jpg" alt="" />
           <h2 class="blue-text">Parents</h2>
           <p>As parents raising 21st century students, you need answers too! With insight into College and <strong>Career Readiness, Digital Citizenship, Social Media, Gamification, Understanding Common Core</strong> (and much much more) you will feel confident supporting your young learners.</p>
         </div>
-        <div class="col-md-3 col-sm-6 text-center">
+        <div class="col-md-3 col-sm-6 text-center fadeRise">
           <img src="assets/learn-anywhere-free-image.jpg" alt="" />
           <h2 class="blue-text">Free</h2>
           <p>It’s on us! Start a Free Basic Account and <strong>receive complimentary access to select courses</strong>, instructional videos to help you get started using today’s top classroom technologies.</p>
@@ -70,23 +70,23 @@
           <div class="col-3"></div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-sm-6 text-center fadeRise">
             <img src="assets/what-you-get-certifications-icon.png" alt="" />
             <h2 class="white">Certifications</h2>
             <p>Comprised of in-depth, chaptered sessions that guide you through the complete implementation of popular classroom technology. Current <strong>certification tracks include G Suite (Google), SMART, Apple, Microsoft</strong>, and more.</p>
           </div>
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-sm-6 text-center fadeRise">
             <img src="assets/what-you-get-state-approved-icon.png" alt="" />
             <h2 class="white">State-Approved</h2>
             <p>As a <strong>state-approved PD provider,</strong> Teq Online PD is a convenient and flexible way to fulfill your required PD hours from the comfort of your home.</p>
             <p>Visit <a href="http://www.teq.com/state-approved" class="white"><strong>www.teq.com/State-Approved</strong></a> for a complete list of State Approved Professional Development.</p>
           </div>
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-sm-6 text-center fadeRise">
             <img src="assets/what-you-get-analytics-icon.png" alt="" />
             <h2 class="white">Analytics</h2>
             <p>Track how your school is progressing towards your PD goals. <strong>See what courses and certifications are being completed by teachers</strong> to guide your PD initiatives. Teachers can earn badges and track their individual success.</p>
           </div>
-          <div class="col-md-3 col-sm-6 text-center">
+          <div class="col-md-3 col-sm-6 text-center fadeRise">
             <img src="assets/what-you-get-live-courses-icon.png" alt="" />
             <h2 class="white">Live Courses</h2>
             <p>Live courses each week on how to incorporate classroom technologies into instruction. <strong>Interact directly with our presenters</strong>, ask questions, and master new ed tech skills.</p>
@@ -118,7 +118,7 @@
       </div>
     </section>
 
-    <section class="container-fluid advantageHuman">
+    <section class="container-fluid advantageHuman backgroundScroll">
       <div class="container">
 
           <div class="row text-center padding-top">
@@ -129,13 +129,13 @@
             <div class="col-md-3"></div>
           </div>
 
-          <div class="row text-center">
+          <div class="row text-center fadeIn">
             <div class="col">
               <h4><strong>As a subscriber</strong>, you receive access to “getting started” videos, and our <strong>nOw Instructional Support</strong>, where <strong>you can interact directly</strong> with our team of Professional Development Specialists.</h4>
             </div>
           </div>
 
-          <div class="row align-items-center">
+          <div class="row align-items-center fadeIn">
             <div class="col-md-5 col-xs-4 text-right">
               <p>Meet <span class="teq-blue-text">Emily Jones</span><br />One of our On-Demand<br />Professional Development Specialists</p>
             </div>
@@ -266,4 +266,4 @@
 
   </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'footer-certifications-bar.php'; ?>

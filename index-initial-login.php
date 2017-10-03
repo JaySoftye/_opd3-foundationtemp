@@ -313,7 +313,7 @@
 
   </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'footer-certifications-bar.php'; ?>
 
 <script type="text/javascript">
 
