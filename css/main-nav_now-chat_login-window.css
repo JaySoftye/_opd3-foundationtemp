@@ -103,12 +103,12 @@ ul.main-nav a.nav-link:hover, ul.main-nav li.nav-item a.nav-link:focus, ul.main-
 }
 
 ul.sub-nav a.nav-link:hover, ul.sub-nav li.nav-item a.nav-link:focus, ul.sub-nav li.nav-item a.nav-link.active {
-  color: #00b4e4;
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid white;
 }
 
 div.sub-menu {
   background-color: rgba(159, 130, 189, 0.95);
+  padding: 1rem 0 0 0;
   position: fixed;
   width: 100%;
   margin: 0 auto;
