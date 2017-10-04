@@ -1,7 +1,7 @@
 <section class="container-fluid log-in-access active padding-top">
   <div class="container">
 <div class="row">
-  <div class="col-md-8 col-sm-12">
+  <div class="col-lg-8 col-sm-12">
     <ul class="nav nav-tabs" role="tablist">
       <li class="nav-item">
         <a class="nav-link" href="#courese-discussion-tab" role="tab" data-toggle="tab" aria-controls="courese-discussion-tab" aria-expanded="false"><img src="assets/course-discussion-icon.svg" width="150" height="25px" alt="Discussion" /></a>
