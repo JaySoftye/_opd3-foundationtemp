@@ -157,7 +157,7 @@
               <div class="col-md-3 no-padding">
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link btn blue-fill" href="#">GETTING STARTED</a>
+                    <a class="nav-link btn orange-fill" href="#">GETTING STARTED</a>
                   </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link btn blue-fill hidden" data-toggle="modal" data-target=".login-window">LOG IN</a>
