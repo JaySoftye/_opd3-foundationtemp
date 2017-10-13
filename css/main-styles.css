@@ -684,3 +684,11 @@ footer img#skyrocket-in-flight-6 {
   top: -100%;
   z-index: 2;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  div#search-box form, div#search-box div.search-menu-group button, div#search-box select, div#search-box select option, .card.sm-card .card-header p.category-duration-details, .course-details li.category-duration-details {
+    background-image: none !important;
+  }
+
+}
