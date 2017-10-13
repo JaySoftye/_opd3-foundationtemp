@@ -59,10 +59,6 @@
    }
 
    div.row.categories-items article.col {
-     flex: auto !important;
-     padding-right: 6%;
-     padding-left: 6%;
-     display: block;
      margin-top: 5px;
    }
 

@@ -6,50 +6,47 @@
 
     <section class="container-fluid light-gray-bg">
       <div class="container">
+      <div id="getting-started-category-videos">
 
-      <div class="row row-eq-height padding-top padding-bottom">
-        <div class="col-lg-8">
-          <div id="player"></div>
-        </div>
-        <div class="col-lg-4 course-details">
-          <ul class="nav">
-            <li class="nav-item category-duration-details">
-              <span>37min</span>
-            </li>
-            <li class="nav-item"></li>
-          </ul>
-          <article>
-            <h6>SMART BOARD BASICS: 6000 SERIES</h6>
-            <p>The SMART Board 6000 series interactive displays is considered a new era of classroom collaboration. This product gives teachers and students a premium touch experience, superior collaborative features, and 4K Ultra HD resolution. Come join is to learn how the 6000 series provides reliability, simplicity, and intuition to help you teach, collaborate and share.</p>
-          </article>
-          <div class="row log-in-access active padding-bottom">
-            <div class="col-lg-8 course-details">
-              <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+        <div id="getting-started-category-videos-1" class="getting-started-category-videos-container active">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>37min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>SMART BOARD BASICS: 6000 SERIES</h6>
+                <p>The SMART Board 6000 series interactive displays is considered a new era of classroom collaboration. This product gives teachers and students a premium touch experience, superior collaborative features, and 4K Ultra HD resolution. Come join is to learn how the 6000 series provides reliability, simplicity, and intuition to help you teach, collaborate and share.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+          <script>
+          // select the above element as player container
+          var container = document.getElementById("player");
 
-      <script>
-      // select the above element as player container
-      var container = document.getElementById("player");
-
-      // install flowplayer into selected container
-      flowplayer(container, {
-          clip: {
-              sources: [
-                    { type: "application/x-mpegurl",
-                      src:  "	https://l3video.lwcdn.com/hls/970221bd-eb7b-4a87-8626-1d7e1f8eda8a/playlist.m3u8" },
-                    { type: "video/mp4",
-                      src:  "https://l3video.lwcdn.com/v-970221bd-eb7b-4a87-8626-1d7e1f8eda8a.mp4" }
-              ]
-          }
-      });
-      </script>
-
-      <div id="getting-started-category-videos"><hr />
-
-          <div id="getting-started-category-videos-1" class="getting-started-category-videos-container active">
+          // install flowplayer into selected container
+          flowplayer(container, {
+              clip: {
+                  sources: [
+                        { type: "application/x-mpegurl",
+                          src:  "	https://l3video.lwcdn.com/hls/970221bd-eb7b-4a87-8626-1d7e1f8eda8a/playlist.m3u8" },
+                        { type: "video/mp4",
+                          src:  "https://l3video.lwcdn.com/v-970221bd-eb7b-4a87-8626-1d7e1f8eda8a.mp4" }
+                  ]
+              }
+          });
+          </script>
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="1">
@@ -132,8 +129,30 @@
               </div>
             </article>
           </div>
+        </div>
+        <div id="getting-started-category-videos-4" class="getting-started-category-videos-container hidden">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>42min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>What's New in SMART Learning Suite 16.2</h6>
+                <p>The latest version of the SMART Learning Suite version 16.2, has been released and Teq’s PD team is here to share all of the latest features with you. Updates include: New interfaces and content management tools in SMART lab Changes to bookmarks Changes to handouts Google Classroom integration in SMART amp The addition of a robust math equation editor within SMART Notebook Join our professional development specialists to learn more about SMART’s latest creations and how all of the changes can benefit your classroom.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="getting-started-category-videos-4" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="10">
@@ -232,8 +251,30 @@
               </div>
             </article>
           </div>
+        </div>
+        <div id="getting-started-category-videos-2" class="getting-started-category-videos-container hidden">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>45min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>Preparing Your Google Drive for a New School Year</h6>
+                <p>Teacher-created content, student assignments, lessons for presentation -- there are a lot of materials that may be crowding up your Google Drive. Join us as we discuss some best practices and techniques to organize content you may be storing in your Drive. We will cover practices of uploading and converting content, creating nested folders, and simple workflow techniques which will help you get the year started on the right foot using your cloud-based storage in Drive.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="getting-started-category-videos-2" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="7">
@@ -283,8 +324,30 @@
               </div>
             </article>
           </div>
+        </div>
+        <div id="getting-started-category-videos-3" class="getting-started-category-videos-container hidden">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>26min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>Labdisc: Heart Rate</h6>
+                <p>In this course we'll look at just one of the many applications of a Labdisc in the Biology classroom. You will need a BioChem Labdisc to perform this activity. Our Curriculum Specialists will show you how to conduct an experiment to measure heart rate using the heart rate sensor provided with your Labdisc. They will then show you how to analyze and manipulate the data within the Labdisc software.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="getting-started-category-videos-3" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="6">
@@ -303,8 +366,30 @@
               </div>
             </article>
           </div>
+        </div>
+        <div id="getting-started-category-videos-5" class="getting-started-category-videos-container hidden">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>45min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>Ultimaker: Optimizing Your 3D Print</h6>
+                <p>The Cura 2.4 Software by Ultimaker has over 200 settings to adjust your 3D print to fit your needs. Join us as we show you where to download the software and some specific details of how to optimize your 3D print like print setup, materials, and scaling.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="getting-started-category-videos-5" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="17">
@@ -323,8 +408,30 @@
               </div>
             </article>
           </div>
+        </div>
+        <div id="getting-started-category-videos-6" class="getting-started-category-videos-container hidden">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>10min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>New York State CTLE Requirements</h6>
+                <p>Teq’s New York State Continuing Teacher and Leader Education (CTLE) Webinar provides a brief overview of the new regulations required by educators (Teachers, Teaching Assistants, and Administrators) to maintain their Certifications in NYS. The Webinar provides school and district leaders with valuable information on the CTLE Requirements, CTLE Approved Sponsors or Providers of Professional Development, as well as an overview of Teq’s CTLE Approved Professional Development, which includes our Onsite CTLE Approved Courses, our over 900 Online CTLE Approved Courses, and access to over 10 hours of “Free” CTLE Approved Courses via our “Getting Started” Site. At the conclusion of this Webinar, Teachers and School/District Leaders will have a better understanding of the NYS CTLE Requirements, greater insight into Teq’s Onsite and Online Professional Development Programs, Courses, and Platforms, and a list of resources and websites where they can find detailed information pertaining New York State’s Continuing Teacher and Leader Education (CTLE) Regulations and Teq’s CTLE Approved Professional Development.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="getting-started-category-videos-6" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="18">
@@ -359,8 +466,30 @@
               </div>
             </article>
           </div>
+        </div>
+        <div id="getting-started-category-videos-7" class="getting-started-category-videos-container hidden">
+          <div class="row row-eq-height padding-top padding-bottom">
+            <div class="col-lg-8">
+              <div id="player"></div>
+            </div>
+            <div class="col-lg-4 course-details">
+              <ul class="nav">
+                <li class="nav-item category-duration-details">
+                  <span>03min</span>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
+              <article>
+                <h6>Getting Started with your Audio Enhancement</h6>
+                <p>In our Introduction to Audio Enhancement video, we will take you through the basics and proper use and care of your teacher and student microphones. Join us to learn about charging, pairing and tips for using the Audio Enhancement system.</p>
+              </article>
+              <div class="row log-in-access active padding-bottom">
+                <div class="col-lg-8 course-details">
+                  <a class="btn quiz-btn active" data-toggle="modal" data-target=".course-quiz"><img src="assets/take-quiz-icon.svg" width="179" height="36" alt="Take Certificationi Quiz" /></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="getting-started-category-videos-7" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="20">
@@ -379,8 +508,6 @@
               </div>
             </article>
           </div>
-          </div>
-
         </div>
 
       </div>

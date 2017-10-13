@@ -88,27 +88,25 @@
       /** Select menu accordion
       DELETE THIS IF USING A DIFFERENT FUNCTION
       **/
-      var categories = [];
-        categories[0] = {
-        name: 'test',
-        id: 'getting-started-category-videos-1'
-        };
-        categories[1] = {
-        name: 'SMART Learning Suite',
-        id: 'getting-started-category-videos-4'
-        };
+      var categories = [{'name' : 'SMART', 'id': 'getting-started-category-videos-1'} , {'name' : 'SMART Learning Suite', 'id' : 'getting-started-category-videos-4'} , {'name' : 'Google', 'id' : 'getting-started-category-videos-2'} , {'name' : 'Labdisc', 'id' : 'getting-started-category-videos-3'} , {'name' : 'Ultimaker', 'id' : 'getting-started-category-videos-5'} , {'name' : 'Professional Development', 'id' : 'getting-started-category-videos-6'} , {'name' : 'Audio Enhancement', 'id' : 'getting-started-category-videos-7'}]
 
-        for (var i=0; i<categories.length; i++){
+      var option = '';
 
-          var option = '';
-          var categoryName = categories[i].name;
+      categories.forEach(function(e) {
+        option += '<option value="'+ e.id + '">' + e.name + '</option>';
+      });
+        $('select#getting-started-categories').append(option);
 
-          option += '<option value="'+ categoryName[i] + '">' + categoryName[i] + '</option>';
-        }
+      $('select#getting-started-categories').change(function() {
+        $('select#getting-started-categories option:selected').each(function() {
 
-      $('select#getting-started-categories').append(option);
+          var optionValue = $('#getting-started-categories').val();
+          $('html, body').animate({ scrollTop: $('#getting-started-categories').offset().top }, 800);
+          $('div.getting-started-category-videos-container').removeClass('active').addClass('hidden');
+          $('div#'+optionValue).removeClass('hidden').addClass('active');
 
-
+        });
+      });
 
   </script>
 
