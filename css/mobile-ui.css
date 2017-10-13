@@ -59,6 +59,7 @@
    }
 
    div.row.categories-items article.col {
+     flex: none !important;
      margin-top: 5px;
    }
 
