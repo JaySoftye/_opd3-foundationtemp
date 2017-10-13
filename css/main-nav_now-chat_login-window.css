@@ -147,6 +147,7 @@ nav#mobile-navbar {
 
 nav#mobile-navbar section#mobile-main-nav, nav#mobile-navbar section#mobile-now-window {
   width: 100%;
+  max-width: 100% !important;
   height: 100%;
   background-color: rgb(64, 85, 117);
   position: fixed;

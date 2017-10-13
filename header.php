@@ -29,9 +29,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="//releases.flowplayer.org/7.1.2/skin/skin.css">
-<script src="//releases.flowplayer.org/7.1.1/commercial/flowplayer.min.js"></script>
-<script src="//releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script>
-
+<script src="http://releases.flowplayer.org/7.1.1/commercial/flowplayer.min.js"></script>
+<script src="http://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script>
 
   </head>
     <body>

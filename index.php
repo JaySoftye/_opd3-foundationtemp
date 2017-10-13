@@ -182,10 +182,10 @@
         <div class="col-md-3 hide-small no-padding">
           <img src="assets/what-we-do-online-pd-image.jpg" alt="" />
         </div>
-        <div class="col-md-3 text-center padding-bottom">
+        <div class="col-lg-3 text-center padding-bottom">
 
           <a data-toggle="modal" data-target=".what-we-do-opd-vid" title="Online PD Video"><img src="assets/what-we-do-online-pd-vid-btn.jpg" alt="" /></a>
-          <a href="" data-toggle="modal" data-target=".what-we-do-opd-vid" class="lg-btn blue-border">Play Video</a>
+          <a href="" data-toggle="modal" data-target=".what-we-do-opd-vid" class="lg-btn blue-border hide-small">Play Video</a>
           <div class="modal fade what-we-do-opd-vid" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
@@ -201,10 +201,10 @@
           </div>
 
         </div>
-        <div class="col-md-3 text-center padding-bottom">
+        <div class="col-lg-3 text-center padding-bottom">
 
           <a data-toggle="modal" data-target=".what-we-do-testimonial-vid" title="Case Study Video"><img src="assets/what-we-do-getting-started-vid-btn.jpg" alt="" /></a>
-          <a href="" data-toggle="modal" data-target=".what-we-do-testimonial-vid" class="lg-btn gray-border">Play Video</a>
+          <a href="" data-toggle="modal" data-target=".what-we-do-testimonial-vid" class="lg-btn gray-border hide-small">Play Video</a>
           <div class="modal fade what-we-do-testimonial-vid" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">

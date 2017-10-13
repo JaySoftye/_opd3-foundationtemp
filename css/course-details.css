@@ -375,3 +375,43 @@ aside#live-chat-container #live-chat-form {
   bottom: 0;
   padding-bottom: 15px;
 }
+
+div.getting-started-header {
+  background-image: url('images/getting-started-header-bg.jpg');
+}
+
+div.getting-started-header ul {
+  padding-left: 1.25rem;
+}
+
+div.getting-started-header p {
+  margin-bottom: .1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+div.getting-started-header section.getting-started-bar {
+  background-color: rgba(64, 85, 117, 0.5);
+  margin-top: 2.5rem;
+}
+
+section.getting-started-bar select {
+  width: 80%;
+  height: 2.5rem;
+  background-size: 10%;
+  padding: .5rem 2.75rem .5rem 1.5rem;
+  border-color: transparent;
+  outline: none;
+  text-align: left;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+div.category-events div.video-thumb img {
+  margin-bottom: 20px;
+  cursor: pointer;
+}

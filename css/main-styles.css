@@ -10,7 +10,7 @@
   margin: 0;
  }
 
-h1, h2, h3, h4, h5, h6, p, small, blockquote, a, button, span, label, input, select, textarea, option {
+h1, h2, h3, h4, h5, h6, p, small, li, blockquote, a, button, span, label, input, select, textarea, option {
    font-family:'Roboto',Helvetica,Arial,san-serif !important;
    font-weight: 300;
    color: rgb(60, 72, 82);
@@ -532,6 +532,10 @@ a.admin-link img {
 
 .orange-text {
   color: rgba(255, 146, 58, 1) !important;
+}
+
+.getting-started-text {
+  color: #ff681d !important;
 }
 
 .salmon-text {

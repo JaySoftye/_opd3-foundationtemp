@@ -71,7 +71,8 @@
    }
 
    div.row.categories-items a img {
-     height: 17.25rem;
+     height: auto;
+     max-height: 15rem;
    }
 
    div#search-box ul.nav {
