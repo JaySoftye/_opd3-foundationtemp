@@ -4,6 +4,8 @@
 
     <?php include 'getting-started-header.php'; ?>
 
+
+
     <section class="container-fluid light-gray-bg">
       <div class="container">
       <div id="getting-started-category-videos">
@@ -11,7 +13,11 @@
         <div id="getting-started-category-videos-1" class="getting-started-category-videos-container active">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video>
+                  <source type="video/mp4" src="https://l3video.lwcdn.com/v-970221bd-eb7b-4a87-8626-1d7e1f8eda8a.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -31,22 +37,6 @@
               </div>
             </div>
           </div>
-          <script>
-          // select the above element as player container
-          var container = document.getElementById("player");
-
-          // install flowplayer into selected container
-          flowplayer(container, {
-              clip: {
-                  sources: [
-                        { type: "application/x-mpegurl",
-                          src:  "	https://l3video.lwcdn.com/hls/970221bd-eb7b-4a87-8626-1d7e1f8eda8a/playlist.m3u8" },
-                        { type: "video/mp4",
-                          src:  "https://l3video.lwcdn.com/v-970221bd-eb7b-4a87-8626-1d7e1f8eda8a.mp4" }
-                  ]
-              }
-          });
-          </script>
           <div class="row row-eq-height padding-top padding-bottom category-events">
             <article class="col-md-4">
               <div class="card" data-id="1">
@@ -133,7 +123,11 @@
         <div id="getting-started-category-videos-4" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video>
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-66a4b52f-33d9-4d24-989a-6e4e5abdaec1.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -255,7 +249,11 @@
         <div id="getting-started-category-videos-2" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video>
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-ecd8a946-ebc7-4d57-bbab-d3326ca3df19.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -328,7 +326,11 @@
         <div id="getting-started-category-videos-3" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video>
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-1e6c742b-4ec1-41c1-b784-0cd74f7869c2.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -370,7 +372,11 @@
         <div id="getting-started-category-videos-5" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video>
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-a9a52adb-c652-4cdf-adcc-7fe5bd189e40.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -412,7 +418,11 @@
         <div id="getting-started-category-videos-6" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video poster="http://l3561eb26.lwcdn.com/i/v-i-a4c40690-16d6-467c-966c-f79daaaae9cc-0.jpg">
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-a4c40690-16d6-467c-966c-f79daaaae9cc.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -470,7 +480,11 @@
         <div id="getting-started-category-videos-7" class="getting-started-category-videos-container hidden">
           <div class="row row-eq-height padding-top padding-bottom">
             <div class="col-lg-8">
-              <div id="player"></div>
+              <div class="player">
+                <video>
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-042358fd-6703-40ad-bacf-a64ff94328ac.mp4">
+                </video>
+              </div>
             </div>
             <div class="col-lg-4 course-details">
               <ul class="nav">
@@ -509,6 +523,12 @@
             </article>
           </div>
         </div>
+
+        <script>
+          $(function () {
+            $(".player").flowplayer();
+          });
+        </script>
 
       </div>
       </div>
