@@ -10,11 +10,12 @@
 	.st4{fill:#8DC56F;}
 	.st5{fill:#6CB048;}
 	.st6{opacity:0.33;fill:#FFFFFF;enable-background:new    ;}
+	.st7{fill:#FFFFFF;}
 </style>
 <g>
 	<g>
 		
-			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6.8404" y1="-9.1809" x2="6.8404" y2="-14.9349" gradientTransform="matrix(1 0 0 -1 0 -2)">
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6.8405" y1="259.181" x2="6.8405" y2="264.935" gradientTransform="matrix(1 0 0 1 0 -252)">
 			<stop  offset="0" style="stop-color:#FFFFFF"/>
 			<stop  offset="0.3126" style="stop-color:#E2E1E0"/>
 			<stop  offset="0.4767" style="stop-color:#E0E0DF"/>
@@ -24,7 +25,7 @@
 			C9.225,8.061,9.375,8.59,9.385,9.296v3.639H7.62V9.368c0-0.285-0.058-0.495-0.173-0.629C7.332,8.605,7.124,8.537,6.821,8.537
 			c-0.345,0-0.6,0.136-0.767,0.408v3.988H4.296V7.285H5.946z"/>
 		
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="22.5384" y1="-9.2839" x2="22.5384" y2="-14.9329" gradientTransform="matrix(1 0 0 -1 0 -2)">
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="22.5385" y1="259.284" x2="22.5385" y2="264.933" gradientTransform="matrix(1 0 0 1 0 -252)">
 			<stop  offset="0" style="stop-color:#FFFFFF"/>
 			<stop  offset="0.3126" style="stop-color:#E2E1E0"/>
 			<stop  offset="0.4767" style="stop-color:#E0E0DF"/>
@@ -34,7 +35,7 @@
 			l0.558,3.409l0.899-3.409h1.227L24.04,10.615z"/>
 	</g>
 	
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="14.4369" y1="27.8759" x2="14.4369" y2="37.1199" gradientTransform="matrix(1 0 0 1 0 -22.55)">
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="14.437" y1="-3.876" x2="14.437" y2="-13.12" gradientTransform="matrix(1 0 0 -1 0 1.45)">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="0.3126" style="stop-color:#E2E1E0"/>
 		<stop  offset="0.4767" style="stop-color:#E0E0DF"/>
@@ -59,4 +60,9 @@
 	c0.012,0.064,0.032,0.125,0.064,0.178l0.003,0.006c0,0,0.002,0.001,0.003,0.001c0.109,0.182,0.319,0.293,0.543,0.266
 	c0.114-0.014,0.217-0.062,0.297-0.132c0.001,0,0.004,0,0.005,0c0.044-0.007,0.867-0.874,1.632-1.686h5.079
 	c0.241,0,0.439-0.197,0.439-0.439V7.151C39.793,6.911,39.596,6.713,39.354,6.713z"/>
+<g>
+	<path class="st7" d="M26.838,7.81V7.263h-0.204V7.19h0.491v0.073H26.92V7.81H26.838z"/>
+	<path class="st7" d="M27.207,7.81V7.19h0.123l0.147,0.438C27.49,7.67,27.5,7.7,27.506,7.72c0.007-0.022,0.018-0.056,0.033-0.099
+		l0.148-0.431h0.11v0.62h-0.079V7.291l-0.18,0.519h-0.074l-0.18-0.527V7.81H27.207z"/>
+</g>
 </svg>

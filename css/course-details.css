@@ -415,3 +415,9 @@ div.category-events div.video-thumb img {
   margin-bottom: 20px;
   cursor: pointer;
 }
+
+div.category-events div.video-thumb video {
+  width: 100%;
+  max-width: 100%;
+  cursor: pointer;
+}

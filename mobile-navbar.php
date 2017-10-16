@@ -2,8 +2,11 @@
 
   <section class="container" id="mainBanner">
     <div class="row">
-      <div class="col-8 no-padding">
-        <a data-toggle="collapse" href="#mobile-main-nav" aria-expanded="false" aria-controls="mobile-main-nav"><img src="assets/mobile_navbar_opd_logo.svg" alt="Online Professional Development the fusion of technology and learning" /></a>
+      <div class="col-1 no-padding">
+        <a data-toggle="collapse" href="#mobile-main-nav" aria-expanded="false" aria-controls="mobile-main-nav"><img src="assets/mobile_navbar_menu_icon.svg" alt="menu" /></a>
+      </div>
+      <div class="col-7 no-padding">
+        <a href="http://onlinepd.teq.com"><img src="assets/mobile_navbar_opd_logo.svg" alt="Online Professional Development the fusion of technology and learning" /></a>
       </div>
       <div class="col-4 no-padding">
         <a href="#" id="mobile-now-window"><img src="assets/mobile_navbar_now_logo.svg" alt="now instructional support" /></a>
@@ -45,6 +48,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
           </li>
         </ul>
       </div>
