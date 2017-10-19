@@ -370,3 +370,21 @@ form#share-playlist-form button.email-playist, form#share-playlist-no-addition-f
   border-color: rgb(0, 180, 288);
   color: white
 }
+
+div.filter-box.date-range-picker input  {
+    background: transparent url('/assets/course-calendar-calendar-view.svg') no-repeat left center;
+    padding: 0.5rem 0.75rem 0.5rem 15%;
+    line-height: 1.25;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-bottom: solid thin #3c4852;
+    font-weight: 300;
+    width: 100%;
+    outline: none;
+}
+
+div.daterangepicker {
+    width:40%;
+}
