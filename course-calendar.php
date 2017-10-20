@@ -143,13 +143,13 @@
                     data-toggle="popover"
                     data-trigger="hover"
                     data-placement="top"
-                    title="<small>July 6, 1:00PM EDT - 3:00PM EDT</small>"
+                    title="<small>July 6, 1:00PM - 3:00PM EST</small>"
                     data-content="<p>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
                   <span class="week-of-date">Thursday <strong>6</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-free-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix I</p>
                   <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
-                  <small>1:00pm to 3:00pm</small>
+                  <small>1:00pm to 3:00pm EST</small>
                 </a>
                 <?php include 'course-calendar-admin-menu.php'; ?>
                 <a class="event" href="course-details.php"
@@ -159,13 +159,13 @@
                     data-toggle="popover"
                     data-trigger="hover"
                     data-placement="top"
-                    title="<small>July 6, 4:00PM EDT - 5:00PM EDT</small>"
+                    title="<small>July 6, 4:00PM - 5:00PM EST</small>"
                     data-content="<p>We further explore the wonders of Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. </p>">
                   <span class="week-of-date">Thursday <strong>6</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-free-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix II</p>
                   <p class="event-description">We further explore the wonders of Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. </p>
-                  <small>4:00pm to 5:00pm</small>
+                  <small>4:00pm to 5:00pm EST</small>
                 </a>
                 <?php include 'course-calendar-admin-menu.php'; ?>
             	</li>
@@ -177,13 +177,13 @@
                     data-toggle="popover"
                     data-trigger="hover"
                     data-placement="top"
-                    title="<small>July 6, 10:00AM EDT - 11:00AM EDT</small>"
+                    title="<small>July 6, 10:00AM - 11:00AM EST</small>"
                     data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
                   <span class="week-of-date">Friday <strong>7</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-certification-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
                   <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
-                  <small>1:00pm to 3:00pm</small>
+                  <small>1:00pm to 3:00pm EST</small>
                 </a>
                 <?php include 'course-calendar-admin-menu.php'; ?>
             	</li>
@@ -300,13 +300,13 @@
                     data-toggle="popover"
                     data-trigger="hover"
                     data-placement="top"
-                    title="<small>July 6, 10:00AM EDT - 11:00AM EDT</small>"
+                    title="<small>July 6, 10:00AM - 11:00AM EST</small>"
                     data-content="<p><span>Digital Manipulatives for the Science Classroom</span>There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>">
                   <span class="week-of-date">Monday <strong>24</strong></span>
                   <span class="calendar-course-type"><img src="assets/course-calendar-live-icon.svg" /> <img src="assets/course-calendar-certification-icon.svg" /></span>
                   <p class="event-title">HTML 5 lecture with Brad Traversy from Eduonix</p>
                   <p class="event-description">There are a large variety of resources on the web to support science curriculum for all grade levels. These include Shockwave Flash simulators, Java applets, and a plethora of Flash videos. We will discover how to find, download, and make good use of these high-quality teaching aids. How are you going to distribute this to your students? We will take a quick tour.</p>
-                  <small>1:00pm to 3:00pm</small>
+                  <small>1:00pm to 3:00pm EST</small>
                 </a>
                 <?php include 'course-calendar-admin-menu.php'; ?>
             	</li>

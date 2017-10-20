@@ -37,7 +37,16 @@ h1, h2, h3, h4, h5, h6, p, small, li, blockquote, a, button, span, label, input,
    background-size: 100% !important;
  }
 
+ p.line-height-small {
+   margin-top: 1.75rem;
+   line-height: 1;
+ }
+
  /** BOOTSTRAP 4 OVERRIDES **/
+
+select.mobile-dropdown {
+  display: none;
+}
 
 button {
   border: none;

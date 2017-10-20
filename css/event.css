@@ -1,0 +1,27 @@
+/*
+    Created on : Aug 15, 2017, 1:15:18 PM
+    Author     : robertschiffman
+*/
+
+.fp-timestamp {
+    color: #ffffff;
+}
+div.assignment-block a img {
+    height: 60px;
+}
+.course-details .quiz-btn {
+    display: block;
+}
+.course-details.badges img {
+    width: 105px;
+}
+.course-details .course-details-date {
+    background: url(images/catetory-details-date-small-icon.svg) no-repeat center left;
+    padding: .33rem 0 .33rem 2rem;
+    margin-left: 0;
+    margin-bottom: .5rem;
+    float: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(109, 140, 188);
+}

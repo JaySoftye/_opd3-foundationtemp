@@ -87,11 +87,8 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   margin: 0 0;
 }
 
-.course-chapters a {
-  height: 3.5rem;
-  background-color: rgba(0, 180, 228, 0.65);
-  display: block;
-  margin-top: 1rem;
+.row.course-chapters {
+  padding: 0 15px;
 }
 
 .course-chapters a img {
@@ -100,33 +97,59 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
 
 .course-chapters a:hover, .course-chapters a:focus, .course-chapters a.chapter-link:hover img {
   opacity: .95;
-  background-color: rgba(0, 180, 228, 1);
 }
 
-.course-chapters div.col-2 {
+.course-chapters div.col-1 {
+  padding-left: 0;
+  padding-right: 10px;
+  margin-bottom: 10px;
   counter-increment: chapter;
 }
 
-.course-chapters div.col-2:after {
-  content: counter(chapter);
-  position: absolute;
-  right: 0;
-  bottom: 5px;
-  left: 0;
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  color: white;
+.course-chapters div.col-1 a {
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  display: block;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border: solid 6px rgba(0, 180, 228, 1);
   opacity: 0.5;
-  pointer-events: none;
 }
 
-.course-chapters div.col-2.active:after {
+.course-chapters div.col-1.completed {
+  background-image: url('images/course-chapter-col-1-active-bg.svg');
+  background-repeat: repeat-x;
+  background-position: right center;
+}
+
+.course-chapters div.col-1.completed a {
+  background-color: rgba(0, 180, 228, 1);
+  border: solid 6px rgba(0, 180, 228, 1);
   opacity: 1;
 }
 
-.course-chapters a.active {
-  background-color: rgba(0, 180, 228, 1);
+.course-chapters div.col-1.completed a:after {
+  color: white;
+}
+
+.course-chapters div.col-1 a.active {
+  opacity: 1;
+}
+
+.course-chapters div.col-1 a:after {
+  content: counter(chapter);
+  background-color: transparent;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  bottom: 0;
+  left: -25%;
+  font-size: 1rem;
+  text-align: center;
+  color: rgba(0, 180, 228, 1);
+  pointer-events: none;
 }
 
 .course-chapters a.active img {

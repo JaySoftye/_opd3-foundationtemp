@@ -133,7 +133,7 @@ ul.nav.profile-nav li.nav-item, ul.nav.profile-nav li.nav-item a {
   border-bottom: 2px solid transparent;
 }
 
-ul.nav.profile-nav li.nav-item.active, ul.nav.activity-nav li.nav-item.active {
+ul.nav.profile-nav li.nav-item:hover, ul.nav.activity-nav li.nav-item:hover, ul.nav.profile-nav li.nav-item.active, ul.nav.activity-nav li.nav-item.active {
   border-bottom: 2px solid rgb(60, 72, 82);
 }
 

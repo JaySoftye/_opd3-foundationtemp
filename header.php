@@ -16,11 +16,13 @@
 
     <link rel="stylesheet" href="css/course-calendar.css">
     <link rel="stylesheet" href="css/course-details.css">
+    <link rel="stylesheet" href="css/course-chapter-popovers.css">
     <link rel="stylesheet" href="css/course-library_category-details.css">
     <link rel="stylesheet" href="css/main-nav_now-chat_login-window.css">
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/user-profile.css">
     <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
+    <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="css/mobile-ui.css">
 
 <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" integrity="sha256-IyWBFJYclFY8Pn32bwWdSHmV4B9M5mby5bhPHEmeY8w=" crossorigin="anonymous"></script>
@@ -33,7 +35,7 @@
 <script src="http://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script>
 
   </head>
-    <body>
+    <body class="course-session-vid">
 
       <?php include 'login-window.php'; ?>
 
