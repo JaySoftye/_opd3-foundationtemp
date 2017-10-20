@@ -14,7 +14,7 @@
       <section class="modal-body light-gray-bg">
         <section class="container">
           <h6 class="blue-text"><img src="assets/default-course-icon.svg">Course</h6>
-          <h5><strong>SMART Notebook 15 Digital Teacher Certification: Session 1</strong></h5>
+          <h5><strong>iPhoto - Chapter 7</strong></h5>
         </section>
       </section>
 
@@ -29,35 +29,34 @@
             </div>
             <div class="col-md-1 align-self-top text-center no-padding">or</div>
             <div class="col-md-5 show" id="playlist-selection-menu">
-              <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
-                <ul class="dropdown-menu hide-small">
+              <button id="playlist-dropdown-menu-button" class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
+                <ul class="dropdown-menu hide-small" id="playlist-dropdown-menu-dropdown">
                   <li><a href="#">STEAM Playlist</a></li>
                   <li><a href="#">Google Playlist</a></li>
                   <li><a href="#">Science Department Playlist</a></li>
                   <li><a href="#">Math Department Playlist</a></li>
                 </ul>
-
             </div>
           </div>
           <div class="form-group row">
             <div class="col-md-5">
-              <button class="btn add-to-playlist-btn" type="submit">Add to playlist</button>
+              <button class="btn add-to-playlist-btn" id="playlist-dropdown-add-to" type="button">Add to playlist</button>
             </div>
           </div>
           </form>
 
-          <div class="form-group row" id="share-playlist">
+          <div class="form-group row" id="share-playlist" style="display: none;">
             <div class="col-md">
               <hr />
               <h5>This course has been successfully added to the <span id="playlist-name"></span> Playlist.</h5>
               <p><strong>You can now use the button below to share.</strong></p>
-              <button class="btn share-playlist-btn" type="submit">Share Course</button>
+              <button class="btn share-playlist-btn" id="playlist-dropdown-share-with">Share Course</button>
             </div>
           </div>
         </section>
       </section>
 
-      <form name="" method="" id="share-playlist-form">
+      <form name="" method="" id="share-playlist-form" style="display: none;">
       <section class="modal-body light-gray-bg">
         <section class="container">
           <div class="form-group row">
@@ -68,11 +67,9 @@
                   <li><a class="district-option" href="#">East Orange School District</a></li>
                 </ul>
               </div>
-              <div class="padding-sm">
-                <textarea class="form-control" rows="5"></textarea>
-              </div>
+              <textarea class="form-control" rows="5"></textarea>
             </div>
-            <div class="col-md-1 align-self-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-1 padding align-self-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
             <div class="col-md-5">
               <div id="playlist-school-menu">
                 <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
@@ -82,9 +79,7 @@
                   <li><a class="school-option" href="#">East Orange Tech Thursdays</a></li>
                 </ul>
               </div>
-              <div class="padding-sm">
-                <textarea class="form-control" rows="5"></textarea>
-              </div>
+              <textarea class="form-control" rows="5"></textarea>
             </div>
           </div>
           <div class="form-group row">
@@ -257,4 +252,27 @@ $(function() {
   });
 
 });
+
+// Dropdown playlist menu
+$("#playlist-dropdown-menu-dropdown a").click(function() {
+  var clicked = $(this).text();
+    $("#playlist-dropdown-menu-button").text( clicked );
+});
+
+// Add to playlist button
+$("#playlist-dropdown-add-to").click(function() {
+  var playlist = $("#playlist-dropdown-menu-button").text();
+    $("span#playlist-name").text( playlist );
+    $("#add-to-playlist-form").css("display", "none");
+    $("#share-playlist").css("display", "block");
+});
+
+// Share Course  button
+$("#playlist-dropdown-share-with").click(function() {
+  $("#share-playlist").css("display", "none");
+  $("#share-playlist-form").css("display", "block");
+});
+
+
+
 </script>

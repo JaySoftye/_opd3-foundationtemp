@@ -166,6 +166,10 @@
       overflow: hidden;
     }
 
+    .course-chapters div.col-1 a:after {
+      left: -25% !important;
+    }
+
     div.modal.add-to-playlist img.add-subtract-buttons {
       transform: rotate(90deg);
     }

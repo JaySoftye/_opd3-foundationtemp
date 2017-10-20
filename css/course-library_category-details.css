@@ -299,6 +299,7 @@ form#share-playlist-form button.dropdown-toggle, form#share-playlist-no-addition
   height: 2.5rem;
   background: white url('images/dropdown-arrow-blue-icon.svg') no-repeat 95% center;
   padding: .5rem 2.5rem .5rem 1rem;
+  margin-bottom: 10px;
   display: block;
   border: 1px solid rgb(109, 140, 188);
   border-radius: 5rem;
