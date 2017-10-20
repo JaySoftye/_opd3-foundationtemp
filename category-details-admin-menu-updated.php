@@ -40,7 +40,7 @@
           </div>
           <div class="form-group row">
             <div class="col-md-5">
-              <button class="btn add-to-playlist-btn" id="playlist-dropdown-add-to" type="button">Add to playlist</button>
+              <button class="btn add-to-playlist-btn" id="playlist-dropdown-add-to">Add to playlist</button>
             </div>
           </div>
           </form>
@@ -205,7 +205,7 @@ $(function() {
     "text"    : "Select Playlist...",
     "disabled": "disabled"
   }).appendTo("div#playlist-selection-menu select");
-    $("div#playlist-selection-menu select").addClass("mobile-dropdown");
+    $("div#playlist-selection-menu select").addClass("mobile-dropdown").attr('id', 'playlist-selection-menu-button');
   // Populate dropdown with menu items from anchor tags
   $("div#playlist-selection-menu a").each(function() {
     var el = $(this);
@@ -261,7 +261,8 @@ $("#playlist-dropdown-menu-dropdown a").click(function() {
 
 // Add to playlist button
 $("#playlist-dropdown-add-to").click(function() {
-  var playlist = $("#playlist-dropdown-menu-button").text();
+
+  var playlist = $("select#playlist-selection-menu-button option:selected").text();
     $("span#playlist-name").text( playlist );
     $("#add-to-playlist-form").css("display", "none");
     $("#share-playlist").css("display", "block");

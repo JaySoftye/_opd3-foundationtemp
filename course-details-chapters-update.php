@@ -36,29 +36,29 @@
 <div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="0" data-start="0" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 6"></a>
 </div>
-<div class="col-1 active">
-  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link active" title="" data-chapteridx="1" data-start="15" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 7"></a>
+<div class="col-1 completed">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="1" data-start="15" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 7"></a>
 </div>
-<div class="col-1">
+<div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="2" data-start="30" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 15secs" data-original-title="Chapter 8"></a>
 </div>
-<div class="col-1">
+<div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="3" data-start="45" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 05secs" data-original-title="Chapter 9"></a>
 </div>
-<div class="col-1">
+<div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 10"></a>
 </div>
-<div class="col-1">
+<div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 11"></a>
 </div>
-<div class="col-1">
+<div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 12"></a>
 </div>
-<div class="col-1">
+<div class="col-1 completed">
   <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 13"></a>
 </div>
-<div class="col-1">
-  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 14"></a>
+<div class="col-1 completed">
+  <a href="http://opd-dev.teq.com/events/view/29/13843#" class="chapter-link active" title="" data-chapteridx="4" data-start="50" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="00min 10secs" data-original-title="Chapter 14"></a>
 </div>
           </div>
         </div>

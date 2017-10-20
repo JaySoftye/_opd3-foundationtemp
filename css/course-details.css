@@ -124,6 +124,10 @@ ul.course-sessions-list li a.course-session:hover, ul.course-sessions-list li a.
   background-position: right center;
 }
 
+.course-chapters div.col-1.completed:last-child {
+  background-image: none;
+}
+
 .course-chapters div.col-1.completed a {
   background-color: rgba(0, 180, 228, 1);
   border: solid 6px rgba(0, 180, 228, 1);
