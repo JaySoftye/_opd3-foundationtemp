@@ -13,7 +13,7 @@
      display: block;
    }
 
-   nav#main-navbar, div#now-instructional-support, div.row.course-chapters, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead, div.profile-plan-menu button.dropdown-toggle {
+   nav#main-navbar, div#now-instructional-support, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead, div.profile-plan-menu button.dropdown-toggle {
      display: none !important;
    }
 
@@ -151,6 +151,15 @@
 
     div.profile-plan-menu select.mobile-dropdown {
       display: inline-block !important;
+    }
+
+    .course-chapters div.col-1 {
+      width: 16.6% !important;
+      max-width: 16.6%;
+    }
+
+    div.modal.add-to-playlist img, div.modal.share-playlist-no-course-addition img {
+      transform: rotate(90deg);
     }
 
  }

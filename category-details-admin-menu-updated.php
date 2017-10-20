@@ -28,7 +28,7 @@
               <input class="form-control" type="text" placeholder="New playlist name">
             </div>
             <div class="col-md-1 align-self-top text-center no-padding">or</div>
-            <div class="col-md-5 profile-plan-menu show">
+            <div class="col-md-5 show">
               <button class="dropdown-toggle playlist-btn" id="add-block" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu" id="text-dropdown-menu">
                   <li><a href="#" id="playlist-selection">STEAM Playlist</a></li>
@@ -69,14 +69,14 @@
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-5">
+            <div class="col-md-5">
               <button class="btn add-to-playlist-btn" type="submit">Add to playlist</button>
             </div>
           </div>
           </form>
 
           <div class="form-group row" id="share-playlist">
-            <div class="col">
+            <div class="col-md">
               <hr />
               <h5>This course has been successfully added to the <span id="playlist-name"></span> Playlist.</h5>
               <p><strong>You can now use the button below to share.</strong></p>
@@ -90,39 +90,30 @@
       <section class="modal-body light-gray-bg">
         <section class="container">
           <div class="form-group row">
-            <div class="col-5 profile-plan-menu">
+            <div class="col-md-5">
               <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select District...<span class="profile-plan-menu-item"></span></button>
                 <ul class="dropdown-menu">
                   <li><a class="district-option" href="#" onclick="addDistrict(this);">East Orange School District</a></li>
                 </ul>
+              <div class="padding-sm">
+                <textarea class="form-control" rows="5"></textarea>
+              </div>
             </div>
-            <div class="col-1"></div>
-            <div class="col-5 profile-plan-menu">
+            <div class="col-md-1 align-self-center"><button><img src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-5">
               <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
                 <ul class="dropdown-menu">
                   <li><a class="school-option" href="#" onclick="addSchool(this);">Tyson Middle School</a></li>
                   <li><a class="school-option" href="#" onclick="addSchool(this);">East Orange Schools Admin</a></li>
                   <li><a class="school-option" href="#" onclick="addSchool(this);">East Orange Tech Thursdays</a></li>
                 </ul>
+              <div class="padding-sm">
+                <textarea class="form-control" rows="5"></textarea>
+              </div>
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-5 profile-plan-menu" id="districts-seletected"></div>
-            <div class="col-1"></div>
-            <div class="col-5 profile-plan-menu" id="schools-seletected">
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-5">
-              <textarea class="form-control" rows="5"></textarea>
-            </div>
-            <div class="col-1 align-self-center"><button><img src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
-            <div class="col-5">
-              <textarea class="form-control" rows="5"></textarea>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-11">
+            <div class="col-md-11">
               <button class="btn email-playist" type="submit">Share Playlist</button>
             </div>
           </div>
@@ -158,7 +149,7 @@
           <form name="" method="" id="share-playlist-only-form">
           <div class="form-group row">
             <p>Start by selecting an existing playlist from the menu below. You'll then be given the option to share with other users by selecting the District and School they are associated with.</p>
-            <div class="col-5 profile-plan-menu">
+            <div class="col-md-5">
               <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu">
                   <li><a href="#" id="playlist-selection-only">Super Awesome Playlist 1</a></li>
@@ -179,14 +170,14 @@
       <section class="modal-body light-gray-bg">
         <section class="container">
           <div class="form-group row">
-            <div class="col-5 profile-plan-menu">
+            <div class="col-md-5">
               <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select District...<span class="profile-plan-menu-item"></span></button>
                 <ul class="dropdown-menu">
                   <li><a class="district-option" href="#" onclick="addDistrict(this);">East Orange School District</a></li>
                 </ul>
             </div>
             <div class="col-1"></div>
-            <div class="col-5 profile-plan-menu">
+            <div class="col-md-5">
               <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
                 <ul class="dropdown-menu">
                   <li><a class="school-option" href="#" onclick="addSchool(this);">Tyson Middle School</a></li>
@@ -196,22 +187,22 @@
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-5 profile-plan-menu" id="districts-seletected"></div>
-            <div class="col-1"></div>
-            <div class="col-5 profile-plan-menu" id="schools-seletected">
+            <div class="col-md-5 profile-plan-menu" id="districts-seletected"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 profile-plan-menu" id="schools-seletected">
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-5">
+            <div class="col-md-5">
               <textarea class="form-control" rows="5"></textarea>
             </div>
-            <div class="col-1 align-self-center"><button><img src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
-            <div class="col-5">
+            <div class="col-md-1 align-self-center"><button><img src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-5">
               <textarea class="form-control" rows="5"></textarea>
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-11">
+            <div class="col-md-11">
               <button class="btn email-playist" type="submit">Share Playlist</button>
             </div>
           </div>
