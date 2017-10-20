@@ -28,43 +28,14 @@
               <input class="form-control" type="text" placeholder="New playlist name">
             </div>
             <div class="col-md-1 align-self-top text-center no-padding">or</div>
-            <div class="col-md-5 show">
-              <button class="dropdown-toggle playlist-btn" id="add-block" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
-                <ul class="dropdown-menu" id="text-dropdown-menu">
-                  <li><a href="#" id="playlist-selection">STEAM Playlist</a></li>
-                  <li><a href="#" id="playlist-selection">Google Playlist</a></li>
-                  <li><a href="#" id="playlist-selection">Science Department Playlist</a></li>
-                  <li><a href="#" id="playlist-selection">Math Department Playlist</a></li>
+            <div class="col-md-5 show" id="playlist-selection-menu">
+              <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
+                <ul class="dropdown-menu hide-small">
+                  <li><a href="#">STEAM Playlist</a></li>
+                  <li><a href="#">Google Playlist</a></li>
+                  <li><a href="#">Science Department Playlist</a></li>
+                  <li><a href="#">Math Department Playlist</a></li>
                 </ul>
-
-
-                <script>
-                $(function() {
-                  // Create the dropdown container
-                  $("<select />").appendTo("div.profile-plan-menu");
-
-
-                  $("<option />", {
-                    "selected": "selected",
-                    "value"   : "",
-                    "text"    : "Select Playlist...",
-                    "disabled": "disabled"
-                  }).appendTo("div.profile-plan-menu select");
-
-                  $("div.profile-plan-menu select").addClass("mobile-dropdown");
-
-                  // Populate dropdown with menu items
-                  $("div.profile-plan-menu a").each(function() {
-                    var el = $(this);
-                    $("<option />", {
-                      "value"   : el.attr("href"),
-                      "text"    : el.text()
-                    }).appendTo("div.profile-plan-menu select.mobile-dropdown");
-                  });
-
-                });
-                </script>
-
 
             </div>
           </div>
@@ -91,22 +62,26 @@
         <section class="container">
           <div class="form-group row">
             <div class="col-md-5">
-              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select District...<span class="profile-plan-menu-item"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a class="district-option" href="#" onclick="addDistrict(this);">East Orange School District</a></li>
+              <div id="playlist-district-menu">
+                <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select District...<span class="profile-plan-menu-item"></span></button>
+                <ul class="dropdown-menu hide-small">
+                  <li><a class="district-option" href="#">East Orange School District</a></li>
                 </ul>
+              </div>
               <div class="padding-sm">
                 <textarea class="form-control" rows="5"></textarea>
               </div>
             </div>
-            <div class="col-md-1 align-self-center"><button><img src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-1 align-self-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
             <div class="col-md-5">
-              <button class="dropdown-toggle playlist-btn" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a class="school-option" href="#" onclick="addSchool(this);">Tyson Middle School</a></li>
-                  <li><a class="school-option" href="#" onclick="addSchool(this);">East Orange Schools Admin</a></li>
-                  <li><a class="school-option" href="#" onclick="addSchool(this);">East Orange Tech Thursdays</a></li>
+              <div id="playlist-school-menu">
+                <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
+                <ul class="dropdown-menu hide-small">
+                  <li><a class="school-option" href="#">Tyson Middle School</a></li>
+                  <li><a class="school-option" href="#">East Orange Schools Admin</a></li>
+                  <li><a class="school-option" href="#">East Orange Tech Thursdays</a></li>
                 </ul>
+              </div>
               <div class="padding-sm">
                 <textarea class="form-control" rows="5"></textarea>
               </div>
@@ -226,64 +201,60 @@
 DELETE THIS
 ONLY USED TO SHOW HOW THE FORM WILL WORK ON THE FRONT END
 **/
-var a = document.getElementById('playlist-selection');
-var b = document.getElementById('add-to-playlist-form');
-var c = document.getElementById('share-playlist');
-var d = document.getElementById('playlist-name');
-var e = document.getElementById('share-playlist-form');
-var f = document.getElementsByClassName("share-playlist-btn")[0];
-var g = document.getElementById('district-options');
+$(function() {
+  // Create the dropdown container
+  $("<select />").appendTo("div#playlist-selection-menu");
+  $("<option />", {
+    "selected": "selected",
+    "value"   : "",
+    "text"    : "Select Playlist...",
+    "disabled": "disabled"
+  }).appendTo("div#playlist-selection-menu select");
+    $("div#playlist-selection-menu select").addClass("mobile-dropdown");
+  // Populate dropdown with menu items from anchor tags
+  $("div#playlist-selection-menu a").each(function() {
+    var el = $(this);
+    $("<option />", {
+      "value"   : el.attr("href"),
+      "text"    : el.text()
+    }).appendTo("div#playlist-selection-menu select.mobile-dropdown");
+  });
 
-var m = document.getElementById('share-playlist-only-form');
-var n = document.getElementById('playlist-selection-only');
-var o = document.getElementById('share-playlist-only');
-var p = document.getElementById('playlist-name-only');
-var q = document.getElementById('share-playlist-no-addition-form');
+  // Create the dropdown container
+  $("<select />").appendTo("div#playlist-district-menu");
+  $("<option />", {
+    "selected": "selected",
+    "value"   : "",
+    "text"    : "Select District...",
+    "disabled": "disabled"
+  }).appendTo("div#playlist-district-menu select");
+    $("div#playlist-district-menu select").addClass("mobile-dropdown");
+  // Populate dropdown with menu items from anchor tags
+  $("div#playlist-district-menu a").each(function() {
+    var el = $(this);
+    $("<option />", {
+      "value"   : el.attr("href"),
+      "text"    : el.text()
+    }).appendTo("div#playlist-district-menu select.mobile-dropdown");
+  });
 
-a.onclick = function() {
-    b.style.display = 'none';
-    c.style.display = 'block';
-    d.innerHTML = a.innerHTML;
-  }
+  // Create the dropdown container
+  $("<select />").appendTo("div#playlist-school-menu");
+  $("<option />", {
+    "selected": "selected",
+    "value"   : "",
+    "text"    : "Select School...",
+    "disabled": "disabled"
+  }).appendTo("div#playlist-school-menu select");
+    $("div#playlist-school-menu select").addClass("mobile-dropdown");
+  // Populate dropdown with menu items from anchor tags
+  $("div#playlist-school-menu a").each(function() {
+    var el = $(this);
+    $("<option />", {
+      "value"   : el.attr("href"),
+      "text"    : el.text()
+    }).appendTo("div#playlist-school-menu select.mobile-dropdown");
+  });
 
-n.onclick = function() {
-    m.style.display = 'none';
-    q.style.display = 'block';
-    p.innerHTML = n.innerHTML;
-  }
-
-f.onclick = function() {
-    e.style.display = 'block';
-  }
-
-function addDistrict(obj) {
-    var h = document.createElement('button');
-    var i = document.getElementById('districts-seletected');
-    h.className += "remove-item";
-    h.innerHTML = "&times; " + obj.innerHTML;
-    h.onclick = function() {this.parentNode.removeChild(this); }
-    i.appendChild(h);
-}
-
-function addSchool(obj) {
-    var j = document.createElement('button');
-    var k = document.getElementById('schools-seletected');
-    j.className += "remove-item";
-    j.innerHTML = "&times; " + obj.innerHTML;
-    j.onclick = function() {this.parentNode.removeChild(this); }
-    k.appendChild(j);
-}
-
-function remove() {
-    var l = document.getElementById('dummy');
-    elem.parentNode.removeChild(elem);
-    return false;
-}
-
-var x = document.getElementById('add-block');
-var z = document.getElementById("text-dropdown-menu");
-x.onclick = function() {
-    z.style.display = 'block';
-  }
-
+});
 </script>

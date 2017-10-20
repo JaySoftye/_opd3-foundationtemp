@@ -13,7 +13,7 @@
      display: block;
    }
 
-   nav#main-navbar, div#now-instructional-support, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead, div.profile-plan-menu button.dropdown-toggle {
+   nav#main-navbar, div#now-instructional-support, section.container-fluid.log-in-access, table#courses-in-progress thead, table#certifications-in-progress thead {
      display: none !important;
    }
 
@@ -149,16 +149,24 @@
       font-size: 1rem;
     }
 
-    div.profile-plan-menu select.mobile-dropdown {
-      display: inline-block !important;
-    }
-
     .course-chapters div.col-1 {
       width: 16.6% !important;
       max-width: 16.6%;
     }
 
-    div.modal.add-to-playlist img, div.modal.share-playlist-no-course-addition img {
+    select.mobile-dropdown {
+      width: 100%;
+      height: 2.5rem;
+      background: white;
+      display: inline-block !important;
+      border: 1px solid rgb(127, 168, 224);
+      outline: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    div.modal.add-to-playlist img.add-subtract-buttons {
       transform: rotate(90deg);
     }
 
