@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-1 align-self-top text-center no-padding">or</div>
             <div class="col-md-5 show" id="playlist-selection-menu">
-              <button id="playlist-dropdown-menu-button" class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
+              <button id="playlist-dropdown-menu-button" class="dropdown-toggle playlist-btn hide-small" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu hide-small" id="playlist-dropdown-menu-dropdown">
                   <li><a href="#">STEAM Playlist</a></li>
                   <li><a href="#">Google Playlist</a></li>
