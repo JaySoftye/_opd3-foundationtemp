@@ -294,7 +294,7 @@ form#add-to-playlist-form button.dropdown-toggle, form#share-playlist-only-form 
   overflow: hidden;
 }
 
-form#share-playlist-form button.dropdown-toggle, form#share-playlist-no-addition-form button.dropdown-toggle {
+#share-playlist-form button.dropdown-toggle, #share-playlist-no-addition-form button.dropdown-toggle {
   width: 100%;
   height: 2.5rem;
   background: white url('images/dropdown-arrow-blue-icon.svg') no-repeat 95% center;

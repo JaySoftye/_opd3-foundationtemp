@@ -67,9 +67,8 @@
                   <li><a class="district-option" href="#">East Orange School District</a></li>
                 </ul>
               </div>
-              <textarea class="form-control" rows="5"></textarea>
             </div>
-            <div class="col-md-1 align-self-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-1"></div>
             <div class="col-md-5">
               <div id="playlist-school-menu">
                 <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
@@ -79,6 +78,14 @@
                   <li><a class="school-option" href="#">East Orange Tech Thursdays</a></li>
                 </ul>
               </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-5">
+              <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <div class="col-md-1 align-self-center text-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-5">
               <textarea class="form-control" rows="5"></textarea>
             </div>
           </div>
@@ -123,7 +130,7 @@
             <div class="col-md-5" id="playlist-selection-menu-share">
               <button id="playlist-selection-menu-share-button" class="dropdown-toggle playlist-btn hide-small" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu hide-small" id="playlist-selection-menu-share-dropdown">
-                  <li><a href="Playlist 1" id="playlist-selection-only">Super Awesome Playlist 1</a></li>
+                  <li><a id="playlist-selection-only">Super Awesome Playlist 1</a></li>
                 </ul>
             </div>
           </div>
@@ -148,9 +155,8 @@
                   <li><a class="district-option" href="#">East Orange School District</a></li>
                 </ul>
               </div>
-              <textarea class="form-control" rows="5"></textarea>
             </div>
-            <div class="col-md-1 align-self-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-1"></div>
             <div class="col-md-5">
               <div id="playlist-school-menu">
                 <button class="dropdown-toggle playlist-btn hide-small" type="button" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select School...<span class="profile-plan-menu-item"></span></button>
@@ -160,6 +166,14 @@
                   <li><a class="school-option" href="#">East Orange Tech Thursdays</a></li>
                 </ul>
               </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-5">
+              <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <div class="col-md-1 align-self-center text-center"><button><img class="add-subtract-buttons" src="assets/share-playlist-add-icon.svg" alt="add" /></button><button><img class="add-subtract-buttons" src="assets/share-playlist-subtract-icon.svg" alt="subtract" /></button></div>
+            <div class="col-md-5">
               <textarea class="form-control" rows="5"></textarea>
             </div>
           </div>
@@ -285,7 +299,14 @@ $("#playlist-dropdown-share-with").click(function() {
   $("#share-playlist-form").css("display", "block");
 });
 
-// Share Course button mobile
+// Share Playlist
+$("#playlist-selection-only").click(function() {
+  $("#share-playlist-only-form").css("display", "none");
+  $("#share-playlist-no-addition-form").css("display", "block");
+});
+
+
+// Share Playlist button mobile
 jQuery(document).ready(function() {
   $("#playlist-selection-menu-dropdown").change(function() {
     $("#share-playlist-only-form").css("display", "none");
