@@ -170,7 +170,7 @@
       left: -25% !important;
     }
 
-    div.modal.add-to-playlist img.add-subtract-buttons {
+    div.modal.add-to-playlist img.add-subtract-buttons, div#share-playlist-no-addition-form img.add-subtract-buttons {
       transform: rotate(90deg);
     }
 

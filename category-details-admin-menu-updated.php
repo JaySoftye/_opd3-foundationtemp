@@ -123,7 +123,7 @@
             <div class="col-md-5" id="playlist-selection-menu-share">
               <button id="playlist-selection-menu-share-button" class="dropdown-toggle playlist-btn hide-small" name="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Playlist...</button>
                 <ul class="dropdown-menu hide-small" id="playlist-selection-menu-share-dropdown">
-                  <li><a href="#" id="playlist-selection-only">Super Awesome Playlist 1</a></li>
+                  <li><a href="Playlist 1" id="playlist-selection-only">Super Awesome Playlist 1</a></li>
                 </ul>
             </div>
           </div>
@@ -252,6 +252,7 @@ $(function() {
     "disabled": "disabled"
   }).appendTo("div#playlist-selection-menu-share select");
     $("div#playlist-selection-menu-share select").addClass("mobile-dropdown");
+    $("div#playlist-selection-menu-share select").attr('id', 'playlist-selection-menu-dropdown');
   // Populate dropdown with menu items from anchor tags
   $("div#playlist-selection-menu-share a").each(function() {
     var el = $(this);
@@ -278,12 +279,19 @@ $("#playlist-dropdown-add-to").click(function() {
     $("#share-playlist").css("display", "block");
 });
 
-// Share Course  button
+// Share Course button
 $("#playlist-dropdown-share-with").click(function() {
   $("#share-playlist").css("display", "none");
   $("#share-playlist-form").css("display", "block");
 });
 
+// Share Course button mobile
+jQuery(document).ready(function() {
+  $("#playlist-selection-menu-dropdown").change(function() {
+    $("#share-playlist-only-form").css("display", "none");
+    $("#share-playlist-no-addition-form").css("display", "block");
+  });
+});
 
 
 </script>
