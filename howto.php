@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<?php include 'now-chat-window.php'; ?>
 
   <main>
 
@@ -6,15 +7,39 @@
       <div class="container">
         <div class="row padding-top">
           <div class="col">
-            <h2>How-to <strong>Videos</strong></h2>
-            <p>Here you have access to view all the How-to Videos on how to navigate our website.<br /><small>Can't find what you're looking for? Contact us directly at <a href="mailto:onlinepd@teq.com"><u>OnlinePD@teq.com</u></a></small></p>
+            <ul class="nav profile-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ's</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-
     <section class="container padding-bottom">
+      <div class="row padding-top">
+        <div class="col">
+          <h2>How-to <strong>Videos</strong></h2>
+          <p>Here you have access to view all the How-to Videos on how to navigate our website.<br />Don't find your answers below? Click on the <a id="now-button-text" class="now-text"><strong>nOw</strong></a> button for help.</p>
+        </div>
+      </div>
+
+      <script>
+      // CLICK EVENT FOR NOW WINDOW; STORE IN FUNCTION
+      $( "a#now-button-text" ).click(function() {
+        $( "#now-chat-window" ).animate({
+          width: '770',
+          height: '440'
+        }, 100, function() {
+          $(this).css('z-index', 10010)
+        });
+      });
+      </script>
+
       <div class="row padding-top">
 
           <article class="col-md-4">
@@ -236,4 +261,4 @@
 
   </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'footer-certifications-bar.php'; ?>
