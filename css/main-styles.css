@@ -641,6 +641,11 @@ li.faq span.answer {
   font-size: 1rem;
 }
 
+span.answer a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 section.digital-certs a img:hover {
   -webkit-filter: invert(75%);
   filter: invert(75%);
