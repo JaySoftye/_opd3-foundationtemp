@@ -240,7 +240,7 @@ article.certification-card.digital-teacher::after {
 
 .card .card-footer span.course-details-date {
   background: url(images/catetory-details-date-small-icon.svg) no-repeat center left;
-  background-size: 10%;
+  background-size: 24px;
   padding: .33rem 0 .33rem 2rem;
   float: left;
   font-size: 1rem;
