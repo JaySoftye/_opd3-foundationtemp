@@ -76,7 +76,7 @@
     <div class="row">
 
       <div class="col-md-7">
-        <h6 class="getting-started-text"><strong>Select an area of technology from the drop down list to view the free instructional videos available:</strong></h6>
+        <h5 class="getting-started-text">Select an <span class="white">area of technology</span> from the drop down list to view the free instructional videos available:</h5>
       </div>
       <div class="col-md-5">
         <select name="getting-started-categories" id="getting-started-categories">
