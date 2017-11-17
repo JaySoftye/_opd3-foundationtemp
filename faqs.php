@@ -191,7 +191,7 @@
     // LOOP FOR COLLAPSE LINKS CAUSE I'M LAZY
     $("li.faq").each(function () {
       var faqId = $(this).find("div").attr('id')
-      $(this).find("a").attr({ 'href' : '#' + faqId, 'aria-controls' : faqId, 'data-toggle' : 'collapse', 'aria-expanded' : 'false' });
+      $(this).find("a.question").attr({ 'href' : '#' + faqId, 'aria-controls' : faqId, 'data-toggle' : 'collapse', 'aria-expanded' : 'false' });
     });
     </script>
 
