@@ -211,6 +211,10 @@
 
             </div>
             <div class="col-md-5 padding-top">
+              <div class="alert alert-warning">
+                <h6>Upgrade to a school plan for full access to Teq Online PD.</h6>
+                <a href="#" class="btn warning text-center">Click here to sign up with your code</a>
+              </div>
               <div class="card thread-post">
                   <div class="card-block">
                     <h4><strong>License Information</strong></h4>

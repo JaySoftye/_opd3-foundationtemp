@@ -146,6 +146,21 @@ article.certification-card.digital-teacher::after {
   z-index: -2;
 }
 
+.alert.alert-warning {
+  padding: 1.5rem 1.25rem;
+}
+
+.alert.alert-warning h6 {
+  background-image: url('images/warning-box-alert-icon_bg.svg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding-bottom: 20px;
+  padding-left: 3.5rem;
+  margin: 0 20px;
+  font-weight: 400;
+  color: #856404;
+}
+
 .card.thread-post {
   background-color: rgba(255, 255, 255, .85);
   margin-bottom: .25rem;
@@ -513,6 +528,21 @@ a.btn.gray-fill:hover, a.lg-btn.gray-fill:hover, a.btn.gray-fill:focus, a.lg-btn
   border-color: rgb(60, 72, 82);
   background-color: transparent;
   color: rgb(60, 72, 82);
+}
+
+a.btn.warning {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border-color: #856404;
+  background-color: white;
+  color: #856404;
+}
+
+a.btn.warning:hover, a.btn.warning:focus {
+  border-color: #856404;
+  background-color: #856404;
+  color: white;
 }
 
 a.admin-link img {
