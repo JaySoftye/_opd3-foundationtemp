@@ -99,7 +99,7 @@ ul.main-nav a.nav-link, ul.sub-nav a.nav-link {
 }
 
 ul.main-nav a.nav-link:hover, ul.main-nav li.nav-item a.nav-link:focus, ul.main-nav li.nav-item a.nav-link.active, ul.main-nav li.nav-item a.border-bottom-blue {
-  border-bottom: 3px solid #00b4e4;
+  border-bottom: 3px solid white;
 }
 
 ul.sub-nav a.nav-link:hover, ul.sub-nav li.nav-item a.nav-link:focus, ul.sub-nav li.nav-item a.nav-link.active {
@@ -107,8 +107,8 @@ ul.sub-nav a.nav-link:hover, ul.sub-nav li.nav-item a.nav-link:focus, ul.sub-nav
 }
 
 div.sub-menu {
-  background-color: rgba(159, 130, 189, 0.95);
-  padding: 1rem 0 0 0;
+  background-color: #6f7fb6;
+  padding: 1rem 0;
   position: fixed;
   width: 100%;
   margin: 0 auto;
