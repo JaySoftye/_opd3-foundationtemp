@@ -69,7 +69,7 @@
             <li class="nav-item"></li>
           </ul>
         </div>
-        <div class="card-body" data-toggle="modal" data-target=".chapters-screen"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7-high-1.jpg" /></div>
+        <div class="card-body" data-toggle="modal" data-target=".chapters-screen"><span class="how-to-video-icon"></span><img style="cursor:pointer;"  src="https://l3561eb26.lwcdn.com/i/v-i-0ca24eaf-1f14-4111-9eff-e9fb2b2ea205-high-1.jpg" /></div>
         <div class="modal fade chapters-screen" tabindex="-1" role="dialog">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -81,8 +81,8 @@
               </div>
               <div class="flowplayer">
                 <video>
-                  <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/0d2aa6c9-3528-4ace-9dd2-84ef85215ab7/playlist.m3u8">
-                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-0d2aa6c9-3528-4ace-9dd2-84ef85215ab7.mp4">
+                  <source type="application/x-mpegurl" src="https://l3561eb26.lwcdn.com/hls/0ca24eaf-1f14-4111-9eff-e9fb2b2ea205/playlist.m3u8">
+                  <source type="video/mp4" src="https://l3561eb26.lwcdn.com/v-0ca24eaf-1f14-4111-9eff-e9fb2b2ea205.mp4">
                 </video>
               </div>
             </div>
