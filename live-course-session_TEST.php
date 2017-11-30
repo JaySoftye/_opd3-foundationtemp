@@ -18,7 +18,7 @@
 
       <div class="row row-eq-height padding-top">
         <div class="col-md-8">
-          <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=1b1718c8-6027-4c64-b678-153a343d7df1&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+          <style>.lemonwhale-embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width:100%; }.lemonwhale-embed-container iframe { position: absolute; top: 0; left:0; width: 100%; height: 100%; }</style><div class="lemonwhale-embed-container"><iframe src="//ljsp.lwcdn.com/api/video/embed.jsp?id=715c9d0e-8365-4bfc-b3ab-3d389d21fe95&pi=4be99d0f-58cd-4c0a-8d66-6c11ff0ada39" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
         </div>
 
         <aside class="col-md-4" id="live-chat-container">
