@@ -15,28 +15,40 @@
           </form>
           <h3 class="text-center"><strong>- or -</strong></h3>
           <button type="submit" class="google-login">Login with your Google Account</button>
-
+            <button type="submit" class="clever-login">Login with your Clever Account</button>
+              <button type="submit" class="classlink-login">Login with your Classlink Account</button>
         </section>
       </div>
+      <div class="modal-body">
+        <p class="text-center">Don't have a Teq Online PD account yet?<br /><strong>Find a pricing plan that works for you.</strong></p>
+        <div class="row">
+          <a href="#" class="col text-center">
+            <img src="assets/login-group-pricing-icon.svg" alt="" />
+            <h4 class="pd-blue-text"><strong>Group Pricing</strong></h4>
+            <small class="pd-blue-text">School and District Pricing Plans</small>
+          </a>
+          <!--
+          <a href="#" class="col text-center">
+            <img src="assets/login-single-pricing-icon.svg" alt="" />
+            <h4 class="green-text"><strong>Single User Pricing</strong></h4>
+            <small class="green-text">Individual Monthly and Yearly Plans</small>
+          </a>
+        -->
+          <a href="#" class="col text-center">
+            <img src="assets/login-basic-pricing-icon.svg" alt="" />
+            <h4 class="lavendar-text"><strong>Basic User Account</strong></h4>
+            <small class="lavendar-text">Sign Up For a Basic User Account</small>
+          </a>
+        </div>
+      </div>
       <div class="modal-footer">
-        <section class="container padding">
-          <p class="text-center">Don't have a Teq Online PD account yet?<br /><strong>Find a pricing plan that works for you.</strong></p>
+        <section class="container">
           <div class="row">
-            <a href="#" class="col text-center">
-              <img src="assets/login-group-pricing-icon.svg" alt="" />
-              <h4 class="pd-blue-text"><strong>Group Pricing</strong></h4>
-              <small class="pd-blue-text">School and District Pricing Plans</small>
-            </a>
-            <a href="#" class="col text-center">
-              <img src="assets/login-single-pricing-icon.svg" alt="" />
-              <h4 class="green-text"><strong>Single User Pricing</strong></h4>
-              <small class="green-text">Individual Monthly and Yearly Plans</small>
-            </a>
-            <a href="#" class="col text-center">
-              <img src="assets/login-basic-pricing-icon.svg" alt="" />
-              <h4 class="lavendar-text"><strong>Basic User Account</strong></h4>
-              <small class="lavendar-text">Sign Up For a Basic User Account</small>
-            </a>
+            <div class="col-md">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
           </div>
         </section>
       </div>

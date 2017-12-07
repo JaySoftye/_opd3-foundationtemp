@@ -207,7 +207,7 @@ div.login-window div.modal-body.gray-bg {
 
 div.login-window form button, div.login-window .modal-body button {
   padding: .75rem 3.25rem;
-  margin: .5rem auto;
+  margin: .75rem auto;
   display: block;
   border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -227,10 +227,38 @@ div.login-window form button.login-button:Hover {
   background-color: rgba(0, 180, 228, 0.5);
 }
 
+div.login-window button.google-login, div.login-window button.clever-login, div.login-window button.classlink-login {
+  width: 75%;
+}
+
 div.login-window button.google-login {
   background: rgb(231, 76, 59) url('images/google-login.svg') no-repeat left center;
   padding-right: 2.25rem;
   color: white;
+}
+
+div.login-window button.google-login:hover, div.login-window button.google-login:focus  {
+  background-color: rgb(229, 26, 4);
+}
+
+div.login-window button.clever-login {
+  background: rgb(66, 116, 246) url('images/clever-login.svg') no-repeat left center;
+  padding-right: 2.25rem;
+  color: white;
+}
+
+div.login-window button.clever-login:hover, div.login-window button.clever-login:focus  {
+  background-color: rgb(4, 71, 244);
+}
+
+div.login-window button.classlink-login {
+  background: rgb(53, 171, 205) url('images/classlink-login.svg') no-repeat left center;
+  padding-right: 2.25rem;
+  color: white;
+}
+
+div.login-window button.classlink-login:hover, div.login-window button.classlink-login:focus  {
+  background-color: rgb(0, 157, 202);
 }
 
 form.login-password-form .form-group, form.password-change .form-group {

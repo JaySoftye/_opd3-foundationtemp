@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header-not-logged-in.php'; ?>
   <?php include 'now-chat-window.php'; ?>
 
   <main>

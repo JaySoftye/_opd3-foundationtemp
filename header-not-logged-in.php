@@ -16,17 +16,23 @@
 
     <link rel="stylesheet" href="css/course-calendar.css">
     <link rel="stylesheet" href="css/course-details.css">
+    <link rel="stylesheet" href="css/course-chapter-popovers.css">
     <link rel="stylesheet" href="css/course-library_category-details.css">
     <link rel="stylesheet" href="css/main-nav_now-chat_login-window.css">
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/user-profile.css">
     <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
+    <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="css/mobile-ui.css">
 
-    <link rel="stylesheet" href="http://releases.flowplayer.org/5.5.2/skin/minimalist.css">
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="http://releases.flowplayer.org/5.5.2/flowplayer.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" integrity="sha256-IyWBFJYclFY8Pn32bwWdSHmV4B9M5mby5bhPHEmeY8w=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="//releases.flowplayer.org/7.1.2/skin/skin.css">
+<script src="http://releases.flowplayer.org/7.1.1/commercial/flowplayer.min.js"></script>
+<script src="http://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script>
 
   </head>
     <body>
