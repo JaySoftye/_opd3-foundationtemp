@@ -81,7 +81,7 @@
                 <td></td>
                 <td>65%</td>
                 <td>2 of 3</td>
-                <td></td>
+                <td><img src="assets/profile-quiz-check-icon.svg" /></td>
               </tr>
               <tr class="collapse show" id="Whats-New-in-SMART-Notebook">
                 <td colspan="7">
