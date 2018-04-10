@@ -34,7 +34,7 @@
             </div>
           </article>
 
-          <article class="col-md-4 hidden">
+          <article class="col-md-4">
             <div class="card">
               <div class="card-header individual">
                 <h5 class="text-center white">Individual Plans</h5>
