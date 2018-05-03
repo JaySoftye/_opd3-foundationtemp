@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/**
+ * Teq Online Professional Development ERC Stylesheets
+ */
+
+ul.nav li.more-info-btn, ul.nav li.more-info-btn img {
+  height: 60px;
+  display: inline-flex;
+}
+
+ul.nav li.more-info-btn img:hover, ul.nav li.more-info-btn img:focus {
+  opacity: 0.5;
+}
+
+section.erc-library {
+  padding-top: 5.5rem;
+}
+
+div.erc-results {
+  margin-top: .375rem;
+  margin-bottom: 3.375rem;
+}
+
+div.erc-results p {
+  padding-bottom: 1.25rem;
+  border-bottom: 2px solid black;
+}
+
+div.erc-results p span {
+  font-weight: bold;
+}
+
+ul.pagination.erc-pages li a.page-link {
+  margin: 0 5px 0 10px;
+  padding: .75rem 1.125rem;
+  background-color: #d2d4d4;
+  border: none;
+  border-radius: 1.25rem;
+  -moz-border-radius: .625rem;
+  -webkit-border-radius: .625rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+ul.pagination.erc-pages li a.page-link:hover, ul.pagination.erc-pages li a.page-link.active:hover {
+  color: rgb(0, 180, 228);
+  background-color: #eceeef;
+}
+
+ul.pagination.erc-pages li a.page-link.active {
+  background-color: #ffffff;
+}
+
+div.erc-items {
+  padding-bottom: 5.625rem;
+}
+
+div.erc-items.hide {
+  display: none;
+}
+
+div.erc-items.show {
+  display: flex;
+}
+
+div.erc-items article .card {
+  height: 100%;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  text-align: center;
+}
+
+div.erc-items article .card {
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(112, 113, 114);
+}
+
+div.erc-items article .card.notebook {
+  background-image: url('../assets/erc-item-notebook.svg');
+  border-bottom-color: rgb(0, 178, 226);
+}
+
+div.erc-items article .card.activinspire {
+  background-image: url('../assets/erc-item-activinspire.svg');
+  border-bottom-color: rgb(251, 172, 24);
+}
+
+div.erc-items article .card.easiteach {
+  background-image: url('../assets/erc-item-entg.svg');
+  border-bottom-color: rgb(79, 16, 95);
+}
+
+div.erc-items article .card-body {
+  padding-bottom: 50px;
+}
+
+div.erc-items article .card-body h6 {
+  margin-bottom: .5rem;
+}
+
+div.erc-items article .card-body h6 a {
+  font-size: .875rem;
+  color: rgb(0, 180, 228) !important;
+}
+
+div.erc-items a.item-link {
+  display: block;
+}
+
+div.erc-items a.item-link:hover {
+  opacity: 0.5;
+}
+
+div.erc-items a.item-link img {
+  height: auto;
+  max-height: 160px;
+  width: 100% !important;
+  display: block;
+}
+
+div.erc-content {
+  padding-bottom: 6.625rem;
+}
+
+div.erc-content {
+  padding-bottom: 6.625rem;
+}
+
+div.erc-content p, div.erc-content img, div.erc-content a {
+  width: auto !important;
+  margin-bottom: 2.625rem;
+}
+
+div.erc-content .col-md-3 a, div.erc-content .col-md-3 p {
+  height: 60px;
+  display: block;
+  font-weight: bold;
+}
+
+div.erc-content .col-md-3 a:hover  {
+  color: rgb(0, 180, 228);
+}
+
+div.erc-content img.file-type {
+  width: auto !important;
+  max-width: 50% !important;
+  padding-top: 2rem;
+}
+
+#erc-recommendation {
+  padding-top: 4.125rem;
+  background-color: #eceeef;
+}
+
+#erc-recommendation ul {
+  padding-left: 0;
+  padding-right: 50px;
+  list-style: none;
+}
+
+#erc-recommendation ul li {
+  padding-left: 3.75rem;
+  background: transparent url('../assets/default-course-icon.svg') no-repeat left top;
+  background-size: 3rem;
+  list-style: none;
+}
+
+#erc-recommendation ul li a {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+#erc-recommendation ul li:first-child {
+  background: none;
+}
+
+
+@media(max-width: 768px) {
+  div.erc-items a.item-link img {
+    max-height: 100% !important;;
+  }
+  div.erc-content img.file-type {
+    max-width: 100% !important;
+    padding-top: .125rem;
+  }
+}
