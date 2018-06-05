@@ -97,7 +97,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 col-sm-7">
-              <p><strong>Download this handy booklet</strong> <a class="convince-btn" href="#">the mic drop</a></p>
+              <p><strong>Download this handy booklet</strong> <a class="convince-btn" target="_blank" href="assets/OPD-Deployment-Booklet_Single-Users_72dpi.pdf">the mic drop</a></p>
             </div>
           </div>
         </div>
@@ -231,8 +231,8 @@
                 <blockquote class="col-10">
                   <h3><strong>Help us help you</strong></h3>
                   <div class="padding slide-left">
-                    <p class="convince-admin-text"><a class="convince-admin-text" href="#"><u>Download this handy booklet</u></a> to convince your administrator to purchase Opd for you and your colleagues.</p>
-                    <footer class="padding-top"><a class="convince-btn" href="#">Download Booklet</a></footer>
+                    <p class="convince-admin-text"><a class="convince-admin-text" target="_blank" href="assets/OPD-Deployment-Booklet_Single-Users_72dpi.pdf"><u>Download this handy booklet</u></a> to convince your administrator to purchase Opd for you and your colleagues.</p>
+                    <footer class="padding-top"><a class="convince-btn" target="_blank" href="assets/OPD-Deployment-Booklet_Single-Users_72dpi.pdf">Download Booklet</a></footer>
                   </div>
                 </blockquote>
               </div>
