@@ -128,7 +128,7 @@
       <div class="container padding-bottom">
         <div class="row padding-top">
           <div class="col-md-6 col-sm-6">
-            <p><a class="convince-btn" href="#modalLove" data-toggle="modal" data-target="#modalLove">see the love</a> West Islip School District Testimonial</p>
+            <p><a class="convince-btn" href="#modalLove" data-toggle="modal" data-target="#modalLove">See the love</a> West Islip School District Testimonial</p>
           </div>
         </div>
       </div>
@@ -150,8 +150,8 @@
             <div class="col-md-6 align-self-center">
               <h5><img src="assets/convince-admin-oh-la-la.svg" alt="" /></h5>
               <div class="row d-flex justify-content-center">
-                <h5 class="col-10 white padding-bottom">Teq Opd surveys each participant to determine the overall Customer Satisfaction (CSAT) with the content of the PD. The CSAT results are analyzed and shared with the school administration in order to validate the Return on Investment (ROI).</h5>
-                <h5 class="col-10 convince-admin-text">We have been tracking our CSAT results for 5 years and have consistently achieved at or above a 96.7% rating.</h5>
+                <h5 class="col-10 white padding-bottom">Teq Opd surveys each participant to determine the overall Customer Satisfaction (CSAT) with the content of each PD course. The CSAT results are analyzed and shared with the school administration in order to validate the Return on Investment (ROI).</h5>
+                <h5 class="col-10 convince-admin-text">We have been tracking our CSAT results for 5 years and have consistently achieved a rating of 96.7% or above.</h5>
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@
         <div class="container">
           <div class="row padding-top">
             <div class="col-md-12">
-              <h3><strong>Picture yourself among these ed tech pioneers</strong></h3>
+              <h3><strong>Picture yourself in this group of edtech pioneers</strong></h3>
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@
             <div class="col-md-5 col-sm-5">
               <div class="d-flex justify-content-center slide-left">
                 <blockquote>
-                  <p>Join your colleagues who are completing thousands of Professional Development hours each month using Opd.</p>
+                  <p>Your colleagues are completing thousands of professional development hours each month using Opd.</p>
                 </blockquote>
               </div>
               <div id="opd-school-hours">
@@ -251,7 +251,7 @@
                 <h5><a class="convince-admin-text" target="_blank" href="http://www.teq.com/pd-bios/">http://www.teq.com/pd-bios/</a></h5>
                 <h5><a class="convince-admin-text" target="_blank" href="https://opd.teq.com/events">https://opd.teq.com/events</a></h5>
                 <h5><a class="convince-admin-text" target="_blank" href="https://onlinepd.teq.com/courses">https://onlinepd.teq.com/courses</a></h5>
-                <h5><a class="convince-admin-text" target="_blank" href="http://www.teq.com/pdf/online-pd-2017copy.pdf">Online PD (Opd) Datasheet</a></h5>
+                <h5><a class="convince-admin-text" target="_blank" href="http://www.teq.com/pdf/online-pd-2017copy.pdf">Online PD (Opd) Brochure</a></h5>
               </div>
             </div>
             <div class="col-md-6 align-self-center">
