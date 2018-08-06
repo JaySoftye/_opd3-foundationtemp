@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="css/pricing-plans_sign-up-forms.css">
     <link rel="stylesheet" href="css/mobile-ui.css">
 
+    <link rel="stylesheet" href="css/teq-talk-stylesheet.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
   </head>
     <body>
 
