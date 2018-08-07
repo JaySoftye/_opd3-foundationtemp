@@ -7,11 +7,11 @@
       <div class="container">
 
         <div class="row padding-top padding-bottom">
-          <div class="col-lg-4 col-sm-2"></div>
-          <div class="col-lg-4 col-sm-8 text-center">
-            <h1 class="padding-top padding-bottom"><img src="assets/teq-talk-logo-text.svg" alt="Teq Talk" /></h1>
+          <div class="col-lg-3 col-sm-1"></div>
+          <div class="col-lg-6 col-sm-10 text-center">
+            <h1 class="padding-top padding-bottom"><img src="assets/opd-blog-logo-text.svg" alt="Teq Talk" /></h1>
           </div>
-          <div class="col-lg-4 col-sm-2"></div>
+          <div class="col-lg-3 col-sm-1"></div>
         </div>
 
         <div class="row padding-top padding-bottom hide-small">
