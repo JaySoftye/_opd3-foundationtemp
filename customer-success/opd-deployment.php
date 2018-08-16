@@ -44,7 +44,7 @@
       <nav class="container">
           <div class="navbar">
             <div class="navbar-menu navbar-start">
-              <h1><img class="navbar-item" src="assets/opd-fusion-of-technology-and-learning.svg" alt="OPD The Fusion of Technology and Learning" /></h1>
+              <h1><a href="https://onlinepd.teq.com/"><img class="navbar-item" src="assets/opd-fusion-of-technology-and-learning.svg" alt="OPD The Fusion of Technology and Learning" /></a></h1>
             </div>
             <div class="navbar-end">
               <a class="navbar-item" href="https://onlinepd.teq.com/">Online PD</a>
