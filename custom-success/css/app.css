@@ -1,0 +1,351 @@
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6, button {
+	font-family:'Roboto',Helvetica,Arial,san-serif !important;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern=1";
+}
+
+h1, h2, h3, h4, h5, h6, .content {
+  font-family:'Roboto',Helvetica,Arial,san-serif !important;
+  font-size: 100%;
+}
+
+.white {
+  color: #eceeef !important;
+}
+
+.dark {
+  color: #000000 !important;
+}
+
+.green-text {
+  color: rgb(161, 215, 132) !important;
+}
+
+.pink-text {
+  color: rgb(255, 118, 125) !important;
+}
+
+.padding-top {
+  padding-top: 7.5rem;
+}
+
+.padding-bottom {
+  padding-bottom: 7.5rem;
+}
+
+.padding-left {
+  padding-left: 7.5rem;
+}
+
+.padding-right {
+  padding-right: 7.5rem;
+}
+
+.margin-top {
+	margin-top: 2.5rem;
+}
+
+header {
+	height: 5.25rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 900;
+	padding: 0 1.5rem !important;
+	background-color: rgba(64, 85, 117, .95) !important;
+}
+
+div.navbar-start h1 img.navbar-item {
+	height: 5.5rem;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+div.navbar-end a.navbar-item {
+  padding: 0 15px;
+	font-weight: 300;
+	color: rgb(255, 255, 255) !important;
+	text-decoration: none !important;
+}
+
+div.navbar-end img.navbar-item:hover {
+	opacity: .5;
+}
+
+section.hero.intro-header {
+	background-image: url('../assets/opd-deployment-header-intro-bd.jpg');
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+section.hero.intro-header .content h1 {
+	margin-top: 2.375rem;
+	font-weight: 200;
+	font-size: 4.375rem;
+	color: rgb(255, 255, 255);
+}
+
+section.hero.intro-header .content h1 strong {
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+}
+
+div.button-row {
+	display: block;
+	margin: 0 20px;
+}
+
+div.button-row a {
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 15px 25px;
+	border: 1px solid rgba(0,0,0,.125);
+  border-radius: calc(10rem + 1px);
+	text-decoration: none;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+div.button-row a.video {
+	padding-right: 50px;
+	background-color: rgb(79, 197, 221);
+	background-image: url('../assets/video-icon-bg.svg');
+	background-size: 25px;
+	background-position: 85% center;
+	background-repeat: no-repeat;
+}
+
+div.button-row a:hover.video {
+	background-color: rgb(67, 168, 188);
+}
+
+div.button-row a.pd {
+	background-color: rgb(255, 118, 125);
+}
+
+div.button-row a:hover.pd {
+	background-color: rgb(229, 106, 112);
+}
+
+section.hero.main {
+	background-image: url('../assets/OPD-Deployment-background.jpg');
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+section.hero.main .content.center-content {
+	margin: 0 auto;
+	padding: 3rem 12.5% 7rem 12.5%;
+	text-align: center;
+}
+
+section.hero.main .content.center-content h2 {
+	font-weight: 300;
+	text-align: center;
+}
+
+.content.center-content div.inner-content {
+	margin-bottom: 1.75rem;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(99,99,99,0.5);
+	box-shadow: 0px 0px 18px 0px rgba(99,99,99,0.5);
+}
+
+.content.center-content div.columns button {
+	display: block;
+	padding: 0 0;
+	background-color: transparent;
+	background-image: url('../assets/chapter-icon-bg.svg');
+	background-size: cover;
+	background-position: center -27px;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	font-size: 1.125rem;
+	font-weight: 500;
+	color: rgb(50, 62, 72);
+	cursor: pointer;
+}
+
+.content.center-content div.columns button img {
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(99,99,99,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(99,99,99,0.75);
+}
+
+.content.center-content div.columns button:hover img {
+	opacity: 0.25;
+}
+
+.content.center-content div.columns button span {
+	height: 20px;
+	padding: 10px 0;
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+.content.center-content div.column p {
+	margin-top: .375rem;
+	font-weight: 500;
+}
+
+footer {
+  padding: 3rem 1.5rem 0 1.5rem !important;
+	background-color: rgba(60, 72, 82, 1) !important;
+}
+
+footer a.navbar-item img {
+  max-height: 3rem !important;
+  height: 50px;
+}
+
+footer a.navbar-item:hover {
+  background-color: transparent !important;
+}
+
+footer div#skyrocket-in-flight {
+  width:100%;
+  height: 75px;
+  background-color: rgba(60, 72, 82, 1);
+  position: relative;
+  display: block;
+}
+
+footer img#skyrocket-in-flight-1, footer img#skyrocket-in-flight-2, footer img#skyrocket-in-flight-3, footer img#skyrocket-in-flight-4, footer img#skyrocket-in-flight-5, footer img#skyrocket-in-flight-6 {
+  position: absolute;
+}
+
+@keyframes launchgo
+{
+  0%
+  {
+    top: -120%;
+  }
+  50%
+  {
+    top: -118%;
+  }
+  100%
+  {
+    top: -120%;
+  }
+}
+
+footer img#skyrocket-in-flight-1 {
+  height: 165%;
+  left: 4.5rem;
+  z-index: 4;
+  animation: launchgo 1s infinite;
+}
+
+@keyframes exhaust
+{
+  0%
+  {
+    padding-top: 1px;
+  }
+  50%
+  {
+    padding-top: 3px;
+  }
+  100%
+  {
+    padding-top: 1px;
+  }
+}
+
+footer img#skyrocket-in-flight-2 {
+  height: inherit;
+	bottom: 0;
+  z-index: 3;
+  animation: exhaust 1s infinite;
+}
+
+footer img#skyrocket-in-flight-3 {
+  height: inherit;
+  bottom: 0;
+  z-index: 3;
+  animation: exhaust 1.25s infinite;
+}
+
+footer img#skyrocket-in-flight-4 {
+  height: inherit;
+  bottom: 0;
+  z-index: 1;
+}
+
+@keyframes blastoff
+{
+  0%
+  {
+    opacity: .5;
+  }
+  50%
+  {
+    opacity: 1;
+  }
+  100%
+  {
+    opacity: .75;
+  }
+}
+
+footer img#skyrocket-in-flight-5 {
+  height: inherit;
+  bottom: 0;
+  left: 6rem;
+  z-index: 2;
+  animation: blastoff 1.5s infinite;
+}
+
+footer img#skyrocket-in-flight-6 {
+  width: 30%;
+  left: 8.5rem;
+  top: -75%;
+  z-index: 2;
+}
+
+@media (min-width: 769px) {
+
+}
+
+@media (max-width: 768px) {
+  .hide-small {
+    display: none !important;
+  }
+  .padding-top {
+    padding-top: 2.5rem;
+  }
+
+  .padding-bottom {
+    padding-bottom: 2.5rem;
+  }
+
+  .padding-left {
+    padding-left: .5rem;
+  }
+
+  .padding-right {
+    padding-right: .5rem;
+  }
+
+	.navbar-end .navbar-item {
+		display: inline-block;
+	}
+
+	header {
+		height: 2.75rem;
+	}
+
+	section.hero.main .content.center-content {
+		padding: 0 0;
+	}
+
+	footer div#skyrocket-in-flight {
+		margin-left: 27%;
+	}
+}
