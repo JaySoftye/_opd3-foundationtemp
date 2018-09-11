@@ -49,7 +49,7 @@
           <nav class="container" id="main-navbar">
             <div class="row" id="mainBanner">
               <div class="col-md-9">
-                <a href="#"><img src="assets/erc-electronic-resource-center.svg" alt="ERC Electronic Resource Center" /></a>
+                <a href="#"><img src="assets/erc-educator-resource-center.svg" alt="ERC Educator Resource Center" /></a>
               </div>
               <div class="col-md-3">
                 <section class="row align-items-center active" id="user-logged-in">

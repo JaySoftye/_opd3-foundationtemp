@@ -4,12 +4,6 @@
 <section class="container-fluid category-image-bg" id="search-box-container" >
   <div class="container">
 
-    <div class="row" id="breadcrumbs">
-      <div class="col">
-        <small><span><a href="#">Home</a></span> > <span><a href="#">Electronic Resource Center</a></span> </small>
-      </div>
-    </div>
-
     <div class="row padding-top" id="search-box">
 
       <div class="col-sm-6">
@@ -63,15 +57,11 @@
 
     </div>
 
-    <div class="row padding-top">
-      <div class="col-lg">
-        <h3><strong>
-          <?php
-            // TITLE WILL BE REPLACED PER SEARCH TERM AND/OR CATEGORY
-            if (isset($cat)) {echo $cat;} else {echo "ERC Categories";}
-          ?>
-        </strong></h3>
+    <div class="row education-standards">
+      <div class="col-md-3">
+        <h6>Filters by Educational Standards:</h6>
       </div>
+      <div class="col-md" id="education-standards-button-filters"></div>
     </div>
 
     <div class="modal fade" id="search-field-info" tabindex="-1" role="dialog" aria-hidden="true">

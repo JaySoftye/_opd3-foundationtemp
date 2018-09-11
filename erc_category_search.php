@@ -2,121 +2,269 @@
   <?php include 'now-chat-window.php'; ?>
 
   <main>
-    <?php
-      // SEARCH TERM AND/OR CATEGORY
-      $cat = 'Mixed Reality 3D Content';
-    ?>
-
+  <div class="main">
     <?php include 'erc_search-form.php'; ?>
 
-    <section class="container padding-top padding-bottom erc-library">
+    <section class="container erc-library">
+      <div class="row">
 
-      <div class="row erc-results">
-        <div class="col">
-          <p>Showing <em>Mixed Reality 3D Content</em> results <span id="results">1- 20</span></p>
-          <nav>
-            <ul class="pagination erc-pages">
-              <li class="page-item">
-                <a id="itemsOne" class="page-link active" href="#">1</a>
-              </li>
-              <li class="page-item">
-                <a id="itemsTwo" class="page-link" href="#">2</a>
-              </li>
-              <li class="page-item">
-                <a id="itemsThree" class="page-link" href="#">3</a>
-              </li>
-              <li class="page-item">
-                <a id="itemsFour" class="page-link" href="#">4</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="col-md-3 erc-filters">
+          <?php include 'erc_filter-menu.php'; ?>
         </div>
+
+        <div class="col-md-9">
+
+          <div class="row erc-results">
+            <div class="col-md">
+              <h1>Category Title Goes Here</h1>
+              <p><span>30</span> results found for <em>Mixed Reality 3D Content</em> </p>
+            </div>
+          </div>
+
+          <div class="row erc-items">
+
+            <article class="erc-item-card erc-item-card col-md-4 col-sm-6">
+              <div class="card">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-test-image.jpg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card notebook">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card activinspire">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card easiteach">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-test-image.jpg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card notebook">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card activinspire">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card easiteach">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-test-image.jpg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card notebook">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card activinspire">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card easiteach">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-test-image.jpg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card notebook">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card activinspire">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card easiteach">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-test-image.jpg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card notebook">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card activinspire">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card easiteach">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6">
+              <div class="card">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-test-image.jpg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+
+            <script>
+            $(document).ready(function() {
+              // HERE COME THE FRONT-END HELPER GNOMES (:|>*
+              // hide content
+              $('article.loaded-content').hide();
+              // show content
+              $('.load-more-content button').click(function() {
+                $('article.loaded-content').toggle();
+              });
+            });
+            </script>
+
+            <article class="erc-item-card col-md-4 col-sm-6 loaded-content">
+              <div class="card notebook">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6 loaded-content">
+              <div class="card activinspire">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+            <article class="erc-item-card col-md-4 col-sm-6 loaded-content">
+              <div class="card easiteach">
+                <a href="" class="item-link" alt="" style="background-image: url('assets/erc-item-default.svg');"></a>
+                <div class="card-body">
+                  <h6><a href="" class="item-link">Category Title</a></h6>
+                  <h4><a href="" class="item-link"><strong>Lesson Title</strong></a></h4>
+                </div>
+              </div>
+            </article>
+
+            <div class="load-more-content">
+              <button type="button">Load more results</button>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
-
-      <div id="ercItemsContainer" class="erc-items row"></div>
-
-
-      <script>
-        /* CREATE PAGINATION */
-        $(document).ready(function(){
-          $("li.page-item a.page-link").click(function(){
-            $('li.page-item a.page-link').not(this).removeClass('active');
-            $(this).addClass('active');
-          })
-        });
-
-        /* START LOOPS */
-        var resultsContainer = document.getElementById("results");
-        var container = document.getElementById("ercItemsContainer");
-        var one = document.getElementById("itemsOne");
-        var two = document.getElementById("itemsTwo");
-        var three = document.getElementById("itemsThree");
-        var four = document.getElementById("itemsFour");
-
-
-        for (var i = 0; i < 20; i++) {
-          var pageOne = document.createElement('article')
-          pageOne.className = 'col-md-3 col-sm-6';
-          pageOne.innerHTML = '<div class="card"><a href="" class="item-link"><img src="assets/erc-item-default.svg" alt=""></a><div class="card-body"><h6><a href="" class="item-link">Mixed Reality 3D Content</a></h6><h4><a href="" class="item-link"><strong>ERC File' + (i + 1) + '</strong></a></h4></div></div>';
-          container.appendChild(pageOne);
-        }
-
-        one.addEventListener("click", function() {
-          while (container.hasChildNodes()) {
-            container.removeChild(container.firstChild);
-            resultsContainer.textContent = '1 - 20';
-          }
-          for (var i = 0; i < 20; i++) {
-            var pageOne = document.createElement('article')
-            pageOne.className = 'col-md-3 col-sm-6';
-            pageOne.innerHTML = '<div class="card"><a href="" class="item-link"><img src="assets/erc-item-default.svg" alt=""></a><div class="card-body"><h6><a href="" class="item-link">Mixed Reality 3D Content</a></h6><h4><a href="" class="item-link"><strong>ERC File' + (i + 1) + '</strong></a></h4></div></div>';
-            container.appendChild(pageOne);
-          }
-        });
-
-        two.addEventListener("click", function() {
-          while (container.hasChildNodes()) {
-            container.removeChild(container.firstChild);
-            resultsContainer.textContent = '20 - 40';
-          }
-          for (var i = 20; i < 40; i++) {
-            var pageTwo = document.createElement('article')
-            pageTwo.className = 'col-md-3 col-sm-6';
-            pageTwo.innerHTML = '<div class="card notebook"><a href="" class="item-link"><img src="assets/erc-item-default.svg" alt=""></a><div class="card-body"><h6><a href="" class="item-link">Mixed Reality 3D Content</a></h6><h4><a href="" class="item-link"><strong>ERC File' + (i + 1) + '</strong></a></h4></div></div>';
-            container.appendChild(pageTwo);
-          }
-        });
-
-        three.addEventListener("click", function() {
-          while (container.hasChildNodes()) {
-            container.removeChild(container.firstChild);
-            resultsContainer.textContent = '40 - 60';
-          }
-          for (var i = 40; i < 60; i++) {
-            var pageThree = document.createElement('article')
-            pageThree.className = 'col-md-3 col-sm-6';
-            pageThree.innerHTML = '<div class="card activinspire"><a href="" class="item-link"><img src="assets/erc-item-default.svg" alt=""></a><div class="card-body"><h6><a href="" class="item-link">Mixed Reality 3D Content</a></h6><h4><a href="" class="item-link"><strong>ERC File' + (i + 1) + '</strong></a></h4></div></div>';
-            container.appendChild(pageThree);
-          }
-        });
-
-        four.addEventListener("click", function() {
-          while (container.hasChildNodes()) {
-            container.removeChild(container.firstChild);
-            resultsContainer.textContent = '61 - 65';
-          }
-          for (var i = 60; i < 65; i++) {
-            var pageFour = document.createElement('article')
-            pageFour.className = 'col-md-3 col-sm-6';
-            pageFour.innerHTML = '<div class="card easiteach"><a href="" class="item-link"><img src="assets/erc-item-default.svg" alt=""></a><div class="card-body"><h6><a href="" class="item-link">Mixed Reality 3D Content</a></h6><h4><a href="" class="item-link"><strong>ERC File' + (i + 1) + '</strong></a></h4></div></div>';
-            container.appendChild(pageFour);
-          }
-        });
-
-      </script>
-
     </section>
 
+  </div>
   </main>
 
 <?php include 'footer.php'; ?>
