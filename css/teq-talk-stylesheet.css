@@ -11,21 +11,13 @@ section.teq-talk {
   padding-bottom: calc(10rem + 25px);
 }
 
-section.teq-talk .posts-container {
-  max-height: 5000px;
-  position: relative;
-  flex-direction: column;
-  flex-wrap: wrap;
-  overflow-y: auto;
+section.teq-talk .card-container {
+  display: -webkit-flex;
+  display: flex;
 }
 
 .posts-container article.post-card {
-  min-width: 0;
   position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
@@ -41,6 +33,7 @@ section.teq-talk .posts-container {
 
 .posts-container article.post-card a.card-link, article.post-card a.card-link img {
   width: 100%;
+  display: block;
   background-color: rgb(109, 140, 188);
   border-top-left-radius: calc(.375rem - 1px);
   border-top-right-radius: calc(.375rem - 1px);
@@ -80,6 +73,10 @@ div.card-contents p.article-link a {
 div.card-contents p.article-link a:hover {
   background-color: rgb(109, 140, 188);
   color: #ffffff;
+}
+
+div.card-contents div.article-footer {
+  text-align: center;
 }
 
 div.card-contents div.article-footer small {
